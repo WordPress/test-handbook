@@ -1,20 +1,38 @@
-# Welcome!
+# Test Team Handbook
 
-This group exists to raise the quality of the WordPress experience through testing.
+Welcome to the Test Team Handbook! In these pages you can learn how and where to get involved in testing WordPress. If you want to help improve WordPress quality and usability, and advance the development process, then you've come to the right place!
 
-We practice monitoring important [flows](https://make.wordpress.org/test/glossary/). Bugs and bad experiences encountered while on flow patrol are [kibbled](https://make.wordpress.org/test/glossary/) and [ticketed](https://make.wordpress.org/core/handbook/reporting-bugs/). Continuous integration means it’s especially important to encourages use of our own software as we develop it and increase awareness for what our users are experiencing day to day.
+## Duty of Care
+While the Test Team originally stemmed from the [Core Team](https://make.wordpress.org/core/), contributions to WordPress testing have grown to encompass the entire WordPress ecosystem. Of course the efforts of Test Team contributors benefit WordPress and the [core editor](https://wordpress.org/gutenberg/), but also sub-projects like [Design](https://make.wordpress.org/design/) and [Themes](https://make.wordpress.org/themes/), [Accessibility](https://make.wordpress.org/accessibility/), [mobile apps](https://wordpress.org/mobile/), [WP-CLI](https://make.wordpress.org/cli/), [Feature Projects](https://make.wordpress.org/core/features/), [importers](https://github.com/WordPress?q=importers), and even [WordPress.org](https://wordpress.org) itself.
 
-- Continuously exercise major flows. [Publishing a captioned gallery](https://make.wordpress.org/test/2015/04/22/publish-a-captioned-gallery-iphone-6-portrait/) starting from the logged-in front page, for example, is an important flow that exercises the toolbar, editor, media modal, and galleries. Regressions anywhere in this flow should be noticed and fixed promptly.
-- Continuously exercise flows through new features as they are developed.
-- Post [visual records](https://make.wordpress.org/test/glossary/) (vizrecs) of flows to [make/test](https://make.wordpress.org/test/). Show the flow. We must witness what we’re making every step of the way.
-- For features that replace or change existing ui, perform baseline visual records of major flows through the existing interface. These baselines can be used in [comparison vizrecs](https://make.wordpress.org/test/2015/02/12/press-this-copy-and-add-bookmarklet-macnchrome-4-2-alpha-31432/)as development proceeds.
-- Test patches and add screenshots to tickets. Screenshots of patched interfaces often do not make it on to tickets, particularly mobile screenshots. Use [#needs-screenshots](https://make.wordpress.org/core/handbook/contribute/trac/keywords/) to tag tickets that need screenshots. Making sure tickets have screenshots promotes [visual oxygen](https://make.wordpress.org/test/handbook/glossary/#visual-oxygen).
-- Post screenshots of bad, broken ui/ux in new features to the appropriate [feature channels](https://make.wordpress.org/core/features-as-plugins/) on Slack. Provide a visual heads up to feature teams.
-- Drop screenshots and vizrecs into ui/ux conversations in slack. So many conversations take place without reference to visuals or flow and often in complete ignorance of mobile.
-- [Create tickets](https://make.wordpress.org/core/handbook/reporting-bugs/) as needed. Crosslink tickets with any relevant vizrecs on [make/test](https://make.wordpress.org/test/). Always include screenshots in tickets. Awareness requires history. Record what the interface looks like now, before changes.
-- Share your experiences and frustrations on [make/test](https://make.wordpress.org/test/) and in [#core-test](https://wordpress.slack.com/archives/core-test/). Storyboard them with visual records.
-- Collect user experiences. Curate examples of real-life flow. Be an Alan Lomax of flow.
-- Do this with every device you have, particularly phones.
-- Be a critical part of a feature team.
+Test Team contributions touch on all aspects of manual and automated testing within the project, including:
 
-The easiest way to continuously test WordPress as it is developed is to set up a site to [automatically update to the latest nightly build](https://make.wordpress.org/core/handbook/testing/beta/). After that, consult the [triage](https://make.wordpress.org/test/handbook/triage/) page.
+- [WordPress release beta testing](https://make.wordpress.org/core/handbook/testing/beta-testing/) and [editor pre-release testing](https://make.wordpress.org/test/handbook/gutenberg-testing/regression-testing/)
+- [full site editing (FSE) outreach](https://make.wordpress.org/test/handbook/full-site-editing-outreach-experiment/)
+- [issue reproduction](https://make.wordpress.org/test/handbook/test-reports/#2-issue-reproduction) and [patch testing](https://make.wordpress.org/test/handbook/test-reports/#3-patch-testing)
+- feature and enhancement testing
+- PHP and JavaScript unit testing
+- end-to-end (E2E) testing
+- [issue triage and bug scrubs](https://make.wordpress.org/core/handbook/testing/bug-gardening/)
+- education, outreach, and documentation
+
+With such a wide range of opportunities available, contributors are sure to find an area of interest to help make WordPress better.
+
+## Contributors Welcome
+Contributors to testing have a wide variety of experience and technical knowledge, from beginners with little WordPress experience to seasoned developers who have contributed for years.
+
+Just as WordPress is open to anyone and everyone, numerous opportunities exist for Test Team contributions regardless of individual skill level. And, like the larger WordPress community, contributors in the Test Team are enthusiastic to share their knowledge and expertise.
+
+## Where to Find the Test Team
+In addition to posts and discussions in the [Test Team blog](https://make.wordpress.org/test/), the team [meets regularly](https://make.wordpress.org/meetings/#test) on the [Make WordPress Slack #core-test channel](https://wordpress.slack.com/archives/core-test/). Stop on by, and let's talk about testing!
+
+## Get Started
+Ready to get started? Here are some links to get you on your way:
+
+- [Join the #fse-outreach-program](https://make.wordpress.org/test/handbook/full-site-editing-outreach-experiment/) -- the fastest way to get testing
+- [Guidelines for writing great Test Reports](https://make.wordpress.org/test/handbook/test-reports/)
+- [Tickets needing issue reproduction (created in the last week)](https://core.trac.wordpress.org/query?status=new&focuses=!docs&time=1weekago..&component=!Build%2FTest+Tools&keywords=~-reporter-feedback+-close+-dev-feedback+-2nd-opinion+-needs-refresh+-needs-design+-needs-design-feedback&milestone=Awaiting+Review&owner=&type=defect+(bug)&col=id&col=summary&col=focuses&col=keywords&col=changetime&order=changetime)
+- [Tickets needing patch testing (modified in the last week)](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=1weekago..&keywords=~needs-testing+has-patch+-dev-feedback+-2nd-opinion+-close+-needs-refresh+-needs-design+-needs-design-feedback+-changes-requested&milestone=!Awaiting+Review&col=id&col=summary&col=status&col=milestone&col=changetime&col=keywords&col=type&col=priority&col=component&order=changetime)
+- [Tickets needing unit tests (modified in the last month)](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=1monthago..&keywords=~needs-unit-tests+has-patch+-dev-feedback+-2nd-opinion+-close+-needs-refresh+-needs-design+-needs-design-feedback&col=id&col=summary&col=status&col=keywords&col=type&col=priority&col=milestone&col=component&col=changetime&order=changetime)
+- [Editor issues needing testing](https://github.com/WordPress/gutenberg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Needs+Testing%22)
+- [Editor issues with automated testing requirements](https://github.com/WordPress/gutenberg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Automated+Testing%22) (e.g. unit or E2E tests)
