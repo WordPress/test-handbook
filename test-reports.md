@@ -46,9 +46,10 @@ Most tickets related to WordPress Core can be found in [Core Trac](https://co
 Issues tracked for the Gutenberg plugin are found in the [Gutenberg GitHub repository](https://github.com/WordPress/gutenberg), where it is helpful to provide reproduction test results in the reported issue. Patch test reports should be added to an individual PR’s comments. To format test report results in GitHub, use [Markdown](https://docs.github.com/articles/markdown-basics).
 
 ## Types of Test Reports
-There are three primary test report categories, and each comes with its own focus: [Testing Instructions](https://make.wordpress.org/test/handbook/test-reports/#1-testing-instructions), [Issue Reproduction](https://make.wordpress.org/test/handbook/test-reports/#2-issue-reproduction), and [Patch Testing](https://make.wordpress.org/test/handbook/test-reports/#3-patch-testing). In some situations a [Combined Report](https://make.wordpress.org/test/handbook/test-reports/#4-combined-report) may be required.
+There are three primary test report categories, and each comes with its own focus:
 
 - [Testing Instructions](https://make.wordpress.org/test/handbook/test-reports/testing-instructions/)
 - [Issue Reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/)
 - [Patch Testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/)
-- [Combined Report](https://make.wordpress.org/test/handbook/test-reports/combined-report/)
+
+In some situations a [Combined Report](https://make.wordpress.org/test/handbook/test-reports/combined-report/) may be required.
