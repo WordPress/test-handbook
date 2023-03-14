@@ -19,15 +19,15 @@ Note that if Testing Instructions have already been provided, there shouldn’t 
 This report validates that the issue can be reproduced.
 
 === Environment
-* OS: macOS 12.3.1
-* Web Server: Nginx
-* PHP: 7.4.29
-* WordPress: 6.0-RC1-53341-src
-* Browser: Safari 15.4
-* Theme: Twenty Twenty-Two
-* Active Plugins:
-  * Gutenberg 13.2.0
-  * WordPress Beta Tester 3.2.1
+- OS: macOS 12.3.1
+- Web Server: Nginx
+- PHP: 7.4.29
+- WordPress: 6.0-RC1-53341-src
+- Browser: Safari 15.4
+- Theme: Twenty Twenty-Two
+- Active Plugins:
+  - Gutenberg 13.2.0
+  - WordPress Beta Tester 3.2.1
 
 === Actual Results
 - ✅ Error condition occurs (reproduced).
