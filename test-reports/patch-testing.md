@@ -12,8 +12,6 @@ Example patch testing reports:
 ## Bug/Defect Patch Report Template
 Here is an example Test Report starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment.
 
-If already provided in the ticket, Testing Instructions do not need to be duplicated in Test Report.
-
 ```
 == Test Report
 This report validates that the indicated patch addresses the issue.
@@ -42,6 +40,8 @@ Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
 Add as Attachment
 ```
+
+If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.
 
 ## Feature or Enhancement Patch Report Template
 Here is an example Test Report starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment.
@@ -78,4 +78,4 @@ or
 Add as Attachment
 ```
 
-If already provided in the ticket, Testing Instructions do not need to be duplicated in Test Report.
+If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.
