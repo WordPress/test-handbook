@@ -36,7 +36,7 @@ Visual cues that identify whether tests went as planned are useful for testers, 
 - When testing a bugfix patch, unexpected refers to the patch not adequately addressing the issue or producing another bug or side-effect.
 - When testing a feature or enhancement, unexpected refers to anything that is not listed in the expected results (such as a bug, error, wrong UI displays, etc.) and/or the expected result doesn’t happen.
 
-> * While at times it may seem counterintuitive, successful reproduction of the error as indicated in the ticket is considered _“expected”_, and should be marked accordingly (✅).
+> While at times it may seem counterintuitive, successful reproduction of the error as indicated in the ticket is considered _“expected”_, and should be marked accordingly (✅).
 
 ## Where to Post Test Reports
 The best location to post reports is to the corresponding ticket, issue, or PR (pull request) as a new comment.
