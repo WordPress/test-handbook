@@ -1,6 +1,6 @@
 # Make WordPress Test Handbook
 
-This repo is dedicated to the Make WordPress Test Handbook located at https://make.wordpress.org/test/handbook/.
+This repo is dedicated to the Make WordPress Test Handbook located at https://make.wordpress.org/test/handbook/. In 2022, handbook updates [were identified as a key team initiative](https://make.wordpress.org/test/2022/03/02/test-team-chat-summary-1-march-2022/) to improve onboarding and accessibility to Test Team, and expand participation.
 
 Pages will be added here as they are created or updated on the handbook site.
 
