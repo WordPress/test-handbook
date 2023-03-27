@@ -33,6 +33,16 @@ If you prefer to test using a browser only -- a good option if you have joined C
 
 **Browser-based testing is suggested for users who have not contributed to WordPress before.**
 
+### Plugins for Testing
+These plugins may be helpful, or even required, during testing sessions:
+
+- [Gutenberg](https://wordpress.org/plugins/gutenberg/)
+- [WordPress Beta Tester](https://wordpress.org/plugins/wordpress-beta-tester/)
+- [Debug Bar](https://wordpress.org/plugins/debug-bar/)
+- [Query Monitor](https://wordpress.org/plugins/query-monitor/)
+
+Note that some tickets/PRs may include additional plugin requirements.
+
 ## Test Table at Contributor Day
 Contributor Day has arrived! Look for the table with the "Core: Test" or "Test" placard, find a seat, and don't be afraid to introduce yourself. And most importantly: have fun collaborating with other contributors!
 
