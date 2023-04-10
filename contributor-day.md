@@ -13,6 +13,8 @@ In order to make the most of your time meeting and working with fellow contribut
 3. [Optional] For users who intend to work with the [Gutenberg plugin](https://github.com/wordpress/gutenberg) or test PRs (pull requests), having a GitHub account is very helpful. You can [sign up for GitHub here](https://github.com/signup).
 
 ### Local Test Environment
+**Local environment testing is suggested for past contributors, or users with prior development experience.**
+
 Perhaps the biggest challenge faced by new contributors is preparing a test environment. If you would like to test patches and PRs directly during Contributor Day, it is **highly recommended** that you set things up at home *before* the event.
 
 > Tip: Wifi at the venue during a busy Contributor Day can be slow and unreliable, and configuring your laptop can take a lot (if not all) of your time. Don't wait to fork the [`wordpress-develop` repository](https://github.com/WordPress/wordpress-develop) or [download Docker](https://docs.docker.com/get-docker/) at the event, as this drain on bandwidth also impacts other contributors.
@@ -26,12 +28,10 @@ Differences between operating systems and personal workflows make environment co
 
 If you need help setting up your environment, reach out on [Make/Test Slack](https://wordpress.slack.com/archives/C03B0H5J0) and there will be other contributors who can provide additional guidance.
 
-**Local environment testing is suggested for past contributors, or users with prior development experience.**
-
 ### Browser-Only Testing
-If you prefer to test using a browser only -- a good option if you have joined Contributor Day at the last minute! -- then you might consider using [WordPress Playground](https://developer.wordpress.org/playground/), or a service like [InstaWP](https://instawp.com) or [TasteWP](https://tastewp.com).
-
 **Browser-based testing is suggested for users who have not contributed to WordPress before.**
+
+If you prefer to test using a browser only -- a good option if you have joined Contributor Day at the last minute! -- then you might consider using [WordPress Playground](https://developer.wordpress.org/playground/), or a service like [InstaWP](https://instawp.com) or [TasteWP](https://tastewp.com).
 
 ### Plugins for Testing
 These plugins may be helpful, or even required, during testing sessions:
