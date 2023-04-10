@@ -17,7 +17,9 @@ In order to make the most of your time meeting and working with fellow contribut
 
 Perhaps the biggest challenge faced by new contributors is preparing a test environment. If you would like to test patches and PRs directly during Contributor Day, it is **highly recommended** that you set things up at home *before* the event.
 
-> Tip: Wifi at the venue during a busy Contributor Day can be slow and unreliable, and configuring your laptop can take a lot (if not all) of your time. Don't wait to fork the [`wordpress-develop` repository](https://github.com/WordPress/wordpress-develop) or [download Docker](https://docs.docker.com/get-docker/) at the event, as this drain on bandwidth also impacts other contributors.
+<div class="callout callout-tip">
+Tip: Wifi at the venue during a busy Contributor Day can be slow and unreliable, and configuring your laptop can take a lot (if not all) of your time. Don't wait to fork the [`wordpress-develop` repository](https://github.com/WordPress/wordpress-develop) or [download Docker](https://docs.docker.com/get-docker/) at the event, as this drain on bandwidth also impacts other contributors.
+</div>
 
 Differences between operating systems and personal workflows make environment configuration beyond the scope of this article, but here are some links to get started on a local test/dev environment:
 
@@ -65,7 +67,9 @@ To kick things off, here are some suggestions:
 
 Slack can be a good way to connect with remote attendees, many of which can help answer questions and collaborate with testing. Everyone at the event and remote should be invited to keep in touch online.
 
-> Tip: While it's not required to run/mirror table collaboration in Slack, it does provide a very convenient way to record participation, as well as share the inevitable Trac query and GitHub PR links with other participants.
+<div class="callout callout-tip">
+Tip: While it's not required to run/mirror table collaboration in Slack, it does provide a very convenient way to record participation, as well as share the inevitable Trac query and GitHub PR links with other participants.
+</div>
 
 ### Remote Attendance
 Not everyone can make it to Contributor Day, but Test table attendees are encouraged to invite remote participation. The Test table lead should make every effort to keep remote Slack attendees up to date, or assign another volunteer at the table to handle these communications.
