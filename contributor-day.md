@@ -1,8 +1,8 @@
-# Getting Started at Contributor Day
+# Get Started at Contributor Day
 
 For more information about the role Test Team members play in the WordPress project, see the [Test Team Handbook homepage](https://make.wordpress.org/test/handbook/).
 
-## Preparing for Contributor Day
+## Prepare for Contributor Day
 In order to make the most of your time meeting and working with fellow contributors, follow these helpful **pre-Contributor Day** tips!
 
 <div class="callout callout-info">
