@@ -5,7 +5,9 @@ For more information about the role Test Team members play in the WordPress proj
 ## Preparing for Contributor Day
 In order to make the most of your time meeting and working with fellow contributors, follow these helpful **pre-Contributor Day** tips!
 
-> Did you know? Your [WordPress.org profile](https://profiles.wordpress.org/) includes your WordPress.org, Slack, and GitHub user info, as well as any [profile badges](https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/) you've earned.
+<div class="callout callout-info">
+Did you know? Your [WordPress.org profile](https://profiles.wordpress.org/) includes your WordPress.org, Slack, and GitHub user info, as well as any [profile badges](https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/) you've earned.
+</div>
 
 ### Accounts Setup
 1. [Required] Set up a WordPress.org account on the [account registration page](https://login.wordpress.org/register). If you get stuck, check out the [Learn WordPress lesson plan covering this topic](https://learn.wordpress.org/lesson-plan/creating-a-wordpress-org-account/) for guidance. And for users who already have a WordPress.org account, make sure you can still [log in](https://login.wordpress.org/) if it's been a while.
