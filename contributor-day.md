@@ -114,6 +114,7 @@ Here are some commonly shared links that are helpful for Test Team contributors:
 - [Trac New User Quick Start Guide](https://make.wordpress.org/core/handbook/tutorials/trac/new-user-quick-start/): overview of WordPress's bug tracking system, [Trac](https://core.trac.wordpress.org/).
 - [Test Reports](https://make.wordpress.org/test/handbook/test-reports/): guidelines for preparing great test reports.
 - [Contribute with Testing](https://make.wordpress.org/core/handbook/testing/): the Core Team's test contribution content.
+- [FAQ for New Contributors](https://make.wordpress.org/core/handbook/tutorials/faq-for-new-contributors/): common questions from the Core Handbook.
 - [Reporting Bugs](https://make.wordpress.org/core/handbook/testing/reporting-bugs/): not testing *per se*, but a good checklist for testers who find bugs.
 - [Reporting Security Vulnerabilities](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/): special reporting considerations for security issues.
 - [Bug Gardening](https://make.wordpress.org/core/handbook/testing/bug-gardening/): a good resource for triage work.
