@@ -6,7 +6,7 @@ For more information about the role Test Team members play in the WordPress proj
 In order to make the most of your time meeting and working with fellow contributors, follow these helpful **pre-Contributor Day** tips!
 
 <div class="callout callout-info">
-Did you know? Your [WordPress.org profile](https://profiles.wordpress.org/) includes your WordPress.org, Slack, and GitHub user info, as well as any [profile badges](https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/) you've earned.
+Did you know? Your [WordPress.org profile](https://profiles.wordpress.org/) displays your WordPress.org, Slack, and GitHub user info, as well as any [profile badges](https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/) you've earned.
 </div>
 
 ### Accounts Setup
