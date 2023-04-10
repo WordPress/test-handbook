@@ -95,6 +95,8 @@ The most popular activity for Test table participants is usually...**testing!** 
 - Triage "ancient" tickets, like in this proposal: https://make.wordpress.org/core/2023/01/24/proposal-old-tickets-trac-triage-sessions/.
 - Any testing you think is fun, like [tickets about cropping that need testing](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing&description=~crop&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority). Go wild!
 
+Don't forget to post a clear [test report](https://make.wordpress.org/test/handbook/test-reports/) as a comment on the tested issue or patch.
+
 ### Documentation
 Handbook articles (like the one you're reading now) are the result of numerous hours of collaboration effort from Test contributors, and benefit current and new Test Team members alike.
 
