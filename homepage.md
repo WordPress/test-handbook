@@ -23,6 +23,8 @@ Contributors to testing have a wide variety of experience and technical knowledg
 
 Just as WordPress is open to anyone and everyone, numerous opportunities exist for Test Team contributions regardless of individual skill level. And, like the larger WordPress community, contributors in the Test Team are enthusiastic to share their knowledge and expertise.
 
+Are you looking to join Test Team at a WordCamp Contributor Day? Check out the [Getting Started at Contributor Day](https://make.wordpress.org/test/handbook/contributor-day/) page for important info on preparing for and attending the event.
+
 ## Where to Find the Test Team
 In addition to posts and discussions in the [Test Team blog](https://make.wordpress.org/test/), the team [meets regularly](https://make.wordpress.org/meetings/#test) on the [Make WordPress Slack #core-test channel](https://wordpress.slack.com/archives/core-test/). Stop on by, and let's talk about testing!
 
