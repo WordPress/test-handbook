@@ -37,7 +37,7 @@ Test Team Reps must be committed to showing up and performing regular duties, an
 
 ### Step 1: Call for Nominations
 
-The first step is to reach out to the community with a Call for Nominations, such as these examples from [2021](https://make.wordpress.org/test/2021/07/20/test-team-reps-call-for-nominations/) and [2022](https://make.wordpress.org/test/2022/08/10/test-team-reps-call-for-nominations-2/).
+The first step is to reach out to the community with a Call for Nominations, such as these examples from [2021](https://make.wordpress.org/test/2021/07/20/test-team-reps-call-for-nominations/) and [2022](https://make.wordpress.org/test/2022/08/10/test-team-reps-call-for-nominations-2/). Nominations are held each August, with the new term starting by September.
 
 Nominations are given in the comments of the post. A simple, “I nominate `@the_persons_username`” is sufficient. Self-nominations are also welcome by leaving a comment such as, “I nominate myself.”
 
