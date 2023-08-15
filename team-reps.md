@@ -2,6 +2,10 @@
 
 For a quick refresher of Team Rep roles across the project, please see the [official Team Reps post on Team Updates](https://make.wordpress.org/updates/team-reps/).
 
+## Current Reps
+
+The Test Team Reps for the 2022-2023 term are @boniu91 and @ironprogrammer.
+
 ## The Role
 
 Reps in the Test Team perform primary and secondary (or backup) duties to help support team chats, make updates to the team’s blog and handbook, remove blockers, keep a pulse on team objectives, and promote testing opportunities within the WordPress project.
