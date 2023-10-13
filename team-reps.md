@@ -4,7 +4,7 @@ For a quick refresher of Team Rep roles across the project, please see the [offi
 
 ## Current Reps
 
-The Test Team Reps for the 2022-2023 term are @boniu91 and @ironprogrammer.
+The Test Team Reps for the 2023-2024 term are @webtechpooja and @ankit-k-gupta.
 
 ## The Role
 
