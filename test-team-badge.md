@@ -1,6 +1,6 @@
 # Test Team Profile Badges
 
-This page offers comprehensive information about Test Team Profile Badges and the process for requesting badges on your WordPress.org profile.
+This page offers comprehensive information about Test Team [profile badges](https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/) and the process for requesting these badges for your WordPress.org profile.
 
 ## Test Contributor Badge
 
