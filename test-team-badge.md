@@ -9,7 +9,7 @@ To earn a Test Contributor Badge, you must have completed at least one of the fo
 - Submitted a test report comprising at least 3 tickets for [testing instructions](https://make.wordpress.org/test/handbook/test-reports/testing-instructions/), [issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/), or [patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/).
 - Reported a new issue on the core [Trac](https://core.trac.wordpress.org/tickets/latest) that has been merged into the WordPress release.
 - Submitted unit or end-to-end tests that have been merged.
-- Contributed to a [Test handbook](https://github.com/wordpress/test-handbook)  PR that has been merged.
+- Contributed to a [Test handbook](https://github.com/wordpress/test-handbook) PR that has been merged.
 - Participated in ZIP package builds or default theme tests during a #core <release-party>.
 - Participated in a Contributor Day (as a table lead, providing technical support, or assisting with onboarding).
 - Suggested a thoughtful idea aimed at improving the quality of WordPress or enhancing the testing process in any way, which has been accepted.
