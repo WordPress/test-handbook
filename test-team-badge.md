@@ -13,7 +13,6 @@ To earn a Test Contributor Badge, you must have completed at least one of the fo
 - Participated in ZIP package builds or default theme tests during a `#core <release-party>`.
 - Participated in a Contributor Day (as a table lead, providing technical support, or assisting with onboarding).
 - Suggested a thoughtful idea aimed at improving testing processes in any way, which gets implemented.
-
   
 ## Test Team Badge 
  
