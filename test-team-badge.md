@@ -18,7 +18,7 @@ To earn a Test Contributor Badge, you must have completed at least one of the fo
  
 If you have served as a Test Team Rep or Test Lead in any major release of WordPress, you are eligible for the Test Team badge.
 
-## Requesting a Test Team Badge
+## Requesting a Test Profile Badge
 
 If you meet the criteria above, please request a badge using the buttons below. Kindly include any links to resources that demonstrate you have met the criteria mentioned above.
 
