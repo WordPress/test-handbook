@@ -22,6 +22,7 @@ If you have served as a Test Team Rep or Test Lead in any major release of WordP
 
 If you meet the criteria above, please request a badge using the buttons below. Kindly include any links to resources that demonstrate you have met the criteria mentioned above.
 
-[Request a Badge](https://profiles.wordpress.org/associations/test-contributor/)
+- [Request Test Contributor Badge](https://profiles.wordpress.org/associations/test-contributor/)
+- [Request Test Team Badge](https://profiles.wordpress.org/associations/test-team/)
 
 Upon request, a Test Team Rep will confirm your contribution(s) and assign you a badge. There will be a monthly review of contributions and badges will be awarded at that time. The Test Team will post updates on new profile badges awarded on the [Test Team blog](https://make.wordpress.org/test/). 
