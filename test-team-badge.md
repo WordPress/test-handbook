@@ -6,7 +6,7 @@ This page offers comprehensive information about Test Team [profile badges](http
 
 To earn a Test Contributor Badge, you must have completed at least one of the following:
 
-- Submitted a test report comprising at least 3 tickets for [testing instructions](https://make.wordpress.org/test/handbook/test-reports/testing-instructions/), [issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/), or [patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/) either on WordPress or Gutenberg. Please note that reports can be submitted, whether it's on Trac or GitHub.
+- Submitted test reports for least 3 tickets, comprising of [testing instructions](https://make.wordpress.org/test/handbook/test-reports/testing-instructions/), [issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/), and/or [patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/). Acceptable reports should be submitted to Trac or GitHub, and can apply to any WordPress project area included in the [Test Team duty of care](https://make.wordpress.org/test/handbook/#duty-of-care).
 - Reported an issue on [Core Trac](https://core.trac.wordpress.org/tickets/latest) or the [Gutenberg GitHub repo](https://github.com/wordpress/gutenberg/issues) whose fix has been merged into a WordPress release.
 - Submitted unit or end-to-end tests that have been merged.
 - Contributed to a [Test handbook](https://github.com/wordpress/test-handbook) PR that has been merged.
