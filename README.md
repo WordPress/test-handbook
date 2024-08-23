@@ -9,6 +9,7 @@ Pages will be added here as they are created or updated on the handbook site.
 - [Test Reports](test-reports.md): https://make.wordpress.org/test/handbook/test-reports/
 - [Team Reps](team-reps.md): https://make.wordpress.org/test/handbook/team-reps/
 - [Get Started at Contributor Day](contributor-day.md): https://make.wordpress.org/test/handbook/get-started-at-contributor-day/
+- [Release Squad Duties](release-squad.md): https://make.wordpress.org/test/handbook/release-squad-duties/
 
 ## Contributing
 - **Discussions** happen in the [Make WordPress Test blog](https://make.wordpress.org/test/), or in Slack on the [`#core-test` channel](https://wordpress.slack.com/messages/core-test/).
