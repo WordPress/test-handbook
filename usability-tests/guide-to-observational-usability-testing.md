@@ -1,88 +1,96 @@
 # Guide to Observational Usability Testing
 
-## Introduction
-Observational usability testing is a method where testers watch real users interact with WordPress features or workflows to uncover usability issues.  
-Unlike automated testing or surveys, this approach focuses on observing behavior — what users actually do — rather than what they say.  
-It’s one of the most effective ways to discover real-world pain points and make WordPress more intuitive for everyone.
+This is a short guide to help anyone who would like to run a usability test. No prior experience is assumed, so if you are new to usability testing, you may find the tips and tricks section at the end of this post useful. Happy testing!
 
-## Why Observational Testing Matters
-Observing users helps contributors and designers:
-- Identify barriers that users face while performing common WordPress tasks.
-- Understand how new features impact accessibility and discoverability.
-- Bridge the gap between developer assumptions and user expectations.
-- Build empathy with diverse users, including those with varying levels of technical skill.
+---
 
-By conducting observational usability testing, contributors can gather actionable insights to improve the overall user experience in WordPress.
+## What is Usability Testing
 
-## Planning Your Test
-Before you begin, take time to plan your usability study carefully.
+Usability testing is an umbrella term to describe various ways in which products can be tested with actual users. There are a number of techniques that can be used to conduct usability tests, each of them have different advantages and costs. In this guide, we will provide steps for conducting **observational user tests**.
 
-1. **Define your objectives**  
-   What are you testing? For example, onboarding, creating a post, managing plugins, or using a new feature in the block editor.
+In an observational user test, the moderator or person running the test acts as a “fly on the wall.” In your role as moderator, your key function is to set up the conditions for the test to take place, observe participants performing their tasks, and interject only when the participant gets stuck.
 
-2. **Select participants**  
-   Choose users who reflect your target audience. Aim for diversity — from beginners to advanced users.
+When running an observational user test, the most important thing to remember is that… **the test is not really a test!** Setting the scene to make your participant feel comfortable to provide open and honest feedback is the key role of the moderator.
 
-3. **Create test tasks**  
-   Prepare realistic, goal-oriented tasks. For example:  
-   > “Add an image to a post and align it to the right.”
+---
 
-4. **Set up the environment**  
-   - Ensure you have a stable testing environment (e.g., local WordPress site or staging setup).  
-   - Prepare tools for screen sharing and recording (with participant consent).  
-   - Check accessibility tools if testing with assistive technologies.
+## Running an Observational Usability Test
 
-## Conducting the Test
-1. **Start with a short introduction**  
-   Explain that you’re testing the software, not the participant. Make them comfortable and encourage open feedback.
+To moderate a usability test, you will need to follow a few simple steps:
 
-2. **Encourage think-aloud behavior**  
-   Ask participants to verbalize what they are thinking while using WordPress. This gives valuable context behind their actions.
+1. **Set up your test environment:**  
+   A device (computer, laptop, mobile or tablet), a test participant, and a fairly quiet location.
 
-3. **Observe silently**  
-   Watch carefully for:
-   - Moments of hesitation or confusion  
-   - Unexpected navigation choices  
-   - Misinterpretation of labels or instructions  
-   - Emotional reactions (frustration, delight, satisfaction)
+2. **Set up your device:**  
+   Open two browser windows — the first will contain the test instructions and the second the Gutenberg editor.
 
-4. **Avoid interference**  
-   Don’t assist too quickly. Let the participant work through the challenge — this reveals usability friction points.
+3. **Set up your screen recording software:**  
+   Record the mouse clicks and audio for each test session.
 
-5. **Take detailed notes**  
-   Note timestamps, user quotes, and observed issues for later analysis.
+4. **Set up a place to upload your screen recordings:**  
+   After each test, save your screen recording to a publicly accessible drive (such as Dropbox, Cloudup, or Google Drive) and paste the link into the test instructions.
 
-## Analyzing Results
-After your testing sessions:
-1. Review notes, recordings, and transcripts.  
-2. Identify recurring issues and categorize them (navigation, labeling, accessibility, etc.).  
-3. Prioritize problems based on **severity** and **frequency**.  
-4. Summarize findings in a short report, including:
-   - Key observations  
-   - Screenshots or short clips (if available)  
-   - Recommended improvements  
-5. Share insights in the relevant WordPress teams (e.g., Core, Design, Accessibility) using appropriate Slack channels or Make posts.
+5. **Reset the environment:**  
+   After each participant finishes, refresh (reset) the two browser windows to ensure that each participant starts the test from the same baseline point.
 
-## Tips and Best Practices
-- Test with at least **5 participants** to uncover most usability issues.  
-- Keep sessions concise (20–40 minutes).  
-- Always get **informed consent** before recording.  
-- Be neutral — don’t influence user behavior with hints or feedback.  
-- Respect privacy and avoid storing personally identifiable data.  
-- Combine findings with other feedback sources (support forums, surveys, etc.) for stronger insights.
+---
 
-## Example Scenario
-A contributor team wants to understand how new users interact with the Site Editor.  
-They plan 5 remote observational tests, each 30 minutes long.  
-Participants are asked to:
-1. Open the Site Editor.  
-2. Change the site title and update the navigation menu.  
-3. Add a new block and save changes.  
-During the session, observers note confusion around the “Templates” section and unclear labeling in block settings — leading to actionable improvements in the next release.
+## Tips and Tricks for Moderating a Successful (and Fun!) Testing Session
 
-## References
-- [Nielsen Norman Group – How to Conduct Observational Studies](https://www.nngroup.com/articles/observational-study/)  
-- [GitHub Design Research Guide](https://github.com/github/insights-research)  
-- [WordPress Testing Handbook](https://make.wordpress.org/test/handbook/)  
-- [WordPress Design Team – Usability Testing Resources](https://make.wordpress.org/design/tag/usability-testing/)  
-- [Inclusive Usability Testing – W3C Guidelines](https://www.w3.org/WAI/test-evaluate/)
+For those that are new to usability testing, and for those that have run hundreds of tests, there are a few tips and tricks that we have learned over the years that can help you to run a successful session.
+
+### Don’t Make the Usability Test a “Test”
+
+It’s quite unfortunate that usability tests are named as such. A “test” carries with it the gravitas that there is a right and a wrong answer — in practice, there are no right or wrong answers in usability testing. As a moderator, it’s really important to put your participant at ease so that they feel safe to give honest feedback, rather than trying to provide you with the right answer.
+
+A really simple way to do this is to just address this at the start of the session:
+
+> “… this is not a test, there are no right or wrong answers. We are just really interested to hear your thoughts on …”
+
+---
+
+### Provide Guidance Without Leading
+
+In general, as the moderator, your role is to listen and not talk. The only exceptions to this are to provide signals that your participant is doing a great job (note that this is not related to whether they are completing the task as expected or otherwise), and to gently steer the participant if they become unable to proceed with a task.
+
+Signaling that your participant is doing well can be done by using phrases such as:
+
+- “Right, yes…”
+- “OK, I see…”
+- “Yes…”
+
+These small phrases will put the participant at ease, and shift their focus from trying to get the answers “right” to simply completing the task.
+
+If your participant gets stuck — perhaps on something that is not related to the things you are testing for, or something that is still a work in progress and not the focus of the test — you will need to guide them gently back to the main task. You can do this by using a variation of this:
+
+> “… I can see that you are struggling to get [the task] finished, and that’s totally fine… we are finding that most people are struggling on this, which is really valuable information for us as now we know what we need to change/fix to make our product better …”
+
+Note how the above phrase both normalizes their struggle (everyone is struggling, you are just like everyone else) and also shifts the responsibility to the design team, rather than making the participant feel like they are failing.
+
+---
+
+### Look for Points of Friction, Not Success
+
+This tip is a little counter-intuitive. The real value of usability testing is that it can give us insight into the areas of a product’s design that can be improved. Product improvements often originate at the source of friction between the technology and the user. As a moderator, you are doing a great job if you can find the sources of friction — and not necessarily if your participant successfully completes a given task.
+
+---
+
+### Report What You Saw, Not How to Solve
+
+Reporting the outcomes of your usability tests can be quite exciting, especially when you have witnessed a number of participants display a recurring pattern of behavior. When reporting back on your results, it is really important to focus on telling us about what you saw only — and not jump into providing possible solutions.
+
+As an example, let’s say you tested ten participants and observed that all of them struggled to find the settings button. That is exciting, and it is common for those new to usability testing to report this back as:
+
+> “All participants tested (n=10) struggled to find the settings button. It is recommended that the button is changed to red (#F60044) to make it easier to find.”
+
+Instead of grouping the observed issue with the potential solution, separate these out. Report back only what you saw in the usability test questionnaire (or blog post if you write one):
+
+**Report back:**  
+> “All participants tested (n=10) struggled to find the settings button.”
+
+Next, add an issue into GitHub that describes the problem you discovered:
+
+**Add issue to GitHub:**  
+> “Improve discoverability of the settings button.”
+
+In the description of the issue, add links to your usability test report. This will provide evidence for why this issue is being raised. You can also, at this stage, add in your ideas for a potential solution.
