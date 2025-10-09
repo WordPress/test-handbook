@@ -1,7 +1,7 @@
 # Guide to Screen Recording for Usability Testing
 If you are doing or moderating an [observational usability test](https://make.wordpress.org/test/handbook/usability-tests/guide-to-observational-usability-testing/), you will want to capture a recording of the screen interactions and your participant’s voice (audio) as they are completing the task. This guide will help you to do that.
 
-Note that the screen recording instructions here do not include a visual recording of your human participant – only of the mouse-clicks they take on-screen, and any audio as they talk aloud while completing the task. Additionally, we recommend that all screen recordings are anonymised, for example, screen recording video files should be named with a datestamp only, and not contain the participant’s name or any other personal information.
+*Note that the screen recording instructions here do not include a visual recording of your human participant – only of the mouse-clicks they take on-screen, and any audio as they talk aloud while completing the task. Additionally, we recommend that all screen recordings are anonymised, for example, screen recording video files should be named with a datestamp only, and not contain the participant’s name or any other personal information.*
 
 An [example of a typical screen recording](https://www.youtube.com/watch?v=vjXhEOFrTkQ) can be found here.
 
