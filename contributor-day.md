@@ -10,9 +10,9 @@ Did you know? Your [WordPress.org profile](https://profiles.wordpress.org/) disp
 </div>
 
 ### Accounts Setup
-1. [Required] Set up a WordPress.org account on the [account registration page](https://login.wordpress.org/register). If you get stuck, check out the [Learn WordPress lesson plan covering this topic](https://learn.wordpress.org/lesson-plan/creating-a-wordpress-org-account/) for guidance. And for users who already have a WordPress.org account, make sure you can still [log in](https://login.wordpress.org/) if it's been a while.
-2. [Recommended] Join the conversation on [WordPress Slack](https://make.wordpress.org/chat/) (must be logged on to WordPress.org). While Slack is not required for Contributor Day participation, it connects you directly with the talented and diverse community behind WordPress.
-3. [Optional] For users who intend to work with the [Gutenberg plugin](https://github.com/wordpress/gutenberg) or test PRs (pull requests), having a GitHub account is very helpful. You can [sign up for GitHub here](https://github.com/signup).
+1. `[Required]` Set up a WordPress.org account on the [account registration page](https://login.wordpress.org/register). If you get stuck, check out the [Learn WordPress lesson plan covering this topic](https://learn.wordpress.org/lesson-plan/creating-a-wordpress-org-account/) for guidance. And for users who already have a WordPress.org account, make sure you can still [log in](https://login.wordpress.org/) if it's been a while.
+2. `[Recommended]` Join the conversation on [WordPress Slack](https://make.wordpress.org/chat/) (must be logged on to WordPress.org). While Slack is not required for Contributor Day participation, it connects you directly with the talented and diverse community behind WordPress.
+3. `[Optional]` For users who intend to work with the [Gutenberg plugin](https://github.com/wordpress/gutenberg) or test PRs (pull requests), having a GitHub account is very helpful. You can [sign up for GitHub here](https://github.com/signup).
 
 ### Local Test Environment
 **Local environment testing is suggested for past contributors, or users with prior development experience.**
@@ -65,7 +65,7 @@ To kick things off, here are some suggestions:
 	- Have you contributed before, and what interests you most about contributing?
 
 ### Slack/Coordination
-[Recommended] After doing IRL introductions, consider posting a short note in the [#core-test channel](https://wordpress.slack.com/archives/C03B0H5J0) to let the Slack community know that a Contributor Day event is underway. Here is a great example [Slack thread for WC Asia 2023 Contributor Day](https://wordpress.slack.com/archives/C03B0H5J0/p1676600490483579).
+`[Recommended]` After doing IRL introductions, consider posting a short note in the [#core-test channel](https://wordpress.slack.com/archives/C03B0H5J0) to let the Slack community know that a Contributor Day event is underway. Here is a great example [Slack thread for WC Asia 2023 Contributor Day](https://wordpress.slack.com/archives/C03B0H5J0/p1676600490483579).
 
 Slack can be a good way to connect with remote attendees, many of which can help answer questions and collaborate with testing. Everyone at the event and remote should be invited to keep in touch online.
 
