@@ -14,7 +14,7 @@ The final two steps are sometimes optional, depending on how the call for testin
 
 Remember that it’s better to alert the need for testing than not to test at all so, if there’s something that needs testing but you don’t have capacity to facilitate, it’s still valuable to offer a self serve option.
 
-## [Determine what needs testing](#determine-what-needs-testing)
+## Determine what needs testing
 
 If you want to help with calls for testing and you don’t have a specific feature you’re working on in mind, there are a few sources to pull from for insight around what would be most impactful to test. When in doubt, it’s always a good idea to ask in the open what folks would like more testing help on in the [Core Dev and Core Editor meetings](https://make.wordpress.org/meetings/). Otherwise, here are sources to examine:
 
@@ -22,37 +22,37 @@ If you want to help with calls for testing and you don’t have a specific featu
 - Features discussed in [Core Editor](https://make.wordpress.org/core/tag/core-editor-agenda/) and [Core Dev](https://make.wordpress.org/core/tag/dev-chat/) meetings.
 - [Feature projects](https://make.wordpress.org/core/features/) that reach a level of stability or exploration and need feedback to continue.
 
-## [Write and share the call for testing](#write-and-share-the-call-for-testing)
+## Write and share the call for testing
 
-### [Template](#template)
+### Template
 
 Use this handy template and checklist when creating your post. Or, skip all of this. Publishing anything and tagging it #needs-testing is sufficient and better than not posting.
 
-**What is it?**
+#### What is it?
 
 Describe the feature. Include screenshots. Describe any goals and gating criteria, such as parity requirements.
 
-**Where is it?**
+#### Where is it?
 
 Describe how to get to the feature. Direct links are good.
 
-**What to test**
+#### What to test
 
 Describe the primary flows to test. Consider using bulleted list or a visual record.
 
-**What to expect**
+#### What to expect
 
 List known issues and shortcomings (bug tracker links are helpful). Set expectations.
 
-**How to report**
+#### How to report
 
 Provide trac or github links, include the component.
 
-**Timeline for testing**
+#### Timeline for testing
 
 Express urgency and priority. If there are target dates, provide them.
 
-### [Checklist](#checklist)
+### Checklist
 
 - Introduce yourself.
 - Explain the feature or update, including what’s needed to test (example: a specific version of Gutenberg or WordPress).
@@ -65,23 +65,23 @@ Express urgency and priority. If there are target dates, provide them.
 - Keep a beta testing audience in mind.
 - Tag the post #needs-testing.
 
-### [Sharing](#sharing)
+### Sharing
 
 Typically, calls for testing are shared on [Make Core](https://make.wordpress.org/core/) or on [Make Test](https://make.wordpress.org/test), depending on the feature and desired audience. Generally speaking, [Make Core](https://make.wordpress.org/core/) gets far more visibility so it’s best to share there when you need more attention on the effort from the start, especially if the efforts aren’t tied to a specific team.
 
 If you’re struggling to get feedback, please view these [high level suggestions](https://make.wordpress.org/core/handbook/tutorials/navigating-the-community/#situationals).
 
-## [Close the feedback loop](#close-the-feedback-loop)
+## Close the feedback loop
 
 No matter what approach you’re using, the key is to ensure that information gets back to the right place. Usually, this means issues in [Trac](https://trac.wordpress.org/) or issues in the [Gutenberg GitHub repo](https://github.com/WordPress/gutenberg/issues).
 
-**Self serve calls for testing approach**
+### Self serve calls for testing approach
 
 This is a mostly hands off approach and solely requires clarity upfront in the call for testing you write. Any extra time you can spend ensuring that the instructions for where and how to report issues/feedback will be very high impact. This might include a short video around how to report or linking off to resources, like [how to use Trac on Learn WordPress](https://learn.wordpress.org/tutorial/how-to-use-trac/).
 
 The biggest downside to this approach is that it requires a greater time investment of those reporting issues to both simply do the work to open an issue/comment on a current one and to know how to. This usually results in less engagement.
 
-**Facilitated calls for testing approach**
+### Facilitated calls for testing approach
 
 This approach requires substantial involvement on behalf of those facilitating the call for testing. This varies wildly based on how many people respond to the call for testing as well. With this approach, those participating in the call for testing comment on the call for testing and those facilitating the call for testing respond with feedback, determining what needs open issues, what needs more clarity, etc. Here are some quick best practices:
 
@@ -90,11 +90,11 @@ This approach requires substantial involvement on behalf of those facilitating t
 - Make sure to search for currently open issues before opening new ones.
 - Comment on related issues with feedback as it’s relevant. Even if an issue is already known, it’s helpful for those working on them to have greater insight.
 
-**Mixed approach**
+### Mixed approach
 
 Of note, you can always offer a mixed approach where you encourage folks to open issues directly as they are comfortable but have a fall back where you will facilitate closing the loop otherwise for those who aren’t in a position to do so for whatever reason.
 
-## [Summarize the results](#summarize-the-results)
+## Summarize the results
 
 This section only applies if you are doing facilitated calls for testing. Summaries should be shared as soon as possible after a call for testing ends, ideally no longer than two weeks after. If what you are testing is less urgent, it’s okay to wait longer. These summaries should include the following as much as possible:
 
