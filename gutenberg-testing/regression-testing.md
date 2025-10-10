@@ -2,8 +2,6 @@
 
 > **Note:** This page is a stub and needs improvement. If you would like to help improve it or notice an error, please say hello in [#core-test](https://wordpress.slack.com/messages/core-test/) on [WordPress Slack](https://make.wordpress.org/chat/).
 
-## Overview
-
 **Regression testing**, or **pre-release testing**, is the practice of running functional tests to ensure that previously developed and tested features still work after a change.
 
 A good time to help check for regressions is just before a new version is released.
@@ -26,7 +24,6 @@ A good time to help check for regressions is just before a new version is releas
 14. Submit a post for review (contributor role).  
 15. Create a post with a ton of content (see [gutenberg-document-library](https://github.com/WordPress/gutenberg/tree/trunk/docs/document-library)).  
 16. Consider adding an [automated test](https://github.com/WordPress/gutenberg/blob/master/docs/reference/testing-overview.md) for one of these cases [(if it doesn’t already exist)](https://github.com/WordPress/gutenberg/tree/master/test/e2e/specs).
-
 
 ## What Else?
 
