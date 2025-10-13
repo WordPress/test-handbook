@@ -22,7 +22,7 @@ A good time to help check for regressions is just before a new version is releas
 12. Publish a post.  
 13. Schedule a post.  
 14. Submit a post for review (contributor role).  
-15. Create a post with a ton of content (see [gutenberg-document-library](https://github.com/WordPress/gutenberg/tree/trunk/docs/document-library)).  
+15. Create a post with a ton of content (see [gutenberg-document-library](https://github.com/dmsnell/gutenberg-document-library/tree/master/library)).
 16. Consider adding an [automated test](https://github.com/WordPress/gutenberg/blob/master/docs/reference/testing-overview.md) for one of these cases [(if it doesn’t already exist)](https://github.com/WordPress/gutenberg/tree/master/test/e2e/specs).
 
 ## What Else?
