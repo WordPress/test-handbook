@@ -8,7 +8,7 @@ We need to respect all the basic [Markdown guidelines](https://www.markdownguide
 
 ### Fixing a mistake
 
-If you want to propose a fix, you can simply [add a new Issue](https://github.com/WordPress/test-handbook/issues) and if you can fix it, [send a Pull Request](https://github.com/WordPress/test-handbook/pulls) referencing that issue. 
+If you want to propose a fix, you can simply [open a new Issue](https://github.com/WordPress/test-handbook/issues) and if you can fix it, [send a Pull Request](https://github.com/WordPress/test-handbook/pulls) referencing that issue. 
 
 For example, if you create the issue `#1500` explaining the trouble, then you can send a PR with the text `Fixes #1500` to reference it.
 
