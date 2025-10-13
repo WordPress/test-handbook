@@ -4,7 +4,7 @@
 
 Triage of posts on make/`flow` is done with tags.
 
-## Component
+### Component
 
 `Tag` make/flow posts with the relevant [core component](https://make.wordpress.org/core/components/), [iOS component](https://github.com/wordpress-mobile/WordPress-iOS/labels), or [Android component](https://github.com/wordpress-mobile/WordPress-Android/labels). The component is the most important triage tag. When tagging a visual record that crosses components, tag all exercised components. Tagging by component allows component teams to follow the make/flow posts relevant to their team. For example, the Editor component team follows their [tag page](https://make.wordpress.org/test/tag/editor/) and [feed](https://make.wordpress.org/test/tag/editor/feed/).  Components that are exercised by many flows will be tagged more often. This is a feature.
 
@@ -17,7 +17,7 @@ Here are some often used components. For the complete list, see the [core compon
 - [toolbar](https://make.wordpress.org/core/components/toolbar/)
 - [upgrade-install](https://make.wordpress.org/core/components/upgrade-install/)
 
-## Device
+### Device
 
 The device tags specify form factor. These are mainly about screen size.
 
@@ -26,7 +26,7 @@ The device tags specify form factor. These are mainly about screen size.
 - [tablet](https://make.wordpress.org/test/tag/tablet/)
 - [desktop](https://make.wordpress.org/test/tag/desktop/)
 
-## Platform
+### Platform
 
 Platform is the operating system:
 
@@ -37,14 +37,14 @@ Platform is the operating system:
 - [windows](https://make.wordpress.org/test/tag/windows/)
 - [winphone](https://make.wordpress.org/test/tag/winphone/)
 
-## Application or Web
+### Application or Web
 
 Web interfaces are served from `core` WordPress to a web browser. All posts relating to our web interfaces are tagged with web. Posts relating to the `iOS` or Android applications are tagged app. If a post documents a flow that traverses both web interfaces and an application (such as moving from app to web to use a feature not yet in the app), use both tags. The web tag is used inconsistently. Consider it optional. The app tag is consistently used and is not optional.
 
 - [app](https://make.wordpress.org/test/tag/app/)
 - web
 
-## Browser
+### Browser
 
 For web interfaces, indicate the browser used. This is not necessary for apps.
 
@@ -54,7 +54,7 @@ For web interfaces, indicate the browser used. This is not necessary for apps.
 - [opera](https://make.wordpress.org/test/tag/opera/)
 - [safari](https://make.wordpress.org/test/tag/safari/)
 
-## Version and Development Phase
+### Version and Development Phase
 
 The iOS and Android apps offer `beta` releases in addition to the production releases available through the app stores. Core WordPress offers nightly builds. When using pre-release software, use the beta tag, otherwise use production. We haven’t used these consistently. If you don’t add them, welcome to the club. Development Phase might be retired.
 
@@ -69,7 +69,7 @@ To make finding visual records taken against a certain release easier, include t
 - 5.4 – current beta iOS app
 - 4.2 – current production Android app
 
-## Workflow
+### Workflow
 
 The workflow tags are analogous to the [workflow tags](https://make.wordpress.org/core/handbook/trac/keywords/) used in core `trac`, with a few additions. We haven’t used these consistently either. This needs to be hashed out. needs-ticket and needs-captions are the most frequently used.
 
@@ -82,7 +82,7 @@ The workflow tags are analogous to the [workflow tags](https://make.wordpress.or
 - [needs-ticket](https://make.wordpress.org/test/tag/needs-ticket/) – Posts that report bugs need to be cross-referenced with trac tickets.
 - [needs-captions](https://make.wordpress.org/test/tag/needs-captions/) – Galleries need to be captioned.
 
-## Trends and Patterns
+### Trends and Patterns
 
 Spotting trends and patterns is fun and an important part of `flow patrol`. For example, iOS devices often expose [scroll bleed](https://make.wordpress.org/test/tag/scroll-bleed/) bugs in our modals. Tag `scroll bleed` related posts with [scroll-bleed](https://make.wordpress.org/test/tag/scroll-bleed/). Here are some common patterns.
 
@@ -99,11 +99,11 @@ Spotting trends and patterns is fun and an important part of `flow patrol`. For 
 
 For more trends and patterns, see the [glossary](https://make.wordpress.org/test/handbook/glossary/).
 
-# The Flow of Flow Patrol
+## The Flow of Flow Patrol
 
 make/flow is a venue for documenting flow, reporting bugs, and discussing usability through screenshots, galleries, and screencasts. As we go about our daily publishing with WP, we document our experience of WP, with WP. This recursive dogfooding is the basis of [flow patrol](https://make.wordpress.org/test/handbook/).
 
-## Visual Bug Report
+### Visual Bug Report
 
 The simplest way to document your experience is to publish visual bug reports. A misaligned button label on the Posts screen, for example, is easily captured in a screenshot and published to make/flow. Or, in the case of “[Posts list: double entry in post list after publishing, iOS app beta, iPhone 6+](https://make.wordpress.org/test/2015/06/18/double-entry-in-post-list-after-publishing-ios-app-beta/)“, a doubled entry in the [posts list](https://github.com/wordpress-mobile/WordPress-iOS/labels/Posts%20List) of the iOS app is captured. The title provides a short description of the problem, headline style, followed by some platform, device, and version context. The body of the post is one screenshot with some explanatory text of the problem. That’s all a visual bug report needs to be. We want a low barrier, especially for those reporting phone bugs from phones. Our example visual bug report was published using the iOS app. The bug was found in the iOS app and then reported with the iOS app. This recursive dogfooding is playfully referred to as [kibbling](https://make.wordpress.org/test/glossary/#kibbling). Since visual bug reports are the simplest means of feedback in this visual `kibbling` process, they’re sometimes known as kibbles. A visual bug report isn’t limited to reporting defects. A visual bug report can be a visual opinion or anecdote. Kibbles, all.
 
@@ -131,7 +131,7 @@ Now that this visual bug report is tagged, it can be consumed in a number of way
 
 After tagging, the next triage phase is creating a ticket. Continuing with our “[Double entry in post list after publishing](https://make.wordpress.org/test/2015/06/18/double-entry-in-post-list-after-publishing-ios-app-beta/)” example, search the [iOS app’s open tickets over on Github](https://github.com/wordpress-mobile/WordPress-iOS/issues). If a ticket already exists for this bug, comment on the ticket with a link to the make/flow post. The post will provide another data point to developers and document the bug with a screenshot. If this bug has not already been reported, [create a new issue](https://github.com/wordpress-mobile/WordPress-iOS/issues/new). Label the ticket with the appropriate component. Our example make/flow post is tagged posts-list, which corresponds to the Posts List label. On the ticket, include a link to the make/flow post in the description.  On the make/flow post, add a link to the ticket in a comment and tag the post with the ticket number. This cross-links the post and the ticket.
 
-## Visual Record
+### Visual Record
 
 Visual bug reports usually deal with one particular screen. A [visual record (vizrec)](https://make.wordpress.org/test/glossary/#visual-record) follows a [flow](https://make.wordpress.org/test/glossary/#flow) across screens, snapshotting each screen and interaction. Vizrecs are most often expressed as captioned galleries. Captions provide narrative that glues the screenshots together. Captions also editorialize. Express your user experience in the captions.
 
@@ -141,19 +141,19 @@ To tag a visual record, follow the visual bug report tagging process for each sc
 
 For the visual record “[Customize, Menus: menu customizer, iPhone 6+](https://make.wordpress.org/test/2015/06/04/menu-customizer-iphone-6/)“, the tags are 32733, customize, ios, keyboard-flyup, menus, phablet, and visual-record. “customize” and “menus” are the relevant [components](https://make.wordpress.org/core/components/), which are also used to prefix the post title. “ios” is the platform. “phablet” is the device. “keyboard-flyup” is a common usability bug evidenced in the vizrec. “32733” is the number of a ticket opened for a visual bug shown in the vizrec. [#32733](https://core.trac.wordpress.org/ticket/32733) is cross-linked with the make/flow post via a [comment on the ticket](https://core.trac.wordpress.org/ticket/32733#comment:22) and a [comment on the post](https://make.wordpress.org/test/2015/06/04/menu-customizer-iphone-6/#comment-828).  All make/flow posts related to 32733 are accessible via [make/flow/tag/32733](https://make.wordpress.org/test/tag/32733/).
 
-## Visual Survey
+### Visual Survey
 
 A `visual survey` is a collection of screenshots for a like set of screens or interfaces, such as all list table screens or all toolbar incarnations across various devices. These screens are captured as captioned galleries the way visual records are but are not presented in the context of a particular flow.
 
 https://make.wordpress.org/test/tag/visual-survey/
 
-## Flow Comparison
+### Flow Comparison
 
 When an existing feature changes or is replaced, a `flow comparison` visual record is made to compare flow through the old interface with flow through the new interface. Seeing two flows side-by-side helps determine whether the new interface actually flows better.
 
 https://make.wordpress.org/test/tag/flow-comparison/
 
-## Visual History
+### Visual History
 
 A `visual history` shows the evolution of an interface over time and across releases.
 
