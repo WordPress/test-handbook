@@ -1,4 +1,6 @@
-# Triage Tags
+# Documenting Flow
+
+## Triage Tags
 
 Triage of posts on make/`flow` is done with tags.
 
