@@ -1,4 +1,4 @@
-## Welcome!
+# Release Squad Duties
 First of all, welcome to the Test release squad! 🎉 It's so awesome you've stepped forward to help spread feature awareness and to support testing efforts for the release!
 
 If you haven’t already, please take some time to read through the release process, team roles, and expectations:
