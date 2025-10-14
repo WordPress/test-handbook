@@ -5,7 +5,7 @@
 
 ## How to Test Core Tickets with Playground ?
 
-1. Go to the Trac ticket and check that the ticket has GitHub PR or SVN patch. If a ticket has PR, you can test that trac ticket with PlayGround. If the Trac ticket has “.patch”. This automatic test environment will not work. 
+1. Go to the Trac ticket and check that the ticket has a GitHub PR or a patch file. If a ticket has PR, you can test that trac ticket with PlayGround. If the Trac ticket has “.patch”. This automatic test environment will not work. 
 
    ![Trac Ticket Example](https://lh7-us.googleusercontent.com/GMVCu1gpKb9PtZO-MLSEtM0ih44sMV8-6Y1vqN_P4Vhy0J-xA7l2o4-PU_PLwE1FlQdcTTBM5LcXLbFxrmK909HhNRaQtr9tG85JiczeymcDAowicMYRUqJkAwrs8ShXDFWBzkZH9_6FbQFDO5SiojA "Example Trac Ticket")
 
@@ -30,8 +30,8 @@
 There are some limitations to this Playground environment. You can read more [here](https://wordpress.github.io/wordpress-playground/limitations).
 
 - The Plugin and Theme Directories cannot be accessed within Playground (meaning you can not search plugin or theme from the search box).
-- All changes will be lost when closing a tab with a Playground instance.
-All changes will be lost when refreshing the page.
+- All changes will be lost when a tab is closed with a Playground instance.
+- All changes will be lost when the page is refreshed.
 - A fresh instance is created each time the link below is clicked.
 - Every time this pull request is updated, a new ZIP file containing all changes is created. If changes are not reflected in the Playground instance,
 it’s possible that the most recent build failed, or has not completed. Check the [list of workflow runs to be sure](https://github.com/WordPress/wordpress-develop/actions/workflows/wordpress-playground.yml).
