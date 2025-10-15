@@ -1,0 +1,59 @@
+{
+    "index": {
+		"title": "Test Team Handbook",
+		"slug": "handbook",
+		"markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/index.md",
+		"parent": null,
+		"order": -1
+    },
+    "team-reps": {
+        "title": "Test Team Reps",
+        "slug": "team-reps",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/team-reps.md",
+        "parent": "null",
+        "order": 10
+    },
+    "get-setup-for-testing": {
+        "title": "Get Setup for Testing",
+        "slug": "get-setup-for-testing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/index.md",
+        "parent": "null",
+        "order": 20
+    },
+    "get-setup-for-testing\/test-core-tickets-with-playground": {
+        "title": "Test Core Tickets with Playground",
+        "slug": "test-core-tickets-with-playground",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/test-core-tickets-with-playground.md",
+        "parent": "get-setup-for-testing",
+        "order": 1
+    },
+    "test-reports": {
+        "title": "Test Reports",
+        "slug": "test-reports",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/index.md",
+        "parent": "null",
+        "order": 30
+    },
+    "test-reports\/issue-reproduction": {
+        "title": "Issue Reproduction",
+        "slug": "issue-reproduction",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/issue-reproduction.md",
+        "parent": "test-reports",
+        "order": 1
+    },
+    "test-reports\/patch-testing": {
+        "title": "Patch Testing",
+        "slug": "patch-testing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/patch-testing.md",
+        "parent": "test-reports",
+        "order": 2
+    },
+    "test-reports\/combined-report": {
+        "title": "Combined Report",
+        "slug": "combined-report",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/combined-report.md",
+        "parent": "test-reports",
+        "order": 3
+    }
+
+}
