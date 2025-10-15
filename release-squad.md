@@ -44,7 +44,7 @@ Info related to features introduced in the release comes from a variety of sourc
 - Release walkthroughs (which are inconsistently timed, and usually *after* beta 😔).
 - Guidance from the release coordinators or previous Test release leads.
 
-That’s a LOT of info, and it can be helpful to create a CfT planning document to sort out a curated list of items to include. You might also use a are color-coding system to indicate whether the source info is good (🟢), just started (🟡), or needs a lot of work (🔴).
+That’s a LOT of info, and it can be helpful to create a CfT planning document to sort out a curated list of items to include. You might also use a color-coding system to indicate whether the source info is good (🟢), just started (🟡), or needs a lot of work (🔴).
 
 > 💡 For shared Google Docs, make sure to keep the link private among the release team. And use the "document outline" feature to quickly jump between sections.
 
@@ -82,7 +82,7 @@ As you go through the list and draft up the copy, some things to consider:
 
 - Does this describe the feature how a UI user or extender (plugin/theme dev) would understand it?
 - Do the provided links give required context for using the feature?
-- Would a visual help explain this better?
+- Would a visual example (image, video, etc) help explain this better?
 - Are there test instructions provided at any of the links?
 
 For any of these that don’t have [test instructions](https://make.wordpress.org/test/handbook/test-reports/#feature-or-enhancement-testing-instructions-template), please drop a note into [#core-test](https://wordpress.slack.com/archives/C03B0H5J0), and we can ask contributors to add them 🙌
