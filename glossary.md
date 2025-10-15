@@ -115,8 +115,3 @@ https://make.wordpress.org/test/tag/visual-survey/ [#](https://make.wordpress.or
 
 ## Windmill
 Adapted from [Don Quixote],(https://en.wikipedia.org/wiki/Tilting_at_windmills) a windmill in the context used on make/flow is a long term goal or vision that you never stop pursuing while attempting to gradually, steadily change a system. Actions taken toward a windmill’s goal are called tilts. Tilts over time steer change. The Flow Patrol windmills are listed [here](https://make.wordpress.org/test/windmills/).   [#](https://make.wordpress.org/test/handbook/glossary/#windmill) 
-First published
-June 2, 2015
-
-Last updated
-November 29, 2023
