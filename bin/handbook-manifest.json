@@ -75,5 +75,33 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/call-for-testing.md",
         "parent": "null",
         "order": 50
+    },
+    "contributor-day": {
+        "title": "Get Started at Contributor Day",
+        "slug": "contributor-day",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/contributor-day.md",
+        "parent": "null",
+        "order": 60
+    },
+    "test-team-badge": {
+        "title": "Test Team Profile Badges",
+        "slug": "test-team-badge",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-team-badge.md",
+        "parent": "null",
+        "order": 70
+    },
+    "documenting-flow": {
+        "title": "Documenting Flow",
+        "slug": "documenting-flow",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/documenting-flow.md",
+        "parent": "null",
+        "order": 80
+    },
+    "glossary": {
+        "title": "Glossary",
+        "slug": "glossary",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/glossary.md",
+        "parent": "null",
+        "order": 90
     }
 }
