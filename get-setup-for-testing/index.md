@@ -27,7 +27,7 @@ Use this option to do general testing with the latest beta or release candidate 
 
 1. Go to [https://github.com/WordPress/gutenberg/releases](https://github.com/WordPress/gutenberg/releases). Note: you may need to scroll through several pages of dependencies.  
 2. Download the latest `gutenberg.zip` file.  
-3. Go to WP Admin > Plugins > Add New > Upload `Plugin`.  
+3. Go to WP Admin > Plugins > Add New > Upload Plugin.  
 4. Select the file from step 2.  
 5. Follow the prompts to install and activate the plugin.
 
