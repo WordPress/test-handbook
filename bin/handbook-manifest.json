@@ -61,6 +61,19 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/combined-report.md",
         "parent": "test-reports",
         "order": 4
+    },
+    "triage": {
+        "title": "Triage & Testing Issues",
+        "slug": "triage",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/triage.md",
+        "parent": "null",
+        "order": 40
+    },
+    "call-for-testing": {
+        "title": "How to facilitate a Call for Testing",
+        "slug": "call-for-testing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/call-for-testing.md",
+        "parent": "null",
+        "order": 50
     }
-
 }
