@@ -34,26 +34,33 @@
         "parent": "null",
         "order": 30
     },
+    "test-reports\/testing-instructions": {
+        "title": "Testing Instructions",
+        "slug": "testing-instructions",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/testing-instructions.md",
+        "parent": "test-reports",
+        "order": 1
+    },
     "test-reports\/issue-reproduction": {
         "title": "Issue Reproduction",
         "slug": "issue-reproduction",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/issue-reproduction.md",
         "parent": "test-reports",
-        "order": 1
+        "order": 2
     },
     "test-reports\/patch-testing": {
         "title": "Patch Testing",
         "slug": "patch-testing",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/patch-testing.md",
         "parent": "test-reports",
-        "order": 2
+        "order": 3
     },
     "test-reports\/combined-report": {
         "title": "Combined Report",
         "slug": "combined-report",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/combined-report.md",
         "parent": "test-reports",
-        "order": 3
+        "order": 4
     }
 
 }
