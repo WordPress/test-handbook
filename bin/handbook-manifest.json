@@ -10,14 +10,14 @@
         "title": "Test Team Reps",
         "slug": "team-reps",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/team-reps.md",
-        "parent": "null",
+        "parent": null,
         "order": 10
     },
     "get-setup-for-testing": {
         "title": "Get Setup for Testing",
         "slug": "get-setup-for-testing",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/index.md",
-        "parent": "null",
+        "parent": null,
         "order": 20
     },
     "get-setup-for-testing\/test-core-tickets-with-playground": {
@@ -31,7 +31,7 @@
         "title": "Test Reports",
         "slug": "test-reports",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/index.md",
-        "parent": "null",
+        "parent": null,
         "order": 30
     },
     "test-reports\/testing-instructions": {
@@ -66,49 +66,49 @@
         "title": "Triage & Testing Issues",
         "slug": "triage",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/triage.md",
-        "parent": "null",
+        "parent": null,
         "order": 40
     },
     "call-for-testing": {
         "title": "How to facilitate a Call for Testing",
         "slug": "call-for-testing",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/call-for-testing.md",
-        "parent": "null",
+        "parent": null,
         "order": 50
     },
     "contributor-day": {
         "title": "Get Started at Contributor Day",
         "slug": "contributor-day",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/contributor-day.md",
-        "parent": "null",
+        "parent": null,
         "order": 60
     },
     "test-team-badge": {
         "title": "Test Team Profile Badges",
         "slug": "test-team-badge",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-team-badge.md",
-        "parent": "null",
+        "parent": null,
         "order": 70
     },
     "documenting-flow": {
         "title": "Documenting Flow",
         "slug": "documenting-flow",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/documenting-flow.md",
-        "parent": "null",
+        "parent": null,
         "order": 80
     },
     "glossary": {
         "title": "Glossary",
         "slug": "glossary",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/glossary.md",
-        "parent": "null",
+        "parent": null,
         "order": 90
     },
     "gfm-testing": {
         "title": "GFM Testing",
         "slug": "gfm-testing",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/gfm-testing.md",
-        "parent": "null",
+        "parent": null,
         "order": 100
     }
 }
