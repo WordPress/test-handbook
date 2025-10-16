@@ -46,7 +46,9 @@ Info related to features introduced in the release comes from a variety of sourc
 
 That’s a LOT of info, and it can be helpful to create a CfT planning document to sort out a curated list of items to include. You might also use a color-coding system to indicate whether the source info is good (🟢), just started (🟡), or needs a lot of work (🔴).
 
-> 💡 For shared Google Docs, make sure to keep the link private among the release team. And use the "document outline" feature to quickly jump between sections.
+<div class="callout callout-tip"> 
+    For shared Google Docs, make sure to keep the link private among the release team. And use the "document outline" feature to quickly jump between sections.
+</div>
 
 <div class="callout callout-info">  
     **A note on the copy:** Please don’t use the provided text as-is; **rewrite or rephrase instead**. These are original raw reference notes, and won’t make sense in the context of the CfT post. Also keep a watch for inaccuracies in the copy, since it may not be 100% correct (it’s a LOT of info that has to be parsed out of GitHub, Trac, posts, etc 😅).
