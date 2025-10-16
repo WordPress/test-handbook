@@ -48,7 +48,9 @@ That’s a LOT of info, and it can be helpful to create a CfT planning document 
 
 > 💡 For shared Google Docs, make sure to keep the link private among the release team. And use the "document outline" feature to quickly jump between sections.
 
-> **A note on the copy:** Please don’t use the provided text as-is; **rewrite or rephrase instead**. These are original raw reference notes, and won’t make sense in the context of the CfT post. Also keep a watch for inaccuracies in the copy, since it may not be 100% correct (it’s a LOT of info that has to be parsed out of GitHub, Trac, posts, etc 😅).
+<div class="callout callout-info">  
+    **A note on the copy:** Please don’t use the provided text as-is; **rewrite or rephrase instead**. These are original raw reference notes, and won’t make sense in the context of the CfT post. Also keep a watch for inaccuracies in the copy, since it may not be 100% correct (it’s a LOT of info that has to be parsed out of GitHub, Trac, posts, etc 😅).
+</div>
 
 ### Feature Details
 Once key features have been identified, and while building out testing info for each, you should strive for the following:
@@ -60,7 +62,9 @@ Once key features have been identified, and while building out testing info for 
 
 In the end, it’s up to the Test Team release leads to decide on the final details for the post.
 
-> 💡 Keep in mind that the primary audience for the post is our awesome tester community, so it should provide clear guidance on how to test and report feedback on each feature.
+<div class="callout callout-tip">  
+    Keep in mind that the primary audience for the post is our awesome tester community, so it should provide clear guidance on how to test and report feedback on each feature.
+</div>
 
 ### Useful Tools
 Whenever possible, try to include a screenshot, animated GIF, video, or code sample to demonstrate the feature. Here are some tools and services that can be helpful putting together visual assets to support feature details.
