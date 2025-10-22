@@ -6,7 +6,7 @@ For more information about the role Test Team members play in the WordPress proj
 In order to make the most of your time meeting and working with fellow contributors, follow these helpful **pre-Contributor Day** tips!
 
 <div class="callout callout-info">
-Did you know? Your [WordPress.org profile](https://profiles.wordpress.org/) displays your WordPress.org, Slack, and GitHub user info, as well as any [profile badges](https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/) you've earned.
+Did you know? Your <a href="https://profiles.wordpress.org/">WordPress.org profile</a> displays your WordPress.org, Slack, and GitHub user info, as well as any <a href="https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/">profile badges</a> you've earned.
 </div>
 
 ### Accounts Setup
@@ -20,7 +20,7 @@ Did you know? Your [WordPress.org profile](https://profiles.wordpress.org/) disp
 Perhaps the biggest challenge faced by new contributors is preparing a test environment. If you would like to test patches and PRs directly during Contributor Day, it is **highly recommended** that you set things up at home *before* the event.
 
 <div class="callout callout-tip">
-Tip: Wifi at the venue during a busy Contributor Day can be slow and unreliable, and configuring your laptop can take a lot (if not all) of your time. Don't wait to fork the ['wordpress-develop' repository](https://github.com/WordPress/wordpress-develop) or [download Docker](https://docs.docker.com/get-docker/) at the event, as this drain on bandwidth also impacts other contributors.
+Tip: Wifi at the venue during a busy Contributor Day can be slow and unreliable, and configuring your laptop can take a lot (if not all) of your time. Don't wait to fork the <a href="https://github.com/WordPress/wordpress-develop">wordpress-develop repository</a> or <a href="https://docs.docker.com/get-docker/">download Docker</a> at the event, as this drain on bandwidth also impacts other contributors.
 </div>
 
 Differences between operating systems and personal workflows make environment configuration beyond the scope of this article, but here are some links to get started on a local test/dev environment:
