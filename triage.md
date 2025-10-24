@@ -28,7 +28,7 @@ In the case of GitHub, such as the gutenberg repo, not everyone has write permis
 1. Start with the newest incoming issues or unlabeled issues.
 2. Label each issue with a focus area and type.
 3. Update the title if it can be made more clear while still keeping it as short as possible.
-4. If the issue is a duplicate or can be consolidated, close it with a note and add the `[Status Duplicate]` label.
+4. If the issue is a duplicate or can be consolidated, close it with a note and add the `[Status] Duplicate` label.
 5. If more information is needed, add the `[Status] Needs More Info`  label and ask troubleshooting questions.
 6. Add workflow labels if needed, such as `Needs Testing`, `Needs Design Feedback`, or `Needs Decision`.
 
