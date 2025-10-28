@@ -1,8 +1,8 @@
 # Full Site Editing Outreach Program
 
----
-
-> *This page serves as a historical record for the FSE Outreach Program in case future outreach programs are created. To see the latest information, please view this post on [Evolving the FSE Outreach Program](https://make.wordpress.org/core/2023/09/07/evolving-the-fse-outreach-program/). For context on this program's origins, please review [this post](https://make.wordpress.org/core/2020/05/01/an-experimental-outreach-project-for-full-site-editing/) shared on May 1st, 2020 kicking off this initiative.*
+<div class="callout callout-info">
+> *This page serves as a historical record for the FSE Outreach Program in case future outreach programs are created. To see the latest information, please view this post on <a href="https://make.wordpress.org/core/2023/09/07/evolving-the-fse-outreach-program/">Evolving the FSE Outreach Program</a>. For context on this program's origins, please review <a href="https://make.wordpress.org/core/2020/05/01/an-experimental-outreach-project-for-full-site-editing/">this post</a> shared on May 1st, 2020 kicking off this initiative.
+</div>
 
 ## Program Goal
 
@@ -52,4 +52,3 @@ While you are free to use your own testing environment and follow [these instruc
 - [Gutenberg.run](http://gutenberg.run/): The tool to spin up and test Gutenberg PRs.
 - [Theme Experiments](https://github.com/wordpress/theme-experiments/): A repository of block themes to use for testing or one of the current block themes in the Themes Repo ([Q](https://wordpress.org/themes/q/), [Bosco](https://wordpress.org/themes/block-based-bosco/)). We ask that you use one of these themes for consistency.
 - [GIPHY Capture](https://giphy.com/) or [LICEcap](https://www.cockos.com/licecap/): Tools to capture GIFs to better highlight any bugs you might run into.
-
