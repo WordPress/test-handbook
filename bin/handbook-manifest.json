@@ -104,11 +104,32 @@
         "parent": null,
         "order": 90
     },
-    "gfm-testing": {
-        "title": "GFM Testing",
-        "slug": "gfm-testing",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/gfm-testing.md",
+    "archive": {
+        "title": "Archive",
+        "slug": "archive",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/index.md",
         "parent": null,
         "order": 100
+    },
+    "archive\/gutenberg-testing": {
+        "title": "Gutenberg Testing",
+        "slug": "gutenberg-testing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/gutenberg-testing\/index.md",
+        "parent": "archive",
+        "order": 1
+    },
+    "archive\/gutenberg-testing\/regression-testing": {
+        "title": "Regression Testing",
+        "slug": "regression-testing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/gutenberg-testing\/regression-testing.md",
+        "parent": "archive",
+        "order": 2
+    },
+    "archive\/usability-tests": {
+        "title": "Usability Tests",
+        "slug": "usability-tests",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/usability-tests\/index.md",
+        "parent": "archive",
+        "order": 3
     }
 }
