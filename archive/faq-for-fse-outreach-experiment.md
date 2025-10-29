@@ -1,6 +1,6 @@
 # FAQ for FSE Outreach Program
 
-*This is an FAQ for the [Full Site Editing Outreach Experiment](https://make.wordpress.org/test/handbook/full-site-editing-outreach-experiment/). If you have a question to add to this document, please share it in #fse-outreach-experiment in [WordPress slack](https://make.wordpress.org/chat/).*
+*This is a FAQ for the [Full Site Editing Outreach Experiment](https://make.wordpress.org/test/handbook/full-site-editing-outreach-experiment/). If you have a question to add to this document, please share it in #fse-outreach-experiment in [WordPress slack](https://make.wordpress.org/chat/).*
 
 #### What is the goal of this outreach program?
 
