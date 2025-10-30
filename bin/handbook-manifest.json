@@ -83,10 +83,10 @@
         "parent": null,
         "order": 60
     },
-    "test-team-badge": {
+    "test-team-profile-badges": {
         "title": "Test Team Profile Badges",
-        "slug": "test-team-badge",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-team-badge.md",
+        "slug": "test-team-profile-badges",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-team-profile-badges.md",
         "parent": null,
         "order": 70
     },
