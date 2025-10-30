@@ -122,14 +122,49 @@
         "title": "Regression Testing",
         "slug": "regression-testing",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/gutenberg-testing\/regression-testing.md",
-        "parent": "archive",
-        "order": 2
+        "parent": "gutenberg-testing",
+        "order": 1
     },
     "archive\/usability-tests": {
         "title": "Usability Tests",
         "slug": "usability-tests",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/usability-tests\/index.md",
         "parent": "archive",
+        "order": 2
+    },
+    "archive\/usability-tests\/guide-to-observational-usability-testing": {
+        "title": "Guide to Observational Usability Testing",
+        "slug": "guide-to-observational-usability-testing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/usability-tests\/guide-to-observational-usability-testing.md",
+        "parent": "usability-tests",
+        "order": 1
+    },
+    "archive\/usability-tests\/guide-to-screen-recording-for-usability-testing": {
+        "title": "Guide to Screen Recording for Usability Testing",
+        "slug": "guide-to-screen-recording-for-usability-testing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/usability-tests\/guide-to-screen-recording-for-usability-testing.md",
+        "parent": "usability-tests",
+        "order": 2
+    },
+    "archive\/usability-tests\/user-feedback-agreement": {
+        "title": "User Feedback Agreement",
+        "slug": "user-feedback-agreement",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/usability-tests\/user-feedback-agreement.md",
+        "parent": "usability-tests",
         "order": 3
+    },
+    "archive\/full-site-editing-outreach-experiment": {
+        "title": "Full Site Editing Outreach Experiment",
+        "slug": "full-site-editing-outreach-experiment",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/full-site-editing-outreach-experiment\/index.md",
+        "parent": "archive",
+        "order": 3
+    },
+    "archive\/full-site-editing-outreach-experiment\/faq-for-fse-outreach-experiment": {
+        "title": "FAQ for FSE Outreach Experiment",
+        "slug": "faq-for-fse-outreach-experiment",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/full-site-editing-outreach-experiment\/faq-for-fse-outreach-experiment.md",
+        "parent": "full-site-editing-outreach-experiment",
+        "order": 1
     }
 }
