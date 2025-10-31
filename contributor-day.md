@@ -84,15 +84,15 @@ And finally, perhaps the most important part of attending Contributor Day is bei
 ## How to Contribute
 The [Test Team's "duty of care"](https://make.wordpress.org/test/handbook/#duty-of-care) covers all forms of testing in the WordPress project, whether manual or automated, from the core software to Gutenberg to other teams. This provides many options for involvement at Contributor Day.
 
-### Repro and Patch Testing
+### Reproduction and Patch Testing
 The most popular activity for Test table participants is usually...**testing!** Core's official [Bug Reports page](https://make.wordpress.org/core/reports/) is a good place to start, but here are some other themed examples of testing opportunities:
 
-- Key features from the latest major release, e.g. https://make.wordpress.org/test/2023/02/07/help-test-wordpress-6-2/.
-- Focus on a particular beta or RC release, e.g. https://wordpress.org/news/2023/03/wordpress-6-2-release-candidate-1/.
+- Key features from the latest major release, e.g. [https://make.wordpress.org/test/2023/02/07/help-test-wordpress-6-2/](https://make.wordpress.org/test/2023/02/07/help-test-wordpress-6-2/).
+- Focus on a particular beta or RC release, e.g. [https://wordpress.org/news/2023/03/wordpress-6-2-release-candidate-1/](https://wordpress.org/news/2023/03/wordpress-6-2-release-candidate-1/).
 - Features or updates highlighted in recent [Core Dev Notes](https://make.wordpress.org/core/tag/dev-notes/).
 - Gutenberg [issues that need testing](https://github.com/WordPress/gutenberg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Needs+Testing%22+) (e.g. reproduction testing), or [PRs that need testing](https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+is%3Aopen+label%3A%22Needs+Testing%22).
 - Triage [Trac tickets opened in the past 2 weeks](https://core.trac.wordpress.org/query?status=new&focuses=!docs&time=2weekago..&component=!Build%2FTest+Tools&keywords=~-reporter-feedback+-close+-dev-feedback+-2nd-opinion+-needs-refresh+-needs-design+-needs-design-feedback&milestone=Awaiting+Review&owner=&type=defect+(bug)&col=id&col=summary&col=focuses&col=keywords&col=changetime&order=changetime).
-- Triage "ancient" tickets, like in this proposal: https://make.wordpress.org/core/2023/01/24/proposal-old-tickets-trac-triage-sessions/.
+- Triage "ancient" tickets, like in this proposal: [https://make.wordpress.org/core/2023/01/24/proposal-old-tickets-trac-triage-sessions/](https://make.wordpress.org/core/2023/01/24/proposal-old-tickets-trac-triage-sessions/).
 - Any testing you think is fun, like [tickets about cropping that need testing](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing&description=~crop&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority). Go wild!
 
 Finally, don't forget to post a clear [test report](https://make.wordpress.org/test/handbook/test-reports/) as a new comment on the tested issue ticket or patch PR.
