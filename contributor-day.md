@@ -84,7 +84,7 @@ And finally, perhaps the most important part of attending Contributor Day is bei
 ## How to Contribute
 The [Test Team's "duty of care"](https://make.wordpress.org/test/handbook/#duty-of-care) covers all forms of testing in the WordPress project, whether manual or automated, from the core software to Gutenberg to other teams. This provides many options for involvement at Contributor Day.
 
-### Repro and Patch Testing
+### Reproduction and Patch Testing
 The most popular activity for Test table participants is usually...**testing!** Core's official [Bug Reports page](https://make.wordpress.org/core/reports/) is a good place to start, but here are some other themed examples of testing opportunities:
 
 - Key features from the latest major release, e.g. [https://make.wordpress.org/test/2023/02/07/help-test-wordpress-6-2/](https://make.wordpress.org/test/2023/02/07/help-test-wordpress-6-2/).
