@@ -28,12 +28,12 @@ When reproducing a bug:
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
 Add as Attachment
-
-  **Test Report Icons:**
-  🐞 <= Indicates where issue ("bug") occurs.
-  ✅ <= Behavior is ''expected''.
-  ❌ <= Behavior is ''NOT expected''.
 ```
+
+### Test Report Icons
+- 🐞 => Indicates where issue ("bug") occurs.
+- ✅ => Behavior is ''expected''.
+- ❌ => Behavior is ''NOT expected''.
 
 ## Feature or Enhancement Testing Instructions Template
 A new feature or enhancement (non-bug/defect) should identify the steps and instructions for how to validate the patch works and what the expected results or behaviors are (i.e. what should it do, meaning what should the tester be testing to verify it works).
