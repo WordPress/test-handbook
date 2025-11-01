@@ -1,7 +1,7 @@
 # Full Site Editing Outreach Program
 
 <div class="callout callout-info">
-> *This page serves as a historical record for the FSE Outreach Program in case future outreach programs are created. To see the latest information, please view this post on <a href="https://make.wordpress.org/core/2023/09/07/evolving-the-fse-outreach-program/">Evolving the FSE Outreach Program</a>. For context on this program's origins, please review <a href="https://make.wordpress.org/core/2020/05/01/an-experimental-outreach-project-for-full-site-editing/">this post</a> shared on May 1st, 2020 kicking off this initiative.
+This page serves as a historical record for the FSE Outreach Program in case future outreach programs are created. To see the latest information, please view this post on <a href="https://make.wordpress.org/core/2023/09/07/evolving-the-fse-outreach-program/">Evolving the FSE Outreach Program</a>. For context on this program's origins, please review <a href="https://make.wordpress.org/core/2020/05/01/an-experimental-outreach-project-for-full-site-editing/">this post</a> shared on May 1st, 2020 kicking off this initiative.
 </div>
 
 ## Program Goal
