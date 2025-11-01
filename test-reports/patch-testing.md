@@ -12,8 +12,7 @@ Example patch testing reports:
 ## Bug/Defect Patch Report Template
 Here is an example Test Report starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment.
 
-```
-== Test Report
+<pre><code>== Test Report
 This report validates that the indicated patch addresses the issue.
 
 Patch tested: REPLACE_WITH_PATCH_URL
@@ -38,8 +37,7 @@ Patch tested: REPLACE_WITH_PATCH_URL
 === Supplemental Artifacts
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
-Add as Attachment
-```
+Add as Attachment</code></pre>
 
 If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.
 
