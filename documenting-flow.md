@@ -88,8 +88,7 @@ Spotting trends and patterns is fun and an important part of flow patrol. For ex
 
 
 - [Scroll bleed](https://make.wordpress.org/test/glossary/#scroll-bleed): [scroll-bleed](https://make.wordpress.org/test/tag/scroll-bleed/)
-
-- [Keyboard flyup](https://make.wordpress.org/test/glossary/#keyboard-flyup):  [keyboard-flyup](https://make.wordpress.org/test/tag/keyboard-flyup/)
+- [Keyboard flyup](https://make.wordpress.org/test/glossary/#keyboard-flyup): [keyboard-flyup](https://make.wordpress.org/test/tag/keyboard-flyup/)
 - [Rogue cursor](https://make.wordpress.org/test/glossary/#rogue-cursor): [rogue-cursor](https://make.wordpress.org/test/tag/rogue-cursor/)
 - [Boxed input scrolling](https://make.wordpress.org/test/glossary/#boxed-input-scrolling): [boxed-input-scrolling](https://make.wordpress.org/test/tag/input-scrolling/)
 - [Desktop bias](https://make.wordpress.org/test/glossary/#desktop-bias): [desktop-bias](https://make.wordpress.org/test/tag/desktop-bias/)
@@ -125,7 +124,7 @@ Don’t let these tags stand in the way of publishing. If you don’t have time 
 
 ### Monitoring Tag Feeds
 
-Now that this visual bug report is tagged, it can be consumed in a number of ways. Someone who wants to follow all make/flow posts relating to the iOS and Android apps can visit this link: https://make.wordpress.org/test/tag/app/ Tag intersections can be used to get all posts relating to the iOS app or the Android app. https://make.wordpress.org/test/tag/ios+app/ https://make.wordpress.org/test/tag/android+app/ Append feed/ to any WordPress url to turn that url into a feed. https://make.wordpress.org/test/tag/ios+app/feed/ make/flow is a visual zeitgeist of our usability. Hopefully, this set of tags and their intersections will be lightweight enough to use from a phone and sufficient to helping us consume and understand this attempt at continuous recursive dogfooding and visual survey. If nothing else, we’re using what me make.
+Now that this visual bug report is tagged, it can be consumed in a number of ways. Someone who wants to follow all make/flow posts relating to the iOS and Android apps can visit this link: [https://make.wordpress.org/test/tag/app/](https://make.wordpress.org/test/tag/app/) Tag intersections can be used to get all posts relating to the iOS app or the Android app. [https://make.wordpress.org/test/tag/ios+app/](https://make.wordpress.org/test/tag/ios+app/) [https://make.wordpress.org/test/tag/android+app/](https://make.wordpress.org/test/tag/android+app/) Append feed/ to any WordPress url to turn that url into a feed. [https://make.wordpress.org/test/tag/ios+app/feed/](https://make.wordpress.org/test/tag/ios+app/feed/) make/flow is a visual zeitgeist of our usability. Hopefully, this set of tags and their intersections will be lightweight enough to use from a phone and sufficient to helping us consume and understand this attempt at continuous recursive dogfooding and visual survey. If nothing else, we’re using what me make.
 
 ### Triaging a Visual Bug Report
 
@@ -145,16 +144,16 @@ For the visual record “[Customize, Menus: menu customizer, iPhone 6+](https://
 
 A visual survey is a collection of screenshots for a like set of screens or interfaces, such as all list table screens or all toolbar incarnations across various devices. These screens are captured as captioned galleries the way visual records are but are not presented in the context of a particular flow.
 
-https://make.wordpress.org/test/tag/visual-survey/
+[https://make.wordpress.org/test/tag/visual-survey/](https://make.wordpress.org/test/tag/visual-survey/)
 
 ### Flow Comparison
 
 When an existing feature changes or is replaced, a flow comparison visual record is made to compare flow through the old interface with flow through the new interface. Seeing two flows side-by-side helps determine whether the new interface actually flows better.
 
-https://make.wordpress.org/test/tag/flow-comparison/
+[https://make.wordpress.org/test/tag/flow-comparison/](https://make.wordpress.org/test/tag/flow-comparison/)
 
 ### Visual History
 
 A visual history shows the evolution of an interface over time and across releases.
 
-https://make.wordpress.org/test/tag/visual-history/
+[https://make.wordpress.org/test/tag/visual-history/](https://make.wordpress.org/test/tag/visual-history/)
