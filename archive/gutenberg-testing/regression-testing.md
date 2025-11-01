@@ -1,7 +1,7 @@
 # Pre-release Testing
 
 <div class="callout callout-info">
-This page is a stub and needs improvement. If you would like to help improve it or notice an error, please say hello in [#core-test](https://wordpress.slack.com/messages/core-test/) on [WordPress Slack](https://make.wordpress.org/chat/).
+This page is a stub and needs improvement. If you would like to help improve it or notice an error, please say hello in <a href="https://wordpress.slack.com/messages/core-test/">[#core-test]</a> on <a href="https://make.wordpress.org/chat/">WordPress Slack</a>.
 </div>
 
 **Regression testing**, or **pre-release testing**, is the practice of running functional tests to ensure that previously developed and tested features still work after a change.
