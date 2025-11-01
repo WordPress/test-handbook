@@ -3,12 +3,7 @@
 
 In context of bug repositories such as Trac or GitHub, triage means sorting, labeling, and closing duplicate incoming issues and testing means manually testing bug reports, questions, and feature requests. Triage is intended to be fast and to clear away clutter. Testing checks to make sure each issue is accurate and concise and has enough relevant information needed in order for a contributor who is a developer or designer to take action. Then end goal for testing and triage is a clean list of verified bug reports and feature requests that are ready for action or decision.
 ## Testing Bugs
-1. Start with the [`Needs Testing`](https://github.com/WordPress/gutenberg/labels/Needs%20Testing) or [`[Type] Bug`](https://github.com/WordPress/gutenberg/labels/%5BType%5D%20Bug) label or the [oldest open issues](https://github.com/WordPress/gutenberg/issues?q=is%3Aopen+is%3Aissue+sort%3Acreated-asc).
-
-Go to [Needs Technical Feedback](https://github.com/WordPress/gutenberg/labels/Needs%20Technical%20Feedback) for issues that need testing from a developer perspective.
-
-If you are testing from a support perspective, [`[Type] Help Request`](https://github.com/WordPress/gutenberg/labels/%5BType%5D%20Help%20Request) is a good spot.
-
+1. Start with the [`Needs Testing`](https://github.com/WordPress/gutenberg/labels/Needs%20Testing) or [`[Type] Bug`](https://github.com/WordPress/gutenberg/labels/%5BType%5D%20Bug) label or the [oldest open issues](https://github.com/WordPress/gutenberg/issues?q=is%3Aopen+is%3Aissue+sort%3Acreated-asc). Go to [Needs Technical Feedback](https://github.com/WordPress/gutenberg/labels/Needs%20Technical%20Feedback) for issues that need testing from a developer perspective. If you are testing from a support perspective, [`[Type] Help Request`](https://github.com/WordPress/gutenberg/labels/%5BType%5D%20Help%20Request) is a good spot.
 2. Always search for duplicate issues first and close or consolidate them with a thank you.
 3. Make sure the title is accurate and descriptive and suggest a change if it isn’t.
 4. Test to make sure the issue is valid—if not, suggest closing the issue with a kind comment.
@@ -25,6 +20,7 @@ If you are testing from a support perspective, [`[Type] Help Request`](https://g
 
 ## Triage for Admins
 In the case of GitHub, such as the gutenberg repo, not everyone has write permissions to add labels or update titles. If you do have write permissions, you have the option to do a bit more in depth triage.
+
 1. Start with the newest incoming issues or unlabeled issues.
 2. Label each issue with a focus area and type.
 3. Update the title if it can be made more clear while still keeping it as short as possible.
