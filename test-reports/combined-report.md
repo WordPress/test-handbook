@@ -6,8 +6,7 @@ Alternatively, testers can post testing instructions first (if not supplied), fo
 ## Bug/Defect Combined Report Template
 An example combined report might look like this (some sections removed for brevity):
 
-```
-== Test Report
+<pre><code>== Test Report
 
 Patch tested: REPLACE_WITH_PATCH_URL
 
@@ -24,23 +23,27 @@ When reproducing a bug:
 - ❌ Error condition occurs.
 
 === Environment
-...
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
+- Active Plugins:
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
 
 ==== Actual Results
 When reproducing a bug/defect:
 - ❌ Error condition occurs.
 
 When testing the bugfix patch:
-- ✅ Issue resolved with patch.
-
-...
-```
+- ✅ Issue resolved with patch.</code></pre>
 
 ## Feature or Enhancement Combined Report Template
 An example combined report might look like this (some sections removed for brevity):
 
-```
-== Test Report
+<pre><code>== Test Report
 
 Patch tested: REPLACE_WITH_PATCH_URL
 
@@ -57,19 +60,16 @@ Lists each expected result or behavior, i.e. what should happen when running the
 - ✅ Expected result #2
 
 === Environment
-- OS: macOS 12.3.1
-- Web Server: Nginx
-- PHP: 7.4.29
-- WordPress: 6.0-RC1-53341-src
-- Browser: Safari 15.4
-- Theme: Twenty Twenty-Two
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
 - Active Plugins:
-  - Gutenberg 13.2.0
-  - WordPress Beta Tester 3.2.1
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
 
 === Actual Results
 - ✅ Expected result #1 works as expected with patch.
-- ✅ Expected result #2 works as expected with patch.
-
-...
-```
+- ✅ Expected result #2 works as expected with patch.</code></pre>

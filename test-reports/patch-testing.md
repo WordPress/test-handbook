@@ -19,15 +19,15 @@ This report validates that the indicated patch addresses the issue.
 Patch tested: REPLACE_WITH_PATCH_URL
 
 === Environment
-- OS: macOS 12.3.1
-- Web Server: Nginx
-- PHP: 7.4.29
-- WordPress: 6.0-RC1-53341-src
-- Browser: Safari 15.4
-- Theme: Twenty Twenty-Two
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
 - Active Plugins:
-  - Gutenberg 13.2.0
-  - WordPress Beta Tester 3.2.1
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
 
 === Actual Results
 - ✅ Issue resolved with patch.
@@ -48,22 +48,21 @@ Here is an example Test Report starter template, which can be copied and pasted 
 
 In the “Actual Results” section, list each of the “Expected Results” and report your findings using ✅ to indicate your testing validated it works as expected or ❌ to indicate it does not work as expected.
 
-```
-== Test Report
+<pre><code>== Test Report
 This report validates that the indicated patch addresses the issue.
 
 Patch tested: REPLACE_WITH_PATCH_URL
 
 === Environment
-- OS: macOS 12.3.1
-- Web Server: Nginx
-- PHP: 7.4.29
-- WordPress: 6.0-RC1-53341-src
-- Browser: Safari 15.4
-- Theme: Twenty Twenty-Two
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
 - Active Plugins:
-  - Gutenberg 13.2.0
-  - WordPress Beta Tester 3.2.1
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
 
 === Actual Results
 - ✅ Expected result #1 works as expected with patch.
@@ -75,7 +74,6 @@ Patch tested: REPLACE_WITH_PATCH_URL
 === Supplemental Artifacts
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
-Add as Attachment
-```
+Add as Attachment</code></pre>
 
 If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.

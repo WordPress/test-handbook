@@ -18,6 +18,17 @@ Here is an example Testing Instructions starter template, which can be copied an
 <pre><code>== Testing Instructions
 These steps define how to reproduce the issue, and indicate the expected behavior.
 
+=== Environment
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
+- Active Plugins:
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
+
 === Steps to Reproduce
 1. First step.
 2. Second step.
@@ -42,6 +53,17 @@ Here is an example Testing Instructions starter template, which can be copied an
 
 <pre><code>== Testing Instructions
 These steps define how to test the feature or enhancement, and indicates the expected behavior or results.
+
+=== Environment
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
+- Active Plugins:
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
 
 === Steps to Test
 1. First step.

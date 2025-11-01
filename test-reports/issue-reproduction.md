@@ -14,20 +14,19 @@ Here is an example Reproduction Report starter template, which can be copied and
 
 Note that if Testing Instructions have already been provided, there shouldn’t be a need to list or duplicate those steps here, making this report short and succinct.
 
-```
-== Reproduction Report
+<pre><code>== Reproduction Report
 This report validates that the issue can be reproduced.
 
 === Environment
-- OS: macOS 12.3.1
-- Web Server: Nginx
-- PHP: 7.4.29
-- WordPress: 6.0-RC1-53341-src
-- Browser: Safari 15.4
-- Theme: Twenty Twenty-Two
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
 - Active Plugins:
-  - Gutenberg 13.2.0
-  - WordPress Beta Tester 3.2.1
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
 
 === Actual Results
 - ✅ Error condition occurs (reproduced).
@@ -38,5 +37,4 @@ This report validates that the issue can be reproduced.
 === Supplemental Artifacts
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
-Add as Attachment
-```
+Add as Attachment</code></pre>
