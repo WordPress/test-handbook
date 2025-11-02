@@ -4,7 +4,7 @@ Testing Instructions provide a list of steps for testers to follow in reproducin
 Adding these instructions within the ticket provides needed testing information without testers having to duplicate the same information over and over in test reports.
 
 ## Test Report Icons
-Always remember to use thse icons to facilitate the visual inspection.
+Always remember to use these icons to facilitate the visual inspection.
 
 - 🐞 => Indicates where issue ("bug") occurs.
 - ✅ => Behavior is ''expected''.

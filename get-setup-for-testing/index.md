@@ -35,7 +35,7 @@ Use this option to do general testing with the latest beta or release candidate 
 
 *All of these commands are intended to be run from Terminal, in your Gutenberg directory.*
 
-- Running `npm install` occasionally is a useful habit, as well as any time you know that `packages.json` has been changed.  
+- Running `npm install` occasionally is a useful habit, as well as any time you know that `package.json` has been changed.  
 - If you restart your computer, or upgrade Docker, start the Gutenberg containers again by running: `docker-compose up -d`
 - It’s a good practice to stop (with `Ctrl+C`) `npm run dev` and restart when you switch to a different branch.  
 - If everything is broken, and you have no idea what’s happened, run `bin/setup-local-env.sh` again to reset everything to a fresh install.
