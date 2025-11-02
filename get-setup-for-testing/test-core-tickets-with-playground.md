@@ -6,27 +6,27 @@
 
 1. Go to the Trac ticket and check that the ticket has a GitHub PR or a patch file. If a ticket has PR, you can test that trac ticket with PlayGround. If the Trac ticket has “.patch”. This automatic test environment will not work. 
 
-<img src="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png" alt="Example Trac Ticket" style="max-width: 100%">
+    <img src="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png" alt="Example Trac Ticket" style="max-width: 100%">
 
 2. Click on the ‘View PR’ button, it will open the respective GitHub PR as shown in the below screenshot.
 
-<img src="https://make.wordpress.org/test/files/2025/10/github-pull-request-example.png" alt="GitHub Pull Request Example" style="max-width: 100%">
+    <img src="https://make.wordpress.org/test/files/2025/10/github-pull-request-example.png" alt="GitHub Pull Request Example" style="max-width: 100%">
 
 3. On the PR comment thread, it will find the GitHub action default comment about ‘Test using WordPress Playground’ 
 
-<img src="https://make.wordpress.org/test/files/2025/10/github-test-using-playground.png" alt="Test using WordPress Playground" style="max-width: 100%">
+    <img src="https://make.wordpress.org/test/files/2025/10/github-test-using-playground.png" alt="Test using WordPress Playground" style="max-width: 100%">
 
 4. You will find a link with the text ‘Test this pull request with WordPress Playground’. Click on this link. It will create a disposable WordPress website with the changes implemented in the PR. 
 
-<img src="https://make.wordpress.org/test/files/2025/10/creating-plaground-site-with-pr.png" alt="Creating Playground Site with PR" style="max-width: 100%">
+    <img src="https://make.wordpress.org/test/files/2025/10/creating-plaground-site-with-pr.png" alt="Creating Playground Site with PR" style="max-width: 100%">
 
 5. Click on the ‘Go’ button if the page doesn’t redirect automatically to the WordPress site. 
 
-<img src="https://make.wordpress.org/test/files/2025/10/playground-site-preparing.png" alt="Playground Site Preparing" style="max-width: 100%">
+    <img src="https://make.wordpress.org/test/files/2025/10/playground-site-preparing.png" alt="Playground Site Preparing" style="max-width: 100%">
 
 6. You will see a new WordPress site in your browser window.
 
-<img src="https://make.wordpress.org/test/files/2025/10/playground-site-with-pr.png" alt="Playground Site with PR" style="max-width: 100%">
+    <img src="https://make.wordpress.org/test/files/2025/10/playground-site-with-pr.png" alt="Playground Site with PR" style="max-width: 100%">
 
 There are some limitations to this Playground environment. You can read more [here](https://wordpress.github.io/wordpress-playground/limitations).
 
