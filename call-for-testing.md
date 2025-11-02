@@ -101,6 +101,6 @@ This section only applies if you are doing facilitated calls for testing. Summar
 - A high level summary with important takeaways.
 - List of any bugs.
 - List of feature requests.
-- Quotes/videos/images/etc to contextualize the more quantitive feedback and examine the broader experience being tested.
+- Quotes/videos/images/etc to contextualize the more quantitative feedback and examine the broader experience being tested.
 
 In terms of format, this will vary based on what’s being tested. For example, you might want to group related feedback for a feature under a heading (“General Usability feedback”) or you might want to keep things more general (“General Usability feedback”). Here’s an [example of a more general summary](https://make.wordpress.org/test/2021/12/16/fse-program-site-editing-safari-summary/) and an [example of one with more specific headings](https://make.wordpress.org/test/2021/10/05/fse-program-block-theme-switching-summary/) based on common groupings of feedback.
