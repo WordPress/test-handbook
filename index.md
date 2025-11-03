@@ -14,7 +14,7 @@ Test Team contributions touch on all aspects of manual and automated testing wit
 - PHP and JavaScript unit testing
 - end-to-end (E2E) testing
 - [issue triage and bug scrubs](https://make.wordpress.org/core/handbook/testing/bug-gardening/)
-- education, outreach, and documentation
+- education, outreach, and [documentation](https://wordpress.org/documentation/)
 
 With such a wide range of opportunities available, contributors are sure to find an area of interest to help make WordPress better.
 
