@@ -42,7 +42,7 @@ Platform is the operating system:
 Web interfaces are served from core WordPress to a web browser. All posts relating to our web interfaces are tagged with web. Posts relating to the iOS or Android applications are tagged app. If a post documents a flow that traverses both web interfaces and an application (such as moving from app to web to use a feature not yet in the app), use both tags. The web tag is used inconsistently. Consider it optional. The app tag is consistently used and is not optional.
 
 - [app](https://make.wordpress.org/test/tag/app/)
-- web
+- [web](https://make.wordpress.org/test/tag/web/)
 
 ### Browser
 
