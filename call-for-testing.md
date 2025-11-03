@@ -26,7 +26,7 @@ If you want to help with calls for testing and you don’t have a specific featu
 
 ### Template
 
-Use this handy template and checklist when creating your post. Or, skip all of this. Publishing anything and tagging it #needs-testing is sufficient and better than not posting.
+Use this handy template and checklist when creating your post. Or, skip all of this. Publishing anything and tagging it `#needs-testing` is sufficient and better than not posting.
 
 #### What is it?
 
@@ -63,7 +63,7 @@ Express urgency and priority. If there are target dates, provide them.
 - Include a date for the completion of the testing.
 - Include screenshots from multiple devices.
 - Keep a beta testing audience in mind.
-- Tag the post #needs-testing.
+- Tag the post `#needs-testing`.
 
 ### Sharing
 
@@ -83,7 +83,7 @@ The biggest downside to this approach is that it requires a greater time investm
 
 ### Facilitated calls for testing approach
 
-This approach requires substantial involvement on behalf of those facilitating the call for testing. This varies wildly based on how many people respond to the call for testing as well. With this approach, those participating in the call for testing comment on the call for testing and those facilitating the call for testing respond with feedback, determining what needs open issues, what needs more clarity, etc. Here are some quick best practices:
+This approach requires substantial involvement on behalf of those facilitating the call for testing. This varies wildly based on how many people respond to the call for testing as well. With this approach, those participating in the call for testing comment on the call for testing, and those facilitating the call for testing respond with feedback, determining what needs to be opened as issues, what needs more clarity, etc. Here are some quick best practices:
 
 - Aim to respond within 1-5 days of someone leaving feedback, particularly if what you’re testing is more urgent or tied to a release. This both ensures someone’s effort is appreciated and that the feedback loop remains tight.
 - Replicate bugs that are found before reporting.
@@ -92,7 +92,7 @@ This approach requires substantial involvement on behalf of those facilitating t
 
 ### Mixed approach
 
-Of note, you can always offer a mixed approach where you encourage folks to open issues directly as they are comfortable but have a fall back where you will facilitate closing the loop otherwise for those who aren’t in a position to do so for whatever reason.
+Of note, you can always offer a mixed approach where you encourage folks to open issues directly as they are comfortable, but have a fallback where you will facilitate closing the loop otherwise for those who aren’t in a position to do so for whatever reason.
 
 ## Summarize the results
 
