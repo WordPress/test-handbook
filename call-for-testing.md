@@ -83,7 +83,7 @@ The biggest downside to this approach is that it requires a greater time investm
 
 ### Facilitated calls for testing approach
 
-This approach requires substantial involvement on behalf of those facilitating the call for testing. This varies wildly based on how many people respond to the call for testing as well. With this approach, those participating in the call for testing comment on the call for testing, and those facilitating the call for testing respond with feedback, determining what needs to be opened as issues, what needs more clarity, etc. Here are some quick best practices:
+This approach requires substantial involvement on behalf of those facilitating the call for testing. This varies wildly based on how many people respond to the call for testing as well. With this approach, participants in the call for testing leave comments, while facilitators respond with feedback to determine which points should become issues, which need clarification, and so on. Here are some quick best practices:
 
 - Aim to respond within 1-5 days of someone leaving feedback, particularly if what you’re testing is more urgent or tied to a release. This both ensures someone’s effort is appreciated and that the feedback loop remains tight.
 - Replicate bugs that are found before reporting.
