@@ -1,6 +1,6 @@
 # Get Started at Contributor Day
 
-For more information about the role Test Team members play in the WordPress project, see the [Test Team Handbook homepage](https://make.wordpress.org/test/handbook/).
+For more information about the role Test Team members play in the WordPress project, see the [Test Team Handbook Homepage](https://make.wordpress.org/test/handbook/).
 
 ## Prepare for Contributor Day
 In order to make the most of your time meeting and working with fellow contributors, follow these helpful **pre-Contributor Day** tips!
@@ -15,12 +15,12 @@ Did you know? Your <a href="https://profiles.wordpress.org/">WordPress.org profi
 3. [Optional] For users who intend to work with the [Gutenberg plugin](https://github.com/wordpress/gutenberg) or test PRs (pull requests), having a GitHub account is very helpful. You can [sign up for GitHub here](https://github.com/signup).
 
 ### Local Test Environment
-**Local environment testing is suggested for past contributors, or users with prior development experience.**
+**Local environment testing is suggested for past contributors or users with prior development experience.**
 
 Perhaps the biggest challenge faced by new contributors is preparing a test environment. If you would like to test patches and PRs directly during Contributor Day, it is **highly recommended** that you set things up at home *before* the event.
 
 <div class="callout callout-tip">
-Tip: Wifi at the venue during a busy Contributor Day can be slow and unreliable, and configuring your laptop can take a lot (if not all) of your time. Don't wait to fork the <a href="https://github.com/WordPress/wordpress-develop">wordpress-develop repository</a> or <a href="https://docs.docker.com/get-docker/">download Docker</a> at the event, as this drain on bandwidth also impacts other contributors.
+Tip: Wifi at the venue during a busy Contributor Day can be slow and unreliable, and configuring your laptop can take a lot (if not all) of your time. Don't wait to fork the <a href="https://github.com/WordPress/wordpress-develop">wordpress-develop repository</a> or <a href="https://docs.docker.com/get-docker/">Download Docker</a> at the event, as this drain on bandwidth also impacts other contributors.
 </div>
 
 Differences between operating systems and personal workflows make environment configuration beyond the scope of this article, but here are some links to get started on a local test/dev environment:

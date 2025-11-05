@@ -1,6 +1,6 @@
 # Test Team Reps
 
-For a quick refresher of Team Rep roles across the project, please see the [official Team Reps post on Team Updates](https://make.wordpress.org/updates/team-reps/).
+For a quick refresher of Team Rep roles across the project, please see the [Official Team Reps post on Team Updates](https://make.wordpress.org/updates/team-reps/).
 
 ## Current Reps
 
