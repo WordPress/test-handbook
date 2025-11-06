@@ -93,7 +93,7 @@ Spotting trends and patterns is fun and an important part of flow patrol. For ex
 - [Boxed input scrolling](https://make.wordpress.org/test/glossary/#boxed-input-scrolling): [boxed-input-scrolling](https://make.wordpress.org/test/tag/input-scrolling/)
 - [Desktop bias](https://make.wordpress.org/test/glossary/#desktop-bias): [desktop-bias](https://make.wordpress.org/test/tag/desktop-bias/)
 - [Forked flow (open in new window)](https://make.wordpress.org/test/glossary/#forked-flow): [forked-flow](https://make.wordpress.org/test/tag/forked-flow/)
-- [Treshold friction](https://make.wordpress.org/test/glossary/#threshold-friction): [threshold-friction](https://make.wordpress.org/test/tag/threshold-friction/)
+- [Threshold friction](https://make.wordpress.org/test/glossary/#threshold-friction): [threshold-friction](https://make.wordpress.org/test/tag/threshold-friction/)
 - [Anxiety flow](https://make.wordpress.org/test/glossary/#anxiety-flow): [anxiety-flow](https://make.wordpress.org/test/tag/anxiety-flow/)
 
 For more trends and patterns, see the [glossary](https://make.wordpress.org/test/handbook/glossary/).
