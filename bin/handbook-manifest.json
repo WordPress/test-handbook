@@ -97,19 +97,26 @@
         "parent": null,
         "order": 80
     },
+    "release-squad": {
+        "title": "Release Squad Duties",
+        "slug": "release-squad",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/release-squad.md",
+        "parent": null,
+        "order": 90
+    },
     "glossary": {
         "title": "Glossary",
         "slug": "glossary",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/glossary.md",
         "parent": null,
-        "order": 90
+        "order": 100
     },
     "archive": {
         "title": "Archive",
         "slug": "archive",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/index.md",
         "parent": null,
-        "order": 100
+        "order": 110
     },
     "archive\/gutenberg-testing": {
         "title": "Gutenberg Testing",
