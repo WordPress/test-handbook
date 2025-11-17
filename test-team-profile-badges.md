@@ -4,11 +4,13 @@ This page offers comprehensive information about Test Team [Profile Badges](http
 
 ## Test Contributor Badge
 
-To earn a Test Contributor Badge, you must have completed at least **five of the following**:
+To earn a Test Contributor Badge, you must have completed at least **any the following**:
 
-- Submitted test reports for tickets, comprising an [issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/), and/or [patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/). Acceptable reports should be submitted to Trac or GitHub, and can apply to any WordPress project area included in the [Test Team duty of care](https://make.wordpress.org/test/handbook/#duty-of-care).
-- Contributed with a new page or a review to a [Test handbook](https://github.com/wordpress/test-handbook) PR that has been merged.
+- Submitted five test reports for tickets, comprising an [issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/), and/or [patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/). Acceptable reports should be submitted to Trac or GitHub, and can apply to any WordPress project area included in the [Test Team duty of care](https://make.wordpress.org/test/handbook/#duty-of-care).
+- Contributed with five new pages, reviews or both to a [Test handbook](https://github.com/wordpress/test-handbook) PR that has been merged.
 - Suggested a thoughtful idea aimed at improving testing processes in any way, which gets implemented.
+- Written five Test Chat Summaries or Led five Test Chat sessions
+- Has led five or more Patch Testing Sessions
   
 ## Test Team Badge 
  
