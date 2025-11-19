@@ -4,7 +4,7 @@
 
 ## How to Test Core Tickets with Playground?
 
-1. Go to the Trac ticket and check that the ticket has a GitHub PR or a patch file. If a ticket has PR, you can test that trac ticket with PlayGround. If the Trac ticket has “.patch”. This automatic test environment will not work. 
+1. Go to the Trac ticket and check that the ticket has a GitHub PR or a patch file. If a ticket has PR, you can test that trac ticket with Playground. If the Trac ticket has “.patch”. This automatic test environment will not work. 
 
     <a href="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png"><img src="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png" alt="Example Trac Ticket" style="max-width: 100%"></a>
 
