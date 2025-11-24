@@ -36,23 +36,27 @@ Test Team Reps must be committed to showing up and performing regular duties, an
 
 The first step is to reach out to the community with a Call for Nominations, such as these examples from [2024](https://make.wordpress.org/test/2024/08/13/test-team-reps-call-for-nominations-4/) and [2025](https://make.wordpress.org/test/2025/08/14/test-team-reps-call-for-nominations-5/). Nominations are held each August, with the new term starting by September.
 
-Nominations should be given in the comments of the post. A simple, “I nominate `@the_persons_username`” is sufficient. Self-nominations are also welcome by leaving a comment such as, “I nominate myself.”
+Self-nominations are the primary way of getting into the elections list “I nominate for the Test Team Reps position.” Also other Team Members could nominate someone else “I nominate @username for the Test Team Reps position.” but the nominee must accept the nomination before the nomination period ends to be valid. Just answering to the Call for Nominations post is sufficient to nominate oneself or someone else.
 
-Private nominations can be submitted anonymously by contacting the current Test Team Reps via DM in Slack.
+### Step 2: Criteria of Eligibility
 
-### Step 2: Accept Nominations
+Only active members of the Test Team are eligible to be nominated as Test Team Reps. An active member is someone who has done one, both, or a combination of the following activities:
 
-The nomination period typically lasts two weeks, during which time contributors who have been nominated are asked to clearly _accept_ or _decline_ the nomination as a reply to the nominating comment. For instance, "I accept this nomination," or "I decline this nomination."
+- Lead at least three Test Team chats (with the corresponding write-ups posted to Make WordPress Test aftwerwards)
+- Managed at least six Patch Testing Scrubs
 
-After the deadline, each nominee will be contacted by a current Test Team Reps to discuss qualifications and to confirm their acceptance of the nomination.
+For example: Leading 2 Test Team chats and managing 2 Patch Testing Scrubs would also qualify as an active member.
 
-Nominees should not feel obligated to accept their nomination. It’s okay to decline for any reason. An example response might be, “Thank you, but not this year!”
+During the last 12 months prior to the nomination period. Not all Test Team Reps have to be technical experts, but they should have a good understanding of the testing processes and be able to communicate effectively with both technical and non-technical team members. For not tech savvy members, being able to lead Test Team chats is a good way to demonstrate communication skills, while for
+technical members, managing Patch Testing Scrubs is a good way to demonstrate technical expertise.
 
 ### Step 3: Vote for Team Reps
 
 An election to vote for the final Test Team Reps will happen only if there are more than two accepted nominations within the nomination period; otherwise the nominees will become the new Test Team Reps.
 
-If held, the election should be conducted by an anonymous poll ([example](https://make.wordpress.org/test/2025/09/15/test-team-reps-submit-your-votes-2025-2026/)). The poll should remain open for two weeks.
+If held, the election should be conducted by an anonymous poll ([2025 example](https://make.wordpress.org/test/2025/09/15/test-team-reps-submit-your-votes-2025-2026/)). The poll should remain open for two weeks.
+
+Only Test Team Contributors votes will be counted. Each voter can select up to two candidates. The two candidates with the highest number of votes will become the new Test Team Reps.
 
 ### Step 4: Announce Team Reps
 
