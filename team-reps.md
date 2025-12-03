@@ -47,8 +47,7 @@ Only active members of the Test Team are eligible to be nominated as Test Team R
 
 For example: Leading 2 Test Team chats and managing 2 Patch Testing Scrubs would also qualify as an active member.
 
-During the last 12 months prior to the nomination period. Not all Test Team Reps have to be technical experts, but they should have a good understanding of the testing processes and be able to communicate effectively with both technical and non-technical team members. For not tech savvy members, being able to lead Test Team chats is a good way to demonstrate communication skills, while for
-technical members, managing Patch Testing Scrubs is a good way to demonstrate technical expertise.
+These eligibility requirements apply to contributions made within the 12 months prior to the nomination period. Not all Test Team Reps have to be technical experts, but they should have a good understanding of the testing processes and be able to communicate effectively with both technical and non-technical team members. For not tech savvy members, being able to lead Test Team chats is a good way to demonstrate communication skills, while for technical members, managing Patch Testing Scrubs is a good way to demonstrate technical expertise.
 
 ### Step 3: Vote for Team Reps
 
