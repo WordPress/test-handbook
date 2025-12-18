@@ -74,7 +74,7 @@ Whenever possible, try to include a screenshot, animated GIF, video, or code sam
 - [Licecap](https://www.cockos.com/licecap/) - animated GIFs; great for micro demonstrations without sound
 - [HandBrake](https://handbrake.fr) - video resizing/compression/transcoding
 - [TinyPNG](https://tinypng.com) - image web optimization (WebP, PNG, JPEG)
-- [WordPress Playground]([https://wordpress.org/playground/](https://playground.wordpress.net/)) - one-click environments, which can be [pre-configured for tests or demos](https://wordpress.github.io/wordpress-playground/blueprints/)
+- [WordPress Playground](https://playground.wordpress.net/) - one-click environments, which can be [pre-configured for tests or demos](https://wordpress.github.io/wordpress-playground/blueprints/)
 - [WP Playground CLI](https://wordpress.github.io/wordpress-playground/developers/local-development/wp-playground-cli/)
  
 Here's an example workflow (on Mac) you might use to show how a feature works:
