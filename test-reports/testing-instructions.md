@@ -15,6 +15,8 @@ An important first step in addressing a reported issue is to clearly communicate
 
 Here is an example Testing Instructions starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment:
 
+### For Trac (WikiFormatting)
+
 ```
 == Testing Instructions
 These steps define how to reproduce the issue, and indicate the expected behavior.
@@ -48,10 +50,45 @@ or
 Add as Attachment
 ```
 
+### For GitHub (Markdown)
+
+```markdown
+## Testing Instructions
+These steps define how to reproduce the issue, and indicate the expected behavior.
+
+### Environment
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
+- Active Plugins:
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
+
+### Steps to Reproduce
+1. First step.
+2. Second step.
+3. 🐞 Bug occurs.
+
+### Expected Results
+When testing a patch to validate it works as expected:
+- ✅ What should happen when running the test
+
+When reproducing a bug:
+- ❌ Error condition occurs.
+
+### Supplemental Artifacts
+![Image description](REPLACE_WITH_IMAGE_URL)
+```
+
 ## Feature or Enhancement Testing Instructions Template
 A new feature or enhancement (non-bug/defect) should identify the steps and instructions for how to validate the patch works and what the expected results or behaviors are (i.e. what should it do, meaning what should the tester be testing to verify it works).
 
 Here is an example Testing Instructions starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment:
+
+### For Trac (WikiFormatting)
 
 ```
 == Testing Instructions
@@ -84,4 +121,37 @@ Lists each expected result or behavior, i.e. what should happen when running the
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
 Add as Attachment
+```
+
+### For GitHub (Markdown)
+
+```markdown
+## Testing Instructions
+These steps define how to test the feature or enhancement, and indicates the expected behavior or results.
+
+### Environment
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
+- Active Plugins:
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
+
+### Steps to Test
+1. First step.
+2. Second step.
+3. Third step.
+...
+N. Last step.
+
+### Expected Results
+Lists each expected result or behavior, i.e. what should happen when running the test(s):
+- ✅ Expected result #1
+- ✅ Expected result #2
+
+### Supplemental Artifacts
+![Image description](REPLACE_WITH_IMAGE_URL)
 ```

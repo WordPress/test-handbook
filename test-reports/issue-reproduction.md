@@ -14,6 +14,8 @@ Here is an example Reproduction Report starter template, which can be copied and
 
 Note that if Testing Instructions have already been provided, there shouldn’t be a need to list or duplicate those steps here, making this report short and succinct.
 
+### For Trac (WikiFormatting)
+
 ```
 == Reproduction Report
 This report validates that the issue can be reproduced.
@@ -39,4 +41,31 @@ This report validates that the issue can be reproduced.
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
 Add as Attachment
+```
+
+### For GitHub (Markdown)
+
+```markdown
+## Reproduction Report
+This report validates that the issue can be reproduced.
+
+### Environment
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z 
+- Active Plugins:
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
+
+### Actual Results
+- ✅ Error condition occurs (reproduced).
+
+### Additional Notes
+- Any additional details worth mention.
+
+### Supplemental Artifacts
+![Image description](REPLACE_WITH_IMAGE_URL)
 ```
