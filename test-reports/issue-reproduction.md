@@ -14,7 +14,8 @@ Here is an example Reproduction Report starter template, which can be copied and
 
 Note that if Testing Instructions have already been provided, there shouldn’t be a need to list or duplicate those steps here, making this report short and succinct.
 
-<pre><code>== Reproduction Report
+```
+== Reproduction Report
 This report validates that the issue can be reproduced.
 
 === Environment
@@ -37,4 +38,5 @@ This report validates that the issue can be reproduced.
 === Supplemental Artifacts
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
-Add as Attachment</code></pre>
+Add as Attachment
+```

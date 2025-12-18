@@ -15,7 +15,8 @@ An important first step in addressing a reported issue is to clearly communicate
 
 Here is an example Testing Instructions starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment:
 
-<pre><code>== Testing Instructions
+```
+== Testing Instructions
 These steps define how to reproduce the issue, and indicate the expected behavior.
 
 === Environment
@@ -44,14 +45,16 @@ When reproducing a bug:
 === Supplemental Artifacts
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
-Add as Attachment</code></pre>
+Add as Attachment
+```
 
 ## Feature or Enhancement Testing Instructions Template
 A new feature or enhancement (non-bug/defect) should identify the steps and instructions for how to validate the patch works and what the expected results or behaviors are (i.e. what should it do, meaning what should the tester be testing to verify it works).
 
 Here is an example Testing Instructions starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment:
 
-<pre><code>== Testing Instructions
+```
+== Testing Instructions
 These steps define how to test the feature or enhancement, and indicates the expected behavior or results.
 
 === Environment
@@ -80,4 +83,5 @@ Lists each expected result or behavior, i.e. what should happen when running the
 === Supplemental Artifacts
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
-Add as Attachment</code></pre>
+Add as Attachment
+```

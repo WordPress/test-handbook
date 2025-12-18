@@ -6,7 +6,8 @@ Alternatively, testers can post testing instructions first (if not supplied), fo
 ## Bug/Defect Combined Report Template
 An example combined report might look like this (some sections removed for brevity):
 
-<pre><code>== Test Report
+```
+== Test Report
 
 Patch tested: REPLACE_WITH_PATCH_URL
 
@@ -38,12 +39,14 @@ When reproducing a bug/defect:
 - ❌ Error condition occurs.
 
 When testing the bugfix patch:
-- ✅ Issue resolved with patch.</code></pre>
+- ✅ Issue resolved with patch.
+```
 
 ## Feature or Enhancement Combined Report Template
 An example combined report might look like this (some sections removed for brevity):
 
-<pre><code>== Test Report
+```
+== Test Report
 
 Patch tested: REPLACE_WITH_PATCH_URL
 
@@ -72,4 +75,5 @@ Lists each expected result or behavior, i.e. what should happen when running the
 
 === Actual Results
 - ✅ Expected result #1 works as expected with patch.
-- ✅ Expected result #2 works as expected with patch.</code></pre>
+- ✅ Expected result #2 works as expected with patch.
+```

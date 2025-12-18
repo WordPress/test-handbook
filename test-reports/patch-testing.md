@@ -12,7 +12,8 @@ Example patch testing reports:
 ## Bug/Defect Patch Report Template
 Here is an example Test Report starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment.
 
-<pre><code>== Test Report
+```
+== Test Report
 This report validates that the indicated patch addresses the issue.
 
 Patch tested: REPLACE_WITH_PATCH_URL
@@ -37,7 +38,8 @@ Patch tested: REPLACE_WITH_PATCH_URL
 === Supplemental Artifacts
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
-Add as Attachment</code></pre>
+Add as Attachment
+```
 
 If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.
 
@@ -46,7 +48,8 @@ Here is an example Test Report starter template, which can be copied and pasted 
 
 In the “Actual Results” section, list each of the “Expected Results” and report your findings using ✅ to indicate your testing validated it works as expected or ❌ to indicate it does not work as expected.
 
-<pre><code>== Test Report
+```
+== Test Report
 This report validates that the indicated patch addresses the issue.
 
 Patch tested: REPLACE_WITH_PATCH_URL
@@ -72,6 +75,7 @@ Patch tested: REPLACE_WITH_PATCH_URL
 === Supplemental Artifacts
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
-Add as Attachment</code></pre>
+Add as Attachment
+```
 
 If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.
