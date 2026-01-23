@@ -16,12 +16,13 @@ A combination of contributions that meet the above criteria is also acceptable. 
 
 Fixing typos or making minor edits to existing Test Handbook pages or Testing minor patches like Coding Standard updates does not qualify towards earning the Test Contributor Badge. Please focus on substantial contributions that have a meaningful impact on the Test Team and its processes, earning the badge should be a symbol of your significant involvement and dedication not a bureaucratic exercise.
   
-## Test Team Badge 
- 
+## Test Team Badge
 If you have served as a Test Team Rep or have provided consistent substantial contributions to the Test Team, you are eligible for the Test Team badge. These contributions include:
-- Facilitating a significant number of test scrub sessions.
+- Facilitating a significant number of test chats and patch testing scrub sessions.
 - Leading or organizing major testing initiatives.
 - Testing dozens of tickets over a sustained period.
+
+From 2026 onwards, Test Team Badges will be awarded temporarily as long as the individual keeps actively participating in the Test Team activities. If an individual becomes inactive for a period of three months or more, the badge may be removed until they resume active contributions. Members that have been active for a good period of time (e.g., two years or more) may be eligible for a emeritus badge upon review by the current Test Team members.
 
 ## Requesting a Test Profile Badge
 
