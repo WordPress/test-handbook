@@ -401,9 +401,3 @@ After the meeting:
 
 [14:10] Moderator: - [First Agenda Item]
 ```
-
----
-
-**Document Version:** 1.0
-**Last Updated:** January 2026
-**Based on:** Test Team Chat meetings from January 14 & 22, 2026
