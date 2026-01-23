@@ -21,6 +21,7 @@ If you have served as a Test Team Rep or have provided consistent substantial co
 - Facilitating a significant number of test chats and patch testing scrub sessions.
 - Leading or organizing major testing initiatives.
 - Testing dozens of tickets over a sustained period.
+- Becoming a [Test Team Representative](https://make.wordpress.org/test/handbook/team-reps/).
 
 From 2026 onwards, Test Team Badges will be awarded temporarily as long as the individual keeps actively participating in the Test Team activities. If an individual becomes inactive for a period of three months or more, the badge may be removed until they resume active contributions. Members that have been active for a good period of time (e.g., two years or more) may be eligible for a emeritus badge upon review by the current Test Team members.
 
