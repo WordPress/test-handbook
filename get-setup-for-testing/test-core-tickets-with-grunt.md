@@ -12,7 +12,7 @@ Grunt is a JavaScript-based task runner that WordPress uses to automate developm
 The most common task for testers is applying a patch from a Trac ticket to your local environment.
 
 ### 1. Find the Ticket or Patch ID
-Go to [Core Trac](https://core.trac.wordpress.org/) and find the ticket you want to test.
+Go to [Needs Patch Testing in Core Trac](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing+has-patch&focuses=!docs&col=id&col=summary&col=focuses&col=keywords&col=owner&col=type&col=priority&col=changetime&order=changetime) and find the ticket you want to test.
 - Ideally, identify the **Ticket ID** (e.g., `27307`).
 - Or, find the specific **Patch URL** (e.g., `https://core.trac.wordpress.org/attachment/ticket/27307/27307.diff`).
 
