@@ -273,8 +273,8 @@ After the meeting:
 - Core Reports: https://make.wordpress.org/core/reports/
 
 ### Regular Reports
-- Week in Test: Published weekly at make.wordpress.org/test
-- Test Team Update: Bi-weekly metrics report
+- Month in Test: Published monthly at make.wordpress.org/test
+- Test Team Update: Weekly metrics report
 - Gutenberg Releases: Bi-weekly release announcements
 
 ### Testing Resources
