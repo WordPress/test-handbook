@@ -16,10 +16,10 @@ Before the meeting:
 ### 1. Opening / Welcome (Start Time)
 
 **Announce meeting start:**
-> @here Hey everyone! Please join us in #core-test for this week's Test Team chat.
+> /here Hey everyone! Please join us in #core-test for this week's Test Team chat.
 
 _Or:_
-> @here We are starting now today's <test-chat>
+> /here We are starting now today's <test-chat>
 
 <div class="callout callout-info">
 <code>@here</code> notifies only active/online members in the channel.
@@ -151,8 +151,8 @@ _Or:_
 > - We have [Patch Testing Issues](LINK) that need testing
 
 **Standard links:**
-- Core Patch Testing: https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=1weekago..&keywords=~needs-testing+has-patch
-- Gutenberg Issues: https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22
+- Core Needs Testing: https://core.trac.wordpress.org/report/69
+- Gutenberg Needs Testing: https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22
 
 **Check for reactions:**
 > Any comment about any of these resources?
@@ -247,20 +247,20 @@ After the meeting:
 
 ## Quick Reference - Meeting Flow
 
-> 1. Opening & Welcome (2-3 min)
-> 2. Attendance Check (2 min)
-> 3. Share Agenda (1 min)
-> 4. Meeting Notes Declaration (1 min)
-> 5. Test Team Discussions (30-40 min)
->    - Multiple agenda items
->    - Facilitate discussion for each
->    - Transition between items
-> 6. Open Floor (5-10 min)
-> 7. Announcements (5-8 min)
->    - WordPress Ecosystem
->    - Test Team
->    - Call for Testing
-> 8. Closing (1-2 min)
+1. Opening & Welcome (2-3 min)
+2. Attendance Check (2 min)
+3. Share Agenda (1 min)
+4. Meeting Notes Declaration (1 min)
+5. Test Team Discussions (30-40 min)
+   - Multiple agenda items
+   - Facilitate discussion for each
+   - Transition between items
+6. Open Floor (5-10 min)
+7. Announcements (5-8 min)
+   - WordPress Ecosystem
+   - Test Team
+   - Call for Testing
+8. Closing (1-2 min)
 
 **Total Duration:** ~55-60 minutes
 
@@ -276,11 +276,6 @@ After the meeting:
 - Month in Test: Published monthly at make.wordpress.org/test
 - Test Team Update: Weekly metrics report
 - Gutenberg Releases: Bi-weekly release announcements
-
-### Testing Resources
-- Core Needs Testing: https://core.trac.wordpress.org/report/69
-- Gutenberg Needs Testing: https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22
-- Core Patch Testing: https://core.trac.wordpress.org/query?keywords=~needs-testing+has-patch
 
 ## Example Full Opening Sequence
 
