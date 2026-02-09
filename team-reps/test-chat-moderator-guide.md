@@ -22,7 +22,7 @@ _Or:_
 > /here We are starting now today's <test-chat>
 
 <div class="callout callout-info">
-<code>@here</code> notifies only active/online members in the channel.
+<code>/here</code> notifies only active/online members in the channel.
 </div>
 
 **Welcome message:**
@@ -293,7 +293,7 @@ After the meeting:
 
 ## Example Full Opening Sequence
 
-> [14:02] Moderator: @here Hey everyone! Please join us in #core-test for this week's Test Team chat.
+> [14:02] Moderator: /here Hey everyone! Please join us in #core-test for this week's Test Team chat.
 >
 > [14:02] Moderator: Hello and welcome to this bi-weekly test team chat meeting!
 >
