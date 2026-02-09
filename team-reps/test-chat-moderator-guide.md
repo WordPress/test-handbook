@@ -55,6 +55,20 @@ _Or:_
 **Identify facilitator:**
 > Today's session facilitator and note-taker is **@[YOUR_USERNAME]**
 
+_Or, if the roles are handled by different people:_
+> Today's session facilitator is **@[FACILITATOR_USERNAME]** and the note-taker is **@[NOTE_TAKER_USERNAME]**
+
+**Upcoming 4-Week Schedule (Optional):**
+
+> 📅 **Upcoming 4-Week Schedule**
+>
+> * 12 February 2026 – Facilitator: @username1 | Note-taker: @username2
+> * 26 February 2026 – Facilitator: @username3 | Note-taker: @username4
+> * 12 March 2026 – Facilitator: (Open) | Note-taker: (Open)
+> * 26 March 2026 – Facilitator: (Open) | Note-taker: (Open)
+>
+> 🙌 If you'd like to volunteer for any open slot, please reply in the thread.
+
 ### 5. Test Team Discussions
 
 **Transition to main agenda:**
@@ -151,7 +165,7 @@ _Or:_
 > - We have [Patch Testing Issues](LINK) that need testing
 
 **Standard links:**
-- Core Needs Testing: https://core.trac.wordpress.org/report/69
+- Core Needs Testing: https://core.trac.wordpress.org/tickets/needs-testing (this report is slated to be deprecated and removed)
 - Gutenberg Needs Testing: https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22
 
 **Check for reactions:**
@@ -252,14 +266,14 @@ After the meeting:
 3. Share Agenda (1 min)
 4. Meeting Notes Declaration (1 min)
 5. Test Team Discussions (30-40 min)
-   - Multiple agenda items
-   - Facilitate discussion for each
-   - Transition between items
+   1. Multiple agenda items
+   2. Facilitate discussion for each
+   3. Transition between items
 6. Open Floor (5-10 min)
 7. Announcements (5-8 min)
-   - WordPress Ecosystem
-   - Test Team
-   - Call for Testing
+   1. WordPress Ecosystem
+   2. Test Team
+   3. Call for Testing
 8. Closing (1-2 min)
 
 **Total Duration:** ~55-60 minutes
