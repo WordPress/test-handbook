@@ -9,9 +9,16 @@
     "team-reps": {
         "title": "Test Team Reps",
         "slug": "team-reps",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/team-reps.md",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/team-reps\/index.md",
         "parent": null,
         "order": 10
+    },
+    "team-reps\/test-chat-moderator-guide": {
+        "title": "Test Chat Moderator Guide",
+        "slug": "test-chat-moderator-guide",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/team-reps\/test-chat-moderator-guide.md",
+        "parent": "team-reps",
+        "order": 1
     },
     "get-setup-for-testing": {
         "title": "Get Setup for Testing",
