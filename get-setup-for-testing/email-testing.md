@@ -6,7 +6,7 @@ Email testing is important for WordPress testing because WordPress core relies o
 
 Depending on the testing environment, you can either use an Email Logger plugin that hooks into [wp_mail](https://developer.wordpress.org/reference/functions/wp_mail/) function or use a tool like [Mailpit](https://github.com/axllent/mailpit) to capture outgoing emails.
 
-### How to Capture Emails Using a Plugin
+### 1. Using Email Logger Plugin
 
 This method can be used on your local development environment as well as on [WordPress Playground](https://wordpress.github.io/wordpress-playground/), and doesn't have external dependencies or require a technical configuration.
 
@@ -19,7 +19,7 @@ Steps to use:
 
 You can also use this [WordPress Playground](https://playground.wordpress.net/?php=8.3&wp=trunk&plugin=https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) instance that comes with `Email Logger` plugin preinstalled.
 
-### 2. Mailpit
+### 2. Using MailPit
 
 Mailpit is a lightweight email testing tool that runs locally and captures all outgoing emails from your development environment, providing a web interface where you can view, inspect, and test emails without actually sending them to real recipients.
 
