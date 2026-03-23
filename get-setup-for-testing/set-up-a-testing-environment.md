@@ -85,3 +85,6 @@ Your local WordPress site should now be accessible at `http://localhost:8889`.
 Now that your local environment is set up, learn how to apply patches and run tests:
 
 *   [Test Core Tickets with Grunt](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-grunt/)
+
+## Resources
+- [WPContrib WordPress Test Contributor Pathway YouTube Channel](https://www.youtube.com/@WPContrib) by [@SirLouen](https://profiles.wordpress.org/sirlouen/)
