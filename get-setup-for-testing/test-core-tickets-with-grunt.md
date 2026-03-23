@@ -9,6 +9,9 @@ Grunt is a JavaScript-based task runner that WordPress uses to automate developm
 
 ## Applying Patches
 
+**Prefer a video walkthrough?**\
+Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?v=5MRJ8687gF4) as you work through the instructions below.
+
 The most common task for testers is applying a patch from a Trac ticket to your local environment.
 
 ### 1. Find the Ticket or Patch ID
@@ -85,3 +88,6 @@ To remove a patch and go back to a clean state:
 git checkout .
 git clean -fd
 ```
+
+## Resources
+- [WPContrib WordPress Test Contributor Pathway YouTube Channel](https://www.youtube.com/@WPContrib) by [@SirLouen](https://profiles.wordpress.org/sirlouen/)
