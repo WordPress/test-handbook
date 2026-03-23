@@ -34,6 +34,9 @@ Before you begin, ensure you have the following installed on your computer:
 
 ### Setup Instructions
 
+**Prefer a video walkthrough?**\
+Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?v=LMgn8GjUdNk) as you work through the instructions below.
+
 1.  **Fork and Clone the Repository**
     Fork the [WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop) repository to your GitHub account, then clone it locally:
     ```bash
