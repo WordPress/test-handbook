@@ -14,12 +14,12 @@ This method can be used on your local development environment as well as on [Wor
 
 Steps to use:
 
-1. [Download](https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) the plugin and install it from `Plugins > Add Plugin > Upload Plugin`
+1. [Download](https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) the plugin, install it from `Plugins > Add Plugin > Upload Plugin` and activate it.
 2. Use the `Email Log` menu item to view captured emails
 
 You can also use this [WordPress Playground](https://playground.wordpress.net/?php=8.3&wp=trunk&plugin=https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) instance that comes with `Email Logger` plugin preinstalled.
 
-### 2. Using MailPit
+### 2. Using Mailpit
 
 Mailpit is a lightweight email testing tool that runs locally and captures all outgoing emails from your development environment, providing a web interface where you can view, inspect, and test emails without actually sending them to real recipients.
 
@@ -54,7 +54,7 @@ services:
 
 2. Run the command `docker compose up -d mail` in your terminal
 3. Test access to Mailpit at `http://localhost:8025/`
-4. Add the following snippet to your `functions.php` or via [Code Snippets](https://wordpress.org/plugins/code-snippets/) plugin
+4. Add the following snippet to your active theme's `functions.php` or via [Code Snippets](https://wordpress.org/plugins/code-snippets/) plugin
 
 ```
 add_action( 'phpmailer_init', function( $phpmailer ) {
