@@ -42,7 +42,9 @@ Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?
     ```bash
     git clone https://github.com/YOUR_USERNAME/wordpress-develop.git
     cd wordpress-develop
+    git remote add upstream https://github.com/WordPress/wordpress-develop.git
     ```
+    Adding the `upstream` remote allows you to keep your local repository in sync with the latest changes from WordPress core.
 
 2.  **Install Dependencies**
     Run the following command to install the necessary JavaScript and PHP tools:
@@ -57,7 +59,7 @@ Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?
     ```
 
 4.  **Start the Environment**
-    Start the Docker environment:
+    Ensure Docker Desktop is running, then start the Docker environment:
     ```bash
     npm run env:start
     ```
