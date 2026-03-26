@@ -1,6 +1,6 @@
 # Set Up a Testing Environment
 
-To test WordPress core tickets effectively, you need an environment where you can apply patches and run tests. This guide covers the options available for setting up a testing environment.
+To test WordPress core tickets effectively, you need an environment where you can apply patches and run tests. **Patches are created against the [`trunk`](https://github.com/WordPress/wordpress-develop) branch**, the development version of WordPress, not the stable release from wordpress.org/download, so you'll need to work with the development codebase. This guide covers the options available for setting up a testing environment.
 
 ## Choose Your Environment
 
