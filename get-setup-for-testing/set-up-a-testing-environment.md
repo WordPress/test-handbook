@@ -37,8 +37,7 @@ Before you begin, ensure you have the following installed on your computer:
 **Prefer a video walkthrough?**\
 Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?v=LMgn8GjUdNk) as you work through the instructions below.
 
-1.  **Fork and Clone the Repository**
-    Fork the [WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop) repository to your GitHub account, then clone it locally:
+1.  **Fork and Clone the Repository:** Fork the [WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop) repository to your GitHub account, then clone it locally:
     ```bash
     git clone https://github.com/YOUR_USERNAME/wordpress-develop.git
     cd wordpress-develop
@@ -46,26 +45,22 @@ Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?
     ```
     Adding the `upstream` remote allows you to keep your local repository in sync with the latest changes from WordPress core.
 
-2.  **Install Dependencies**
-    Run the following command to install the necessary JavaScript and PHP tools:
+2.  **Install Dependencies:** Run the following command to install the necessary JavaScript and PHP tools:
     ```bash
     npm install
     ```
 
-3.  **Build WordPress**
-    Compile the source files into a running WordPress instance:
+3.  **Build WordPress:** Compile the source files into a running WordPress instance:
     ```bash
     npm run build:dev
     ```
 
-4.  **Start the Environment**
-    Ensure Docker Desktop is running, then start the Docker environment:
+4.  **Start the Environment:** Ensure Docker Desktop is running, then start the Docker environment:
     ```bash
     npm run env:start
     ```
 
-5.  **Install WordPress**
-    Run the installation script to set up the database and site:
+5.  **Install WordPress:** Run the installation script to set up the database and site:
     ```bash
     npm run env:install
     ```
