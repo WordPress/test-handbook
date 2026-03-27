@@ -25,7 +25,7 @@ Mailpit is a lightweight email testing tool that runs locally and captures all o
 
 <a href="https://make.wordpress.org/test/files/2026/02/mailpit-inbox-screenshot.jpg"><img src="https://make.wordpress.org/test/files/2026/02/mailpit-inbox-screenshot.jpg" alt="Mailpit Inbox Screenshot" style="max-width: 100%"></a>
 
-You can browse emails easily through Mailpit's user interface that acts like a mail client.
+You can browse emails easily through Mailpit's user interface that acts as a mail client.
 
 <a href="https://make.wordpress.org/test/files/2026/02/mailpit-sample-email.jpg"><img src="https://make.wordpress.org/test/files/2026/02/mailpit-sample-email.jpg" alt="Mailpit Sample Email" style="max-width: 100%"></a>
 
