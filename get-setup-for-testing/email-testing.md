@@ -15,7 +15,7 @@ This method can be used on your local development environment as well as on [Wor
 Steps to use:
 
 1. [Download](https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) the plugin, install it from `Plugins > Add Plugin > Upload Plugin` and activate it.
-2. Use the `Email Log` menu item to view captured emails
+2. Use the `Email Log` menu item to view captured emails.
 
 You can also use this [WordPress Playground](https://playground.wordpress.net/?php=8.3&wp=trunk&plugin=https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) instance that comes with `Email Logger` plugin preinstalled.
 
