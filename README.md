@@ -1,6 +1,6 @@
 # Make WordPress Test Handbook
 
-This repo is dedicated to the Make WordPress Test Handbook located at [https://make.wordpress.org/test/handbook/](https://make.wordpress.org/test/handbook/). All the pages in the current GitHub repository are syncing with the Make WordPress Test Handbook automatically.
+This repo is dedicated to the Make WordPress Test Handbook located at [https://make.wordpress.org/test/handbook/](https://make.wordpress.org/test/handbook/). All pages in this GitHub repository are automatically synchronized with the handbook.
 
 We need to respect all the basic [Markdown guidelines](https://www.markdownguide.org/cheat-sheet/) for everything to be synchronized as expected. If you have any doubts, feel free to ask in the [`#core-test`](https://wordpress.slack.com/messages/core-test/) channel in the WordPress Slack.
 
