@@ -1,6 +1,6 @@
 # Email Testing
 
-Email testing is important for WordPress testing because WordPress core relies on transactional emails for essential functions like user registration, password resets, and admin notifications, so capturing and verifying these emails ensures that the correct messages are triggered with proper content and formatting during the testing process.
+Email testing is important for WordPress testing because WordPress core relies on transactional emails for essential functions like user registration, password resets, and admin notifications. Capturing and verifying these emails ensures that the correct messages are triggered with proper content and formatting during the testing process.
 
 ## Email Capture Methods for Different Testing Environments
 
