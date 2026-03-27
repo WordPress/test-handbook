@@ -4,7 +4,11 @@ Email testing is important for WordPress testing because WordPress core relies o
 
 ## Email Capture Methods for Different Testing Environments
 
-Depending on the testing environment, you can either use an Email Logger plugin that hooks into the [wp_mail](https://developer.wordpress.org/reference/functions/wp_mail/) function or use a tool like [Mailpit](https://github.com/axllent/mailpit) to capture outgoing emails.
+Depending on your testing environment, you can use:
+
+- [Email Logger](https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) plugin that hooks into the [wp_mail](https://developer.wordpress.org/reference/functions/wp_mail/) function.
+- [Mailpit](https://github.com/axllent/mailpit), a lightweight email testing tool that provides a web interface to view the captured emails.
+- [WP Mail](https://github.com/jonathanbossenger/wp-mail), a desktop application for logging and viewing emails sent from [WordPress Studio](https://developer.wordpress.com/studio/) local sites.
 
 ### 1. Using Email Logger Plugin
 
@@ -68,8 +72,14 @@ add_filter( 'wp_mail_from', function( $email ) {
 });
 ```
 
+### 3. Using WP Mail for WordPress Studio
+For testing emails with [WordPress Studio](https://developer.wordpress.com/studio/) you can use [WP Mail](https://github.com/jonathanbossenger/wp-mail) by [@jonathanbossenger](https://github.com/jonathanbossenger), a desktop application for logging and viewing emails sent from WordPress Studio local sites.
+
+WP Mail automatically detects your WordPress Studio installation, installs a mu-plugin to capture all `wp_mail()` calls, and monitors for new emails in real time. It lists all logged emails with sender, recipient, subject, and timestamp, and allows you to view full email details including headers, attachments, and both HTML and plain text messages. It is cross-platform and supports macOS, Windows, and Linux.
+
+
 ## Conclusion
 
 Without a mail testing mechanism like the ones described here, transactional emails triggered during testing would either fail silently or be sent to real email addresses, making it difficult to verify that WordPress core functionality is working correctly.
 
-By using the Email Logger plugin or Mailpit, you can capture and inspect these emails to ensure they're triggered properly with the correct content and formatting.
+By using the tool suitable for your testing environment, you can capture and inspect outgoing emails to ensure they're triggered properly with the correct content and formatting.
