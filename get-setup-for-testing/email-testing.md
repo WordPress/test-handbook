@@ -52,9 +52,9 @@ services:
 
 <a href="https://make.wordpress.org/test/files/2026/02/docker-compose-override.png"><img src="https://make.wordpress.org/test/files/2026/02/docker-compose-override.png" alt="Docker Compose Override File" style="max-width: 100%"></a>
 
-2. Run the command `docker compose up -d mail` in your terminal
-3. Test access to Mailpit at `http://localhost:8025/`
-4. Add the following snippet to your active theme's `functions.php` or via [Code Snippets](https://wordpress.org/plugins/code-snippets/) plugin
+2. Run the command `docker compose up -d mail` in your terminal.
+3. Test access to Mailpit at `http://localhost:8025/`.
+4. Add the following snippet to your active theme's `functions.php` or via [Code Snippets](https://wordpress.org/plugins/code-snippets/) plugin.
 
 ```
 add_action( 'phpmailer_init', function( $phpmailer ) {
