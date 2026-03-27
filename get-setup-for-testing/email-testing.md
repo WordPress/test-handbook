@@ -4,7 +4,7 @@ Email testing is important for WordPress testing because WordPress core relies o
 
 ## Email Capture Methods for Different Testing Environments
 
-Depending on the testing environment, you can either use an Email Logger plugin that hooks into [wp_mail](https://developer.wordpress.org/reference/functions/wp_mail/) function or use a tool like [Mailpit](https://github.com/axllent/mailpit) to capture outgoing emails.
+Depending on the testing environment, you can either use an Email Logger plugin that hooks into the [wp_mail](https://developer.wordpress.org/reference/functions/wp_mail/) function or use a tool like [Mailpit](https://github.com/axllent/mailpit) to capture outgoing emails.
 
 ### 1. Using Email Logger Plugin
 
