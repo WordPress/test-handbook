@@ -76,11 +76,11 @@ git checkout trunk
 git pull upstream trunk
 ```
 
-  If you get an error about `upstream` not being found, add it first:
-  
-  ```bash
-  git remote add upstream https://github.com/WordPress/wordpress-develop.git
-  ```
+If you get an error about `upstream` not being found, add it first:
+
+```bash
+git remote add upstream https://github.com/WordPress/wordpress-develop.git
+```
 
 ### "Cannot find module 'grunt-cli/bin/grunt'"
 - **Cause:** Missing dependencies.
