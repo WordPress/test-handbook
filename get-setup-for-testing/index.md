@@ -87,7 +87,7 @@ Recent examples include:
 
 ## Get Involved
 
-- **Join the conversation:** Testing discussions happen in the [#test](https://make.wordpress.org/chat/) channel on the WordPress Slack.
+- **Join the conversation:** Testing discussions happen in the [#core-test](https://wordpress.slack.com/messages/core-test/) channel on the WordPress Slack.
 - **Weekly meetings:** Check the [Make/Test calendar](https://make.wordpress.org/meetings/#test) for meeting times.
 - **Stay updated:** Follow the [Make WordPress Test blog](https://make.wordpress.org/test/) for announcements and testing posts.
 
