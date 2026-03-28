@@ -5,9 +5,9 @@ This guide helps moderators run Test Team Chat meetings. Use the structure and e
 ## Pre-Meeting Preparation
 
 Before the meeting:
-1. Review the [meeting agenda](https://make.wordpress.org/test/) published beforehand
+1. Review the [meeting agenda](LINK_TO_AGENDA) published beforehand
 2. Prepare any links or resources mentioned in the agenda
-3. Have the Test Team Handbook open: https://github.com/WordPress/test-handbook
+3. Have the Test Team Handbook open: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
 4. Note the scheduled start and end time
 5. Be ready to take notes or delegate note-taking
 
@@ -44,8 +44,8 @@ _Or:_
 > Today's chat agenda can be found [here](LINK_TO_AGENDA). Please take a look.
 
 **Example links:**
-- https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/
-- https://make.wordpress.org/test/2026/01/14/team-chat-agenda-14th-january-2026/
+- [https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/](https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/)
+- [https://make.wordpress.org/test/2026/01/14/team-chat-agenda-14th-january-2026/](https://make.wordpress.org/test/2026/01/14/team-chat-agenda-14th-january-2026/)
 
 ### 4. Meeting Notes Announcement
 
@@ -165,8 +165,8 @@ _Or:_
 > - We have [Patch Testing Issues](LINK) that need testing
 
 **Standard links:**
-- Core Needs Testing: https://core.trac.wordpress.org/tickets/needs-testing (this report is slated to be deprecated and removed)
-- Gutenberg Needs Testing: https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22
+- Core Needs Testing: [https://core.trac.wordpress.org/tickets/needs-testing](https://core.trac.wordpress.org/tickets/needs-testing) (this report is slated to be deprecated and removed)
+- Gutenberg Needs Testing: [https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22](https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22)
 
 **Check for reactions:**
 > Any comment about any of these resources?
@@ -205,8 +205,8 @@ When discussions need follow-up:
 - Link to existing issues when relevant
 
 **Common references:**
-- Test Handbook: https://github.com/WordPress/test-handbook
-- Test Handbook Issues: https://github.com/WordPress/test-handbook/issues
+- Test Handbook: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
+- Test Handbook Issues: [https://github.com/WordPress/test-handbook/issues](https://github.com/WordPress/test-handbook/issues)
 
 ### Time Management
 
@@ -281,10 +281,10 @@ After the meeting:
 ## Resources & Links
 
 ### Essential Pages
-- Make Test: https://make.wordpress.org/test/
-- Test Handbook: https://github.com/WordPress/test-handbook
-- Test Handbook Issues: https://github.com/WordPress/test-handbook/issues
-- Core Reports: https://make.wordpress.org/core/reports/
+- Make Test: [https://make.wordpress.org/test/](https://make.wordpress.org/test/)
+- Test Handbook: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
+- Test Handbook Issues: [https://github.com/WordPress/test-handbook/issues](https://github.com/WordPress/test-handbook/issues)
+- Core Reports: [https://make.wordpress.org/core/reports/](https://make.wordpress.org/core/reports/)
 
 ### Regular Reports
 - Month in Test: Published monthly at make.wordpress.org/test
