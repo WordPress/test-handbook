@@ -9,7 +9,7 @@ Grunt is a JavaScript-based task runner that WordPress uses to automate developm
 
 ## Applying Patches
 
-**Prefer a video walkthrough?**\
+**Prefer a video walkthrough?**
 Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?v=5MRJ8687gF4) as you work through the instructions below.
 
 The most common task for testers is applying a patch from a Trac ticket to your local environment.
@@ -51,9 +51,10 @@ npm run grunt patch:https://github.com/WordPress/wordpress-develop/pull/10815.di
 After applying a patch, you may need to build the changes depending on what was modified:
 
 *   **JavaScript or CSS changes:** You **MUST** run the build command to compile the assets.
-    ```bash
-    npm run build:dev
-    ```
+
+```bash
+npm run build:dev
+```
 *   **PHP-only changes:** Running the build command is **not mandatory**, but it is good practice to ensure everything is in sync.
 
 
@@ -69,22 +70,26 @@ For detailed instructions on running PHPUnit and E2E tests, see [Run Automated T
 ### "Patch failed to apply"
 - **Cause:** The code in your local version might be different from what the patch expects (e.g., your branch is outdated).
 - **Fix:** Update your repository to the latest trunk before applying the patch:
-  ```bash
-  git checkout trunk
-  git pull upstream trunk
-  ```
-  If you get an error about `upstream` not being found, add it first:
-  ```bash
-  git remote add upstream https://github.com/WordPress/wordpress-develop.git
-  ```
+
+```bash
+git checkout trunk
+git pull upstream trunk
+```
+
+If you get an error about `upstream` not being found, add it first:
+
+```bash
+git remote add upstream https://github.com/WordPress/wordpress-develop.git
+```
 
 ### "Cannot find module 'grunt-cli/bin/grunt'"
 - **Cause:** Missing dependencies.
 - **Fix:** Reinstall dependencies:
-  ```bash
-  rm -rf node_modules
-  npm install
-  ```
+
+```bash
+rm -rf node_modules
+npm install
+```
 
 ### Reverting Changes
 To remove a patch and go back to a clean state:

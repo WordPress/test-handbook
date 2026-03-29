@@ -41,14 +41,16 @@ npm run test:e2e
 ### "Error: ECONNREFUSED"
 - **Cause:** The local environment or Docker is not running.
 - **Fix:** Start Docker Desktop and run:
-  ```bash
-  npm run env:start
-  ```
+
+```bash
+npm run env:start
+```
 
 ### "Database connection failed"
 - **Cause:** The database container isn't ready or needs to be reset.
 - **Fix:** Wait a few seconds and try again, or reset the environment:
-  ```bash
-  npm run env:reset
-  npm run env:install
-  ```
+
+```bash
+npm run env:reset
+npm run env:install
+```
