@@ -5,7 +5,7 @@ This guide helps moderators run Test Team Chat meetings. Use the structure and e
 ## Pre-Meeting Preparation
 
 Before the meeting:
-1. Review the [meeting agenda](LINK_TO_AGENDA) published beforehand
+1. Review the [meeting agenda](https://make.wordpress.org/test/tag/test-chat-agenda/) published beforehand
 2. Prepare any links or resources mentioned in the agenda
 3. Have the Test Team Handbook open: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
 4. Note the scheduled start and end time
@@ -41,7 +41,7 @@ _Or:_
 ### 3. Share Agenda
 
 **Link to agenda:**
-> Today's chat agenda can be found [here](LINK_TO_AGENDA). Please take a look.
+> Today's chat agenda can be found [here](https://make.wordpress.org/test/tag/test-chat-agenda/). Please take a look.
 
 **Example links:**
 - [https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/](https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/)
@@ -303,7 +303,7 @@ After the meeting:
 >
 > [14:05] Moderator: If you're joining this chat **async**, please add your details to the thread later and include (async) after your name. This helps us review meeting times and encourage participation across all time zones.
 >
-> [14:06] Moderator: Today's chat agenda can be found [here](LINK). Please take a look.
+> [14:06] Moderator: Today's chat agenda can be found [here](https://make.wordpress.org/test/tag/test-chat-agenda/). Please take a look.
 >
 > [14:07] Moderator: **Meeting Notes**
 >
