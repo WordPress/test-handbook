@@ -27,12 +27,33 @@
         "parent": null,
         "order": 20
     },
+    "get-setup-for-testing\/set-up-a-testing-environment": {
+        "title": "Set Up a Testing Environment",
+        "slug": "set-up-a-testing-environment",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/set-up-a-testing-environment.md",
+        "parent": "get-setup-for-testing",
+        "order": 1
+    },
     "get-setup-for-testing\/test-core-tickets-with-playground": {
         "title": "Test Core Tickets with Playground",
         "slug": "test-core-tickets-with-playground",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/test-core-tickets-with-playground.md",
         "parent": "get-setup-for-testing",
-        "order": 1
+        "order": 2
+    },
+    "get-setup-for-testing\/test-core-tickets-with-grunt": {
+        "title": "Test Core Tickets with Grunt",
+        "slug": "test-core-tickets-with-grunt",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/test-core-tickets-with-grunt.md",
+        "parent": "get-setup-for-testing",
+        "order": 3
+    },
+    "get-setup-for-testing\/run-automated-tests": {
+        "title": "Run Automated Tests",
+        "slug": "run-automated-tests",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/run-automated-tests.md",
+        "parent": "get-setup-for-testing",
+        "order": 4
     },
     "get-setup-for-testing\/email-testing": {
         "title": "Email Testing",
