@@ -1,6 +1,10 @@
 # Get Set Up for Testing
 
-Welcome to the WordPress Test Team! Contributing to testing is one of the most impactful ways to help make WordPress better for everyone. Whether you have 10 minutes or several hours, there is a testing task suited to your setup and skill level.
+Getting involved with WordPress testing is a great way to contribute and also a chance to learn.
+
+Trying to reproduce bugs and testing patches exposes you to real bugs, edge cases, and development decisions that sharpen your skills and deepen your understanding of how WordPress is built.
+
+And regardless of your experience level or how much time you have, there is always a ticket to pick up.
 
 ## What Would You Like to Test?
 
