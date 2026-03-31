@@ -79,7 +79,7 @@ No matter what approach you’re using, the key is to ensure that information ge
 
 This is a mostly hands off approach and solely requires clarity up front in the call for testing you write. Any extra time that you can spend ensuring that the instructions for where and how to report issues/feedback will be very high impact. This might include a short video around how to report or linking off to resources, like [how to use Trac on Learn WordPress](https://learn.wordpress.org/tutorial/how-to-use-trac/).
 
-The biggest downside to this approach is that it requires a greater time investment of those reporting issues to both simply do the work to open an issue/comment on a current one and to know how to. This usually results in less engagement.
+The biggest downside to this approach is that it requires a greater time investment of those reporting issues to both simply do the work to open an issue/comment on a current one and to know how to do so. This usually results in less engagement.
 
 ### Facilitated calls for testing approach
 
