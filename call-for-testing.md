@@ -75,7 +75,7 @@ If you’re struggling to get feedback, please view these [high level suggestion
 
 No matter what approach you’re using, the key is to ensure that information gets back to the right place. Usually, this means issues in [Trac](https://trac.wordpress.org/) or issues in the [Gutenberg GitHub repo](https://github.com/WordPress/gutenberg/issues).
 
-### Self serve calls for testing approach
+### Self-serve calls for testing approach
 
 This is a mostly hands off approach and solely requires clarity upfront in the call for testing you write. Any extra time you can spend ensuring that the instructions for where and how to report issues/feedback will be very high impact. This might include a short video around how to report or linking off to resources, like [how to use Trac on Learn WordPress](https://learn.wordpress.org/tutorial/how-to-use-trac/).
 
