@@ -36,15 +36,15 @@ Steps to install and use Mailpit:
 
 1. Create `docker-compose.override.yml` with the following code in root folder of your cloned [WordPress Develop](https://github.com/WordPress/wordpress-develop) Repo.
 
-```
+```yml
 services:
   mail:
     container_name: mailpit
     image: axllent/mailpit
     restart: unless-stopped
     ports:
-      - "1025:1025" # smtp server
-      - "8025:8025" # web ui
+      - '1025:1025' # smtp server
+      - '8025:8025' # web ui
     environment:
       MP_MAX_MESSAGES: 5000
       MP_SMTP_AUTH_ACCEPT_ANY: 1
@@ -59,7 +59,7 @@ services:
 3. Test access to Mailpit at `http://localhost:8025/`.
 4. Add the following snippet to your active theme's `functions.php` or via [Code Snippets](https://wordpress.org/plugins/code-snippets/) plugin.
 
-```
+```php
 add_action( 'phpmailer_init', function( $phpmailer ) {
     $phpmailer->isSMTP();
     $phpmailer->Host = 'localhost';
