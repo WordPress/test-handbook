@@ -55,6 +55,13 @@
         "parent": "get-setup-for-testing",
         "order": 4
     },
+    "get-setup-for-testing\/email-testing": {
+        "title": "Email Testing",
+        "slug": "email-testing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/email-testing.md",
+        "parent": "get-setup-for-testing",
+        "order": 30
+    },    
     "test-reports": {
         "title": "Test Reports",
         "slug": "test-reports",
