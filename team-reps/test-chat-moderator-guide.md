@@ -127,9 +127,9 @@ _Or:_
 > **WordPress Ecosystem Announcements**
 
 **List announcements with links:**
-> - [Title of Announcement](LINK)
-> - [Title of Announcement](LINK)
-> - [Title of Announcement](LINK)
+> - [Gutenberg releases](https://make.wordpress.org/core/tag/gutenberg/)
+> - [WordPress Latest News](https://wordpress.org/news/)
+> - [Dev news](https://make.wordpress.org/core/tag/dev-notes/)
 
 **Example announcements to include:**
 - Gutenberg releases
@@ -150,7 +150,7 @@ _Or:_
 **List Test Team specific items:**
 > - [Test Team Program Information](https://make.wordpress.org/test/2026/01/06/launch-information-for-the-test-team-training-program/)
 > - [Week in Test Post](https://make.wordpress.org/test/category/week-in-test/): Brief description
-> - [Test Team Update](LINK): Metrics for overall team progress
+> - [Test Team Update](http://make.wordpress.org/updates/tag/test/): Metrics for overall team progress
 
 #### C. Call for Testing
 
@@ -161,7 +161,7 @@ _Or:_
 > next **Call for Testing**
 
 **List testing needs:**
-> - [Help Test WordPress X.X](LINK)
+> - [Help Test WordPress X.X](https://make.wordpress.org/test/tag/release-field-guide/)
 > - We have [Patch Testing Issues](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing+has-patch&focuses=!docs&col=id&col=summary&col=focuses&col=keywords&col=owner&col=type&col=priority&col=changetime&desc=1&order=changetime) that need testing
 
 **Standard links:**
