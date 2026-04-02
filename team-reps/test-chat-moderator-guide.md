@@ -5,9 +5,9 @@ This guide helps moderators run Test Team Chat meetings. Use the structure and e
 ## Pre-Meeting Preparation
 
 Before the meeting:
-1. Review the [meeting agenda](https://make.wordpress.org/test/) published beforehand
+1. Review the [meeting agenda](https://make.wordpress.org/test/tag/test-chat-agenda/) published beforehand
 2. Prepare any links or resources mentioned in the agenda
-3. Have the Test Team Handbook open: https://github.com/WordPress/test-handbook
+3. Have the Test Team Handbook open: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
 4. Note the scheduled start and end time
 5. Be ready to take notes or delegate note-taking
 
@@ -41,11 +41,11 @@ _Or:_
 ### 3. Share Agenda
 
 **Link to agenda:**
-> Today's chat agenda can be found [here](LINK_TO_AGENDA). Please take a look.
+> Today's chat agenda can be found [here](https://make.wordpress.org/test/tag/test-chat-agenda/). Please take a look.
 
 **Example links:**
-- https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/
-- https://make.wordpress.org/test/2026/01/14/team-chat-agenda-14th-january-2026/
+- [https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/](https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/)
+- [https://make.wordpress.org/test/2026/01/14/team-chat-agenda-14th-january-2026/](https://make.wordpress.org/test/2026/01/14/team-chat-agenda-14th-january-2026/)
 
 ### 4. Meeting Notes Announcement
 
@@ -127,9 +127,9 @@ _Or:_
 > **WordPress Ecosystem Announcements**
 
 **List announcements with links:**
-> - [Title of Announcement](LINK)
-> - [Title of Announcement](LINK)
-> - [Title of Announcement](LINK)
+> - [Gutenberg releases](https://make.wordpress.org/core/tag/gutenberg/)
+> - [WordPress Latest News](https://wordpress.org/news/)
+> - [Dev news](https://make.wordpress.org/core/tag/dev-notes/)
 
 **Example announcements to include:**
 - Gutenberg releases
@@ -148,9 +148,9 @@ _Or:_
 > next move to **Test Team Announcements**:
 
 **List Test Team specific items:**
-> - [Test Team Program Information](LINK)
-> - [Week in Test Post](LINK): Brief description
-> - [Test Team Update](LINK): Metrics for overall team progress
+> - [Test Team Program Information](https://make.wordpress.org/test/2026/01/06/launch-information-for-the-test-team-training-program/)
+> - [Week in Test Post](https://make.wordpress.org/test/category/week-in-test/): Brief description
+> - [Test Team Update](http://make.wordpress.org/updates/tag/test/): Metrics for overall team progress
 
 #### C. Call for Testing
 
@@ -161,12 +161,12 @@ _Or:_
 > next **Call for Testing**
 
 **List testing needs:**
-> - [Help Test WordPress X.X](LINK)
-> - We have [Patch Testing Issues](LINK) that need testing
+> - [Help Test WordPress X.X](https://make.wordpress.org/test/tag/release-field-guide/)
+> - We have [Patch Testing Issues](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing+has-patch&focuses=!docs&col=id&col=summary&col=focuses&col=keywords&col=owner&col=type&col=priority&col=changetime&desc=1&order=changetime) that need testing
 
 **Standard links:**
-- Core Needs Testing: https://core.trac.wordpress.org/tickets/needs-testing (this report is slated to be deprecated and removed)
-- Gutenberg Needs Testing: https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22
+- Core Needs Testing: [https://core.trac.wordpress.org/tickets/needs-testing](https://core.trac.wordpress.org/tickets/needs-testing) (this report is slated to be deprecated and removed)
+- Gutenberg Needs Testing: [https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22](https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22)
 
 **Check for reactions:**
 > Any comment about any of these resources?
@@ -205,8 +205,8 @@ When discussions need follow-up:
 - Link to existing issues when relevant
 
 **Common references:**
-- Test Handbook: https://github.com/WordPress/test-handbook
-- Test Handbook Issues: https://github.com/WordPress/test-handbook/issues
+- Test Handbook: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
+- Test Handbook Issues: [https://github.com/WordPress/test-handbook/issues](https://github.com/WordPress/test-handbook/issues)
 
 ### Time Management
 
@@ -281,10 +281,10 @@ After the meeting:
 ## Resources & Links
 
 ### Essential Pages
-- Make Test: https://make.wordpress.org/test/
-- Test Handbook: https://github.com/WordPress/test-handbook
-- Test Handbook Issues: https://github.com/WordPress/test-handbook/issues
-- Core Reports: https://make.wordpress.org/core/reports/
+- Make Test: [https://make.wordpress.org/test/](https://make.wordpress.org/test/)
+- Test Handbook: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
+- Test Handbook Issues: [https://github.com/WordPress/test-handbook/issues](https://github.com/WordPress/test-handbook/issues)
+- Core Reports: [https://make.wordpress.org/core/reports/](https://make.wordpress.org/core/reports/)
 
 ### Regular Reports
 - Month in Test: Published monthly at make.wordpress.org/test
@@ -303,7 +303,7 @@ After the meeting:
 >
 > [14:05] Moderator: If you're joining this chat **async**, please add your details to the thread later and include (async) after your name. This helps us review meeting times and encourage participation across all time zones.
 >
-> [14:06] Moderator: Today's chat agenda can be found [here](LINK). Please take a look.
+> [14:06] Moderator: Today's chat agenda can be found [here](https://make.wordpress.org/test/tag/test-chat-agenda/). Please take a look.
 >
 > [14:07] Moderator: **Meeting Notes**
 >
