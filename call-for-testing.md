@@ -46,7 +46,7 @@ List known issues and shortcomings (bug tracker links are helpful). Set expectat
 
 #### How to report
 
-Provide trac or github links, include the component.
+Provide Trac or GitHub links, include the component.
 
 #### Timeline for testing
 
