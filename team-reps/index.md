@@ -36,7 +36,7 @@ Test Team Reps must be committed to showing up and performing regular duties, an
 
 The first step is to reach out to the community with a Call for Nominations, such as these examples from [2024](https://make.wordpress.org/test/2024/08/13/test-team-reps-call-for-nominations-4/) and [2025](https://make.wordpress.org/test/2025/08/14/test-team-reps-call-for-nominations-5/). Nominations are held each August, with the new term starting by September.
 
-Self-nominations are the primary way of getting into the elections list “I nominate for the Test Team Reps position.” Also other Team Members could nominate someone else “I nominate @username for the Test Team Reps position.” but the nominee must accept the nomination before the nomination period ends to be valid. Just answering to the Call for Nominations post is sufficient to nominate oneself or someone else.
+Self-nominations are the primary way of getting into the elections list with a statement such as "I nominate myself for the Test Team Reps position." Also other Team Members could nominate someone else “I nominate @username for the Test Team Reps position.” but the nominee must accept the nomination before the nomination period ends to be valid. Just answering to the Call for Nominations post is sufficient to nominate oneself or someone else.
 
 ### Step 2: Criteria of Eligibility
 
