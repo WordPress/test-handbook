@@ -19,7 +19,7 @@ Before the meeting:
 > /here Hey everyone! Please join us in #core-test for this week's Test Team chat.
 
 _Or:_
-> /here We are starting now today's <test-chat>
+> /here We are starting now today's `<test-chat>`
 
 <div class="callout callout-info">
 <code>/here</code> notifies only active/online members in the channel.
@@ -177,7 +177,7 @@ _Or:_
 > As there are no more comments we can wrap up the meeting.
 
 **Final closing message:**
-> So this bring us to the end of our meeting </test-chat> thank you all for coming.
+> So this bring us to the end of our meeting `</test-chat>` thank you all for coming.
 
 _Alternative:_
 > And this bring us to the end of our meeting. Thank you all for coming.
