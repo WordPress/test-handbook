@@ -53,7 +53,7 @@ Similarly, by adding multiple query API parameters to the URL, you can initiate 
 
 Here are some of the parameters you can use:
 
-- `php=8.5` - To test with a specific PHP version.
+- `php=8.5` - To test with a specific PHP version use the exact version or the keyword `latest`.
 
 - `wp=trunk` - Normally we test with `trunk` but this can be set to specific WP version such as `6.9` or set to `beta` for the latest beta version.
 
@@ -65,11 +65,9 @@ Here are some of the parameters you can use:
 
 - `gutenberg-pr=12345`  - To apply a pull request patch for Gutenberg.
 
-For example, to initiate the Playground with WordPress 6.9 and PHP 8.5 you would use:
+For example, to initiate the Playground with WordPress `trunk` and PHP `8.3` you would use this link: [https://playground.wordpress.net/?wp=trunk&php=8.3](https://playground.wordpress.net/?wp=trunk&php=8.3)
 
-`https://playground.wordpress.net/?wp=6.9&php=8.5`
-
-<img src="https://make.wordpress.org/test/files/2026/04/playground-query-api-params-combination-scaled.webp" alt="Multiple Query API parameters for Playground" style="max-width: 100%">
+<img src="https://make.wordpress.org/test/files/2026/04/playground-trunk-83.webp" alt="Multiple Query API parameters for Playground" style="max-width: 100%">
 
 ## How to Install and Configure Playground CLI
 
@@ -94,7 +92,7 @@ npx @wp-playground/cli@latest server \
 ```
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-terminal-scaled.webp" alt="Run PlayGround CLI in Terminal" style="max-width: 100%">
 
-5. Your WordPress instance should now be accessible at: `http://localhost:9400`
+5. Your WordPress instance should now be accessible at: [http://localhost:9400](http://localhost:9400)
 
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-browser-scaled.webp" alt="WordPress Playground running locally on port 9400" style="max-width: 100%">
 
@@ -102,27 +100,47 @@ npx @wp-playground/cli@latest server \
 
 ### How to Create Alias in MacOS
 
+Most common shells are Zsh and Bash. To find our which one you are using, simply open your terminal and run `echo $SHELL`.
+
+This command will return `/bin/zsh` or `/bin/bash`.
+
+Next, you need to edit your shell's run command file which is a plain text configuration file that runs automatically every time you open a new terminal session.
+
+To edit your run command file, open your terminal and run `vi ~/.zshrc` and add the following to the end of the file. Or, if you are using Bash, run `vi ~/.bashrc`.
+
 ```bash
-alias wpplay='npx @wp-playground/cli@latest server \
+alias play-start='npx @wp-playground/cli@latest server \
   --mount-before-install=./build:/wordpress \
   --wordpress-install-mode=install-from-existing-files-if-needed \
   --login \
   --site-url=http://localhost:9400 \
   --mount=./src/wp-content/plugins:/wordpress/wp-content/plugins'
 ```
+Here, `play-start` is your `alias` that you will be using to run the long npx command. You can choose any name that you can easily remember.
 
-Then reload your config with one of the following commands:
 
-`source ~/.zshrc` if you are using Zsh or `source ~/.bashrc` if you are using Bash. Now you can just run `wpplay` from your terminal.
+Then reload your config with one of the following commands: `source ~/.zshrc` if you are using Zsh or `source ~/.bashrc` if you are using Bash.
 
-Here, instead of `wpplay` you can choose any name that you can easily remember for your alias.
+Now you can just run `play-start` from your terminal from the folder where you cloned the wordpress-develop repo.
+
+<img src="https://make.wordpress.org/test/files/2026/04/start-playground-cli-using-alias-scaled.webp" alt="Start Playground usian an alias" style="max-width: 100%">
 
 ### How to Create Alias in Windows PowerShell
 
-PowerShell doesn't have alias for multi-line commands. So, you need a function. Add this to your PowerShell profile (`$PROFILE`):
+The `$PROFILE` is the PowerShell equivalent of `~/.zshrc` on Zsh. It runs automatically every time you open a PowerShell session, so it's where you add your functions, aliases, and environment variables.
+
+To edit it, run `notepad $PROFILE`.
+
+If you don't have an existing `$PROFILE`, you might need to run the following command first to create it:
+
+`New-Item -Path $PROFILE -ItemType File -Force`
+
+The `-Force` flag handles it gracefully. It creates the file (and any missing folders) if it doesn't exist, and does nothing if it already exists.
+
+PowerShell doesn't have aliases for multi-line commands. So you need a function. Add this to your PowerShell profile:
 
 ```powershell
-function wpplay {
+function play-start {
   npx @wp-playground/cli@latest server `
     --mount-before-install=./build:/wordpress `
     --wordpress-install-mode=install-from-existing-files-if-needed `
@@ -134,7 +152,9 @@ function wpplay {
 
 Note the backtick ` instead of \ for line continuation.
 
-Then reload with `. $PROFILE`
+Close your PowerShell and reopen it before calling your alias, which is `play-start` in this example.
+
+If you get an `npm error code ENOENT` when calling the alias, create the `npm` folder inside `C:/Users/yourname/AppData/Roaming` and then try to run your alias again.
 
 ## Resources
 - [WPContrib WordPress Test Contributor Pathway YouTube Channel](https://www.youtube.com/@WPContrib) by [@SirLouen](https://profiles.wordpress.org/sirlouen/)
