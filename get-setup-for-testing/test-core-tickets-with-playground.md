@@ -73,9 +73,9 @@ For example, to initiate the Playground with WordPress `trunk` and PHP `8.3` you
 
 WordPress Playground CLI is a potential replacement for the current Docker instance for testing purposes within the Wordpress Core development scope.
 
-You may follow along with this [video guide](https://www.youtube.com/watch?v=-O8oubXyhUg) as you work through the setup instructions below.
+You can refer to this [video guide](https://www.youtube.com/watch?v=-O8oubXyhUg) for a visual walkthrough.
 
-Steps instructions:
+Setup instructions:
 
 1. Ensure you have [WordPress Develop](https://github.com/WordPress/wordpress-develop) repository locally cloned.
 2. Using your computer's terminal, access the folder of this repository.
