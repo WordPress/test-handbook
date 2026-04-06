@@ -1,14 +1,14 @@
 # Test Core Tickets with Playground
 
-[WordPress Playground](https://playground.wordpress.net/) is an online platform that lets you experiment and learn about WordPress without affecting your live website. It’s a virtual sandbox where you can test features, designs, and settings in a safe and controlled environment. More About WordPress Playground can be read [here](https://wordpress.github.io/wordpress-playground/). 
+[WordPress Playground](https://playground.wordpress.net/) is an online platform that lets you experiment and learn about WordPress without affecting your live website. It’s a virtual sandbox where you can test features, designs, and settings in a safe and controlled environment. More about WordPress Playground can be read [here](https://wordpress.github.io/wordpress-playground/). 
 
 ## How to Test Core Tickets with Playground
 
-1. Go to the Trac ticket and check that the ticket has a GitHub PR or a patch file. If a ticket has PR, you can test that trac ticket with Playground. If the Trac ticket has “.patch”. This automatic test environment will not work. 
+1. Go to the Trac ticket and check that the ticket has a GitHub PR or a patch file. If a ticket has PR, you can test that Trac ticket with Playground. If the Trac ticket has “.patch”. This automatic test environment will not work. 
 
     <a href="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png"><img src="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png" alt="Example Trac Ticket" style="max-width: 100%"></a>
 
-2. Click on the ‘View PR’ button, it will open the respective GitHub PR as shown in the below screenshot.
+2. Click on the ‘View PR’ button, it will open the respective GitHub PR as shown in the screenshot below.
 
     <a href="https://make.wordpress.org/test/files/2025/10/github-pull-request-example.png"><img src="https://make.wordpress.org/test/files/2025/10/github-pull-request-example.png" alt="GitHub Pull Request Example" style="max-width: 100%"></a>
 
@@ -55,7 +55,7 @@ Here are some of the parameters you can use:
 
 - `php=8.5` - To test with a specific PHP version use the exact version or the keyword `latest`.
 
-- `wp=trunk` - Normally we test with `trunk` but this can be set to specific WP version such as `6.9` or set to `beta` for the latest beta version.
+- `wp=trunk` - Normally we test with `trunk` but this can be set to a specific WP version such as `6.9` or set to `beta` for the latest beta version.
 
 - `gutenberg-branch=trunk` - To set the gutenberg branch.
 
@@ -98,9 +98,9 @@ npx @wp-playground/cli@latest server \
 
 6. Optionally, consider creating an alias for this long command in your terminal, so that you don't need to remember and type it every time. 
 
-### How to Create Alias in MacOS
+### How to Create an Alias in MacOS
 
-Most common shells are Zsh and Bash. To find our which one you are using, simply open your terminal and run `echo $SHELL`.
+The most common shells are Zsh and Bash. To find out which one you are using, simply open your terminal and run `echo $SHELL`.
 
 This command will return `/bin/zsh` or `/bin/bash`.
 
@@ -123,9 +123,9 @@ Then reload your config with one of the following commands: `source ~/.zshrc` if
 
 Now you can just run `play-start` from your terminal from the folder where you cloned the wordpress-develop repo.
 
-<img src="https://make.wordpress.org/test/files/2026/04/start-playground-cli-using-alias-scaled.webp" alt="Start Playground usian an alias" style="max-width: 100%">
+<img src="https://make.wordpress.org/test/files/2026/04/start-playground-cli-using-alias-scaled.webp" alt="Start Playground using an alias" style="max-width: 100%">
 
-### How to Create Alias in Windows PowerShell
+### How to Create an Alias in Windows PowerShell
 
 The `$PROFILE` is the PowerShell equivalent of `~/.zshrc` on Zsh. It runs automatically every time you open a PowerShell session, so it's where you add your functions, aliases, and environment variables.
 
