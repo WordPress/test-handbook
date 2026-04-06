@@ -45,7 +45,7 @@ It works by passing configuration options as query API parameters to the Playgro
 
 For example, to install the Test Reports plugin, you would use the following URL:
 
-`https://playground.wordpress.net/?plugin=test-reports`
+[https://playground.wordpress.net/?plugin=test-reports](https://playground.wordpress.net/?plugin=test-reports)
 
 <img src="https://make.wordpress.org/test/files/2026/04/test-reports-plugin-playground.webp" alt="Test Reports plugin installed via query parameters in Playground" style="max-width: 100%">
 
@@ -155,6 +155,20 @@ Note the backtick ` instead of \ for line continuation.
 Close your PowerShell and reopen it before calling your alias, which is `play-start` in this example.
 
 If you get an `npm error code ENOENT` when calling the alias, create the `npm` folder inside `C:/Users/yourname/AppData/Roaming` and then try to run your alias again.
+
+## The Build Workflow for Testing Patches in Playground CLI
+
+Testing patches with Playground CLI is almost same with the steps provided at the [Testing Core Tickets with Grunt](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-grunt/#applying-patches) page.
+
+The only difference is how to `build` after applying the patch.
+
+When using Docker Desktop services, you would use `npm run build:dev` to apply JavaScript and CSS changes. If the patch changes only PHP files, there is no need to run `npm run build:dev` again.
+
+However, since Playground CLI serves files from the `build` folder, which is compiled from the `src` folder, you need to rerun `npm run build` after applying the patch.
+
+But you don't need to rerun `npm install` after applying changes, unless changes affect `package.json` or `package.lock.json`.
+
+
 
 ## Resources
 - [WPContrib WordPress Test Contributor Pathway YouTube Channel](https://www.youtube.com/@WPContrib) by [@SirLouen](https://profiles.wordpress.org/sirlouen/)
