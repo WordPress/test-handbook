@@ -168,8 +168,6 @@ However, since Playground CLI serves files from the `build` folder, which is com
 
 But you don't need to rerun `npm install` after applying changes, unless changes affect `package.json` or `package.lock.json`.
 
-
-
 ## Resources
 - [WPContrib WordPress Test Contributor Pathway YouTube Channel](https://www.youtube.com/@WPContrib) by [@SirLouen](https://profiles.wordpress.org/sirlouen/)
 - [WordPress Playground Docs](https://wordpress.github.io/wordpress-playground/)
