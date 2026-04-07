@@ -36,7 +36,7 @@ Steps to install and use Mailpit:
 
 1. Create `docker-compose.override.yml` with the following code in root folder of your cloned [WordPress Develop](https://github.com/WordPress/wordpress-develop) Repo.
 
-```bash
+```yaml
 services:
   mail:
     container_name: mailpit
