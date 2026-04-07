@@ -34,7 +34,7 @@ Before you begin, ensure you have the following installed on your computer:
 
 ### Setup Instructions
 
-**Prefer a video walkthrough?** <br/>
+**Prefer a video walkthrough?** <br>
 Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?v=LMgn8GjUdNk) as you work through the instructions below.
 
 1.  **Fork and Clone the Repository** <br>
