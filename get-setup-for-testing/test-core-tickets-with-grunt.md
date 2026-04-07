@@ -52,7 +52,7 @@ After applying a patch, you may need to build the changes depending on what was 
 
 *   **JavaScript or CSS changes:** You **MUST** run the build command to compile the assets.
 
-```sh
+```bash
 npm run build:dev
 ```
 *   **PHP-only changes:** Running the build command is **not mandatory**, but it is good practice to ensure everything is in sync.
