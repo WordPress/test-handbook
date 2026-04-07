@@ -37,7 +37,7 @@ npm run grunt patch:https://core.trac.wordpress.org/attachment/ticket/27307/2730
 **Using a GitHub Pull Request:**
 You can apply patches directly from a GitHub Pull Request using either the direct URL or the `.diff` URL.
 
-**Option 1: Using the Direct PR URL**
+**Option 1: Using the Direct Pull Request URL**
 ```bash
 npm run grunt patch:https://github.com/WordPress/wordpress-develop/pull/10815
 ```
