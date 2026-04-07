@@ -12,29 +12,29 @@ To learn how to apply patches before running tests, see [Test Core Tickets with 
 The PHP unit tests cover the backend PHP code of WordPress.
 
 To run the full PHPUnit test suite:
-```bash
+[code language="bash"]
 npm run test:php
-```
+[/code]
 
 ### Running Specific Tests
 To run a specific group of tests (often related to a specific Trac ticket, if tagged):
-```bash
+[code language="bash"]
 npm run test:php -- --group 27307
-```
+[/code]
 
 To run tests within a specific class or file (filter):
-```bash
+[code language="bash"]
 npm run test:php -- --filter WP_Test_User_Query
-```
+[/code]
 
 ## Run End-to-End (E2E) Tests
 
 E2E tests verify the behavior of the application from the user's perspective, running in a browser environment.
 
 To run the end-to-end test suite:
-```bash
+[code language="bash"]
 npm run test:e2e
-```
+[/code]
 
 ## Troubleshooting
 
@@ -42,15 +42,15 @@ npm run test:e2e
 - **Cause:** The local environment or Docker is not running.
 - **Fix:** Start Docker Desktop and run:
 
-```bash
+[code language="bash"]
 npm run env:start
-```
+[/code]
 
 ### "Database connection failed"
 - **Cause:** The database container isn't ready or needs to be reset.
 - **Fix:** Wait a few seconds and try again, or reset the environment:
 
-```bash
+[code language="bash"]
 npm run env:reset
 npm run env:install
-```
+[/code]
