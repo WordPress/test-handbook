@@ -24,26 +24,26 @@ In your terminal, navigate to your `wordpress-develop` directory and run:
 
 **Using the Ticket Number (Recommended):**
 This will download and apply the latest patch for that ticket.
-```sh
+```bash
 npm run grunt patch:27307
 ```
 *(Replace `27307` with the actual ticket number)*
 
 **Using a Specific Patch URL:**
-```sh
+```bash
 npm run grunt patch:https://core.trac.wordpress.org/attachment/ticket/27307/27307.diff
 ```
 
 **Using a GitHub Pull Request:**
 You can apply patches directly from a GitHub Pull Request using either the direct URL or the `.diff` URL.
 
-**Option 1: Using the Direct PR URL**
-```sh
+**Option 1: Using the Direct Pull Request URL**
+```bash
 npm run grunt patch:https://github.com/WordPress/wordpress-develop/pull/10815
 ```
 
 **Option 2: Using the Diff URL**
-```sh
+```bash
 npm run grunt patch:https://github.com/WordPress/wordpress-develop/pull/10815.diff
 ```
 
@@ -71,14 +71,14 @@ For detailed instructions on running PHPUnit and E2E tests, see [Run Automated T
 - **Cause:** The code in your local version might be different from what the patch expects (e.g., your branch is outdated).
 - **Fix:** Update your repository to the latest trunk before applying the patch:
 
-```sh
+```bash
 git checkout trunk
 git pull upstream trunk
 ```
 
 If you get an error about `upstream` not being found, add it first:
 
-```sh
+```bash
 git remote add upstream https://github.com/WordPress/wordpress-develop.git
 ```
 
@@ -86,14 +86,14 @@ git remote add upstream https://github.com/WordPress/wordpress-develop.git
 - **Cause:** Missing dependencies.
 - **Fix:** Reinstall dependencies:
 
-```sh
+```bash
 rm -rf node_modules
 npm install
 ```
 
 ### Reverting Changes
 To remove a patch and go back to a clean state:
-```sh
+```bash
 git checkout .
 git clean -fd
 ```
