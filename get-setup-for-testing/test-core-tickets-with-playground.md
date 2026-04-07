@@ -96,7 +96,21 @@ npx @wp-playground/cli@latest server \
 
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-browser-scaled.webp" alt="WordPress Playground running locally on port 9400" style="max-width: 100%">
 
-6. Optionally, consider creating an alias for this long command in your terminal, so that you don't need to remember and type it every time. 
+7. Optionally, you can mount your `themes` folder if you will be adding code snippets into your active theme's `functions.php` file and want to keep the changes between rebuilds. To avoid affecting future tests, don't forget to remove any custom code snippets you have added.
+
+Here is how you would mount the `themes` folder alongside the `plugins`.
+
+```bash
+npx @wp-playground/cli@latest server \
+  --mount-before-install=./build:/wordpress \
+  --wordpress-install-mode=install-from-existing-files-if-needed \
+  --login \
+  --site-url=http://localhost:9400 \
+  --mount=./src/wp-content/plugins:/wordpress/wp-content/plugins \
+  --mount=./src/wp-content/themes:/wordpress/wp-content/themes
+```
+
+6. You may also consider creating an alias for this long command in your terminal, so that you don't need to remember and type it every time. 
 
 ### How to Create an Alias in MacOS
 
