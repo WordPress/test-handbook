@@ -9,7 +9,7 @@ In the context of bug repositories such as Trac or GitHub, triage means sorting,
 4. Test to make sure the issue is valid—if not, suggest closing the issue with a kind comment.
 5. Add steps to reproduce if they are missing and would add value.
 6. Add a screenshot if there isn’t already one and if it will add value.
-7. Ask clarifying questions if needed and add a the `[Type] Needs More Info` label.
+7. Ask clarifying questions if needed and add the `[Type] Needs More Info` label.
 
 ## Triaging Incoming Issues
 1. Start with the newest incoming issues or [unlabeled open issues](https://github.com/WordPress/gutenberg/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Alabel).
@@ -19,11 +19,11 @@ In the context of bug repositories such as Trac or GitHub, triage means sorting,
 5. If you do not have rights to add labels, continue to the [Testing Bugs](https://make.wordpress.org/test/handbook/triage/#testing-bugs) section. If you do have rights to add labels, continue to the [Triage for Admins](https://make.wordpress.org/test/handbook/triage/#triage-for-admins) section.
 
 ## Triage for Admins
-In the case of GitHub, such as the gutenberg repo, not everyone has write permissions to add labels or update titles. If you do have write permissions, you have the option to do a bit more in depth triage.
+In the case of GitHub, such as the Gutenberg repo, not everyone has write permissions to add labels or update titles. If you do have write permissions, you have the option to do a bit more in-depth triage.
 
 1. Start with the newest incoming issues or unlabeled issues.
 2. Label each issue with a focus area and type.
-3. Update the title if it can be made more clear while still keeping it as short as possible.
+3. Update the title if it can be made clearer while still keeping it as short as possible.
 4. If the issue is a duplicate or can be consolidated, close it with a note and add the `[Status] Duplicate` label.
 5. If more information is needed, add the `[Status] Needs More Info`  label and ask troubleshooting questions.
 6. Add workflow labels if needed, such as `Needs Testing`, `Needs Design Feedback`, or `Needs Decision`.
