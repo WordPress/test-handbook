@@ -67,7 +67,7 @@ To kick things off, here are some suggestions:
 ### Slack/Coordination
 [Recommended] After doing IRL introductions, consider posting a short note in the [#core-test channel](https://wordpress.slack.com/archives/C03B0H5J0) to let the Slack community know that a Contributor Day event is underway. Here is a great example [Slack thread for WC Asia 2023 Contributor Day](https://wordpress.slack.com/archives/C03B0H5J0/p1676600490483579).
 
-Slack can be a good way to connect with remote attendees, many of which can help answer questions and collaborate with testing. Everyone at the event and remote should be invited to keep in touch online.
+Slack can be a good way to connect with remote attendees, many of whom can help answer questions and collaborate with testing. Everyone at the event and remote should be invited to keep in touch online.
 
 <div class="callout callout-tip">
 Tip: While it's not required to run/mirror table collaboration in Slack, it does provide a very convenient way to record participation, as well as share the inevitable Trac query and GitHub PR links with other participants.
