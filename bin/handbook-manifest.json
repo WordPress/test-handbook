@@ -69,33 +69,19 @@
         "parent": null,
         "order": 30
     },
-    "test-reports\/testing-instructions": {
-        "title": "Testing Instructions",
-        "slug": "testing-instructions",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/testing-instructions.md",
-        "parent": "test-reports",
-        "order": 1
-    },
     "test-reports\/issue-reproduction": {
         "title": "Issue Reproduction",
         "slug": "issue-reproduction",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/issue-reproduction.md",
         "parent": "test-reports",
-        "order": 2
+        "order": 1
     },
     "test-reports\/patch-testing": {
         "title": "Patch Testing",
         "slug": "patch-testing",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/patch-testing.md",
         "parent": "test-reports",
-        "order": 3
-    },
-    "test-reports\/combined-report": {
-        "title": "Combined Report",
-        "slug": "combined-report",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/combined-report.md",
-        "parent": "test-reports",
-        "order": 4
+        "order": 2
     },
     "triage": {
         "title": "Triage & Testing Issues",
@@ -208,5 +194,26 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/full-site-editing-outreach-experiment\/faq-for-fse-outreach-experiment.md",
         "parent": "full-site-editing-outreach-experiment",
         "order": 1
+    },
+    "archive\/test-reports": {
+        "title": "Test Reports",
+        "slug": "test-reports",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/test-reports\/index.md",
+        "parent": "archive",
+        "order": 4
+    },
+    "archive\/test-reports\/testing-instructions": {
+        "title": "Testing Instructions",
+        "slug": "testing-instructions",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/test-reports\/testing-instructions.md",
+        "parent": "test-reports",
+        "order": 1
+    },
+    "archive\/test-reports\/combined-report": {
+        "title": "Combined Report",
+        "slug": "combined-report",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/test-reports\/combined-report.md",
+        "parent": "test-reports",
+        "order": 2
     }
 }
