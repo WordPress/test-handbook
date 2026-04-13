@@ -36,7 +36,11 @@ If you need help setting up your environment, reach out on [Make/Test Slack](htt
 ### Browser-Only Testing
 **Browser-based testing is suggested for users who have not contributed to WordPress before.**
 
-If you prefer to test using a browser only -- a good option if you have joined Contributor Day at the last minute! -- then you might consider using [WordPress Playground](https://playground.wordpress.net/), or a service like [InstaWP](https://instawp.com) or [TasteWP](https://tastewp.com). The Test Handbook's [Test Core Tickets with Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/) page provides step-by-step instructions for testing GitHub PRs directly in your browser.
+If you prefer to test using a browser only -- a great option if you've joined Contributor Day at the last minute -- the recommended approach is to use [WordPress Playground](https://playground.wordpress.net/), which allows you to run WordPress directly in your browser without any setup.
+
+For most common testing scenarios, WordPress Playground is sufficient and provides a quick, reliable way to test patches and GitHub PRs. The Test Handbook's [Test Core Tickets with Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/) page includes step-by-step instructions for doing this.
+
+If you need features like persistent environments, sharing setups with others, or longer-running instances, you may also consider using third-party services such as [InstaWP](https://instawp.com) or [TasteWP](https://tastewp.com).
 
 ### Plugins for Testing
 These plugins may be helpful, or even required, during testing sessions:
