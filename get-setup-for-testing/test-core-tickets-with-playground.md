@@ -35,6 +35,10 @@ There are some limitations to this Playground environment. You can read more [he
 
 In the WordPress Playground environment you can test the PR for the feature changes, bug fixes, regression issues and more.
 
+## Writing a Test Report
+
+After testing a PR, share your results by writing a test report on the Trac ticket. For report templates and guidelines, see [Patch Testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/).
+
 ## How to Configure Playground Using Query API Parameters
 
 If you prefer a video walkthrough, you may follow along with this [video guide](https://www.youtube.com/watch?v=9q6unIg_Pto) as you work through the instructions below.

@@ -1,6 +1,8 @@
 # Patch Testing
 Once a patch is made available for a ticket, it is critical to validate that the code change (a) addresses the issue (for bug report) or (b) delivers the expected behavior or result (for feature or enhancement).
 
+If you haven't applied a patch yet, see [Test Core Tickets with Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/) or [Test Core Tickets with Grunt](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-grunt/) to get started.
+
 During patch testing, please be aware of “regression” issues, where the patch may fix one thing, but break another unintentionally.
 
 Example patch testing reports:
