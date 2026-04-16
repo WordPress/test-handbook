@@ -1,0 +1,35 @@
+name: Weekly Testing Digest
+
+on:
+    schedule:
+        # Every Monday at 9:00 UTC
+        - cron: '0 9 * * 1'
+    workflow_dispatch:
+
+permissions: {}
+
+jobs:
+    digest:
+        name: Collect and post testing digest
+        runs-on: ubuntu-latest
+        env:
+            SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEEKLY_TESTING_DIGEST_WEBHOOK_URL }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+            - name: Set up Node.js
+              uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+              with:
+                  node-version: '22'
+
+            - name: Install Playwright Chromium
+              run: npx playwright install chromium --with-deps
+
+            - name: Collect testing digest (dry-run)
+              if: ${{ env.SLACK_WEBHOOK_URL == '' }}
+              run: node .github/scripts/weekly-testing-digest.mjs
+
+            - name: Collect and post testing digest
+              if: ${{ env.SLACK_WEBHOOK_URL != '' }}
+              run: node .github/scripts/weekly-testing-digest.mjs --post "$SLACK_WEBHOOK_URL"
