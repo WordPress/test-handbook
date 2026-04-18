@@ -18,12 +18,44 @@ Use a full local environment when testing depends on:
 Before testing, collect the following from the ticket or PR:
 
 - Ticket/issue URL
-- PR or patch URL (if a fix exists)
+- GitHub PR number or PR URL (Gutenberg fixes ship as PRs; patch URLs are for WordPress Trac tickets, not Gutenberg issues)
 - Exact reproduction steps
 - Expected behavior
 - Any required preconditions (theme, post type, specific block settings, user role)
 
 Then open Playground: https://playground.wordpress.net/
+
+## Test a Gutenberg PR in Playground
+
+You can test a Gutenberg pull request directly in Playground using the [`gutenberg-pr` query parameter](https://wordpress.github.io/wordpress-playground/developers/apis/query-api). Playground builds and loads Gutenberg from that PR so you can reproduce the issue and verify the fix without a local checkout.
+
+Example:
+
+https://playground.wordpress.net/?gutenberg-pr=65337
+
+Steps:
+
+1. Open the PR on GitHub and note the PR number (the number in the PR title URL, for example `65337` in `.../pull/65337`).
+2. Add it to the Playground URL: `https://playground.wordpress.net/?gutenberg-pr=PR_NUMBER` (replace `PR_NUMBER` with the number).
+3. Open the URL in your browser.
+4. Wait for the environment to finish loading; Gutenberg from that PR will be active.
+
+Then:
+
+- Reproduce the issue using the ticket steps.
+- Confirm whether the PR resolves it and run your usual regression checks.
+
+For a clear before-and-after, reproduce the issue first in a separate Playground tab without `gutenberg-pr` (for example default site plus Gutenberg from Plugins > Add New if you need the plugin), then open a new tab with `?gutenberg-pr=PR_NUMBER` and repeat the same steps.
+
+For more options (WordPress version, blueprints, and other query parameters), see the [Playground Query API](https://wordpress.github.io/wordpress-playground/developers/apis/query-api).
+
+### Test against a Gutenberg branch (for example trunk)
+
+To load a branch from the Gutenberg repository instead of a single PR, use `gutenberg-branch`. For example, to test the latest development line:
+
+https://playground.wordpress.net/?gutenberg-branch=trunk
+
+Use this when a ticket asks for verification against current Gutenberg rather than a specific PR.
 
 ## Test workflow
 
@@ -42,7 +74,7 @@ Then open Playground: https://playground.wordpress.net/
 
 ### 3) Apply and test the proposed fix
 
-1. Apply the PR/patch in the best available way for Playground.
+1. For a Gutenberg PR, open Playground with `?gutenberg-pr=PR_NUMBER` as described in [Test a Gutenberg PR in Playground](#test-a-gutenberg-pr-in-playground). For branch-based testing, use `?gutenberg-branch=BRANCH_NAME` (for example `trunk`).
 2. Repeat the same reproduction steps.
 3. Confirm whether the expected behavior now occurs.
 
@@ -73,8 +105,8 @@ Use this template for consistent reporting:
 ### Playground test report
 
 - Ticket: <ticket URL>
-- PR/Patch tested: <PR or patch URL>
-- Environment: WordPress Playground, Gutenberg plugin active
+- PR tested: <PR URL or PR number; Playground URL with `gutenberg-pr` if relevant>
+- Environment: WordPress Playground (Gutenberg from PR or branch)
 
 #### Baseline (before fix)
 - Steps followed:
@@ -99,6 +131,6 @@ Use this template for consistent reporting:
 1. Open the linked ticket and copy the exact reproduction steps.
 2. Reproduce the bug in Playground with Gutenberg active.
 3. Save the baseline result (for example: control missing, incorrect transform, unexpected warning).
-4. Apply the linked patch/PR and repeat the exact steps.
+4. Open Playground with `?gutenberg-pr=` and the PR number (or `?gutenberg-branch=trunk` if the ticket calls for trunk), then repeat the exact steps.
 5. Confirm the issue is resolved and validate one or two related editor flows for regressions.
 6. Post the test report using the template above.
