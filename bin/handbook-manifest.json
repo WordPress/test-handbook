@@ -195,25 +195,25 @@
         "parent": "full-site-editing-outreach-experiment",
         "order": 1
     },
-    "archive\/test-reports": {
+    "archive\/archived-test-reports": {
         "title": "Test Reports",
-        "slug": "test-reports",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/test-reports\/index.md",
+        "slug": "archived-test-reports",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/archived-test-reports\/index.md",
         "parent": "archive",
         "order": 4
     },
-    "archive\/test-reports\/testing-instructions": {
+    "archive\/archived-test-reports\/testing-instructions": {
         "title": "Testing Instructions",
         "slug": "testing-instructions",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/test-reports\/testing-instructions.md",
-        "parent": "test-reports",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/archived-test-reports\/testing-instructions.md",
+        "parent": "archived-test-reports",
         "order": 1
     },
-    "archive\/test-reports\/combined-report": {
+    "archive\/archived-test-reports\/combined-report": {
         "title": "Combined Report",
         "slug": "combined-report",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/test-reports\/combined-report.md",
-        "parent": "test-reports",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/archived-test-reports\/combined-report.md",
+        "parent": "archived-test-reports",
         "order": 2
     }
 }
