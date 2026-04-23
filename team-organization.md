@@ -30,23 +30,29 @@ Test Team Contributors are active members who regularly participate in one or mo
 
 The following contributors are currently active in the Test Team. This list is updated periodically to reflect ongoing participation.
 
-<!-- Placeholder: Add active members here. Example format:
 | Name | Username | Focus Area(s) |
 | --- | --- | --- |
-| First Last | [@username](https://profiles.wordpress.org/username/) | Triage, Patch Testing |
-| First Last | [@username](https://profiles.wordpress.org/username/) | Meeting Facilitation, Documentation |
--->
+| Huzaifa Al Mesbah | [@huzaifaalmesbah](https://profiles.wordpress.org/huzaifaalmesbah/) | Handbook Maintenance, Patch Testing, Triage |
+| Ozgur Sar | [@ozgursar](https://profiles.wordpress.org/ozgursar/) | Handbook Maintenance, Patch Testing, Triage |
+| JuanMa Garrido | [@juanmaguitar](https://profiles.wordpress.org/juanmaguitar/) | Handbook Maintenance, Triage |
+| r1k0 | [@r1k0](https://profiles.wordpress.org/r1k0/) | Handbook Maintenance, Patch Testing, Triage |
+| Shazzad Hossain Khan | [@sajib1223](https://profiles.wordpress.org/sajib1223/) | Patch Testing, Triage |
 
 
 ## Emeritus Members
 
 Emeritus status recognizes contributors who have made sustained, significant contributions to the Test Team over an extended period. This is a permanent acknowledgment of their dedication to the team and the WordPress project.
 
-<!-- Placeholder: Add emeritus members here. Example format:
 | Name | Username | Contributions |
 | --- | --- | --- |
-| First Last | [@username](https://profiles.wordpress.org/username/) | Team Rep (2022-2023), Triage Lead |
--->
+| Manuel Camargo | [@SirLouen](https://profiles.wordpress.org/sirlouen/) | Test Team Training Program, Pathway Videos |
+| Olga Gleckler | [@oglekler](https://profiles.wordpress.org/oglekler/) | Team Rep 2024-2025 |
+| Krupa Nanda | [@krupajnanda](https://profiles.wordpress.org/krupajnanda/) | Team Rep 2024-2025 |
+| Ankit K Gupta | [@ankit-k-gupta](https://profiles.wordpress.org/ankit-k-gupta/) | Team Rep 2023-2024 |
+| Pooja Derashri | [@webtechpooja](https://profiles.wordpress.org/webtechpooja/) | Team Rep 2023-2024 |
+| Piotrek Boniu | [@boniu91](https://profiles.wordpress.org/boniu91/) | Team Rep 2022-2023 |
+| Brian Alexander | [@ironprogrammer](https://profiles.wordpress.org/ironprogrammer/) | Team Rep 2021-2022, 2022-2023 |
+| Tonya Mork | [@hellofromtonya](https://profiles.wordpress.org/hellofromtonya/) | Team Rep 2022-2023 |
 
 ## How to Join
 
