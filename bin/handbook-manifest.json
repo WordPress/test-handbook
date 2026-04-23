@@ -90,6 +90,13 @@
         "parent": null,
         "order": 40
     },
+    "trac-keyword-triage-guide": {
+        "title": "Trac Keyword Triage Guide",
+        "slug": "trac-keyword-triage-guide",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/trac-keyword-triage-guide.md",
+        "parent": "triage",
+        "order": 1
+    },
     "call-for-testing": {
         "title": "How to facilitate a Call for Testing",
         "slug": "call-for-testing",
