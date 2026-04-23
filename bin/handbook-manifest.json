@@ -27,13 +27,41 @@
         "parent": null,
         "order": 20
     },
+    "get-setup-for-testing\/set-up-a-testing-environment": {
+        "title": "Set Up a Testing Environment",
+        "slug": "set-up-a-testing-environment",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/set-up-a-testing-environment.md",
+        "parent": "get-setup-for-testing",
+        "order": 1
+    },
     "get-setup-for-testing\/test-core-tickets-with-playground": {
         "title": "Test Core Tickets with Playground",
         "slug": "test-core-tickets-with-playground",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/test-core-tickets-with-playground.md",
         "parent": "get-setup-for-testing",
-        "order": 1
+        "order": 2
     },
+    "get-setup-for-testing\/test-core-tickets-with-grunt": {
+        "title": "Test Core Tickets with Grunt",
+        "slug": "test-core-tickets-with-grunt",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/test-core-tickets-with-grunt.md",
+        "parent": "get-setup-for-testing",
+        "order": 3
+    },
+    "get-setup-for-testing\/run-automated-tests": {
+        "title": "Run Automated Tests",
+        "slug": "run-automated-tests",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/run-automated-tests.md",
+        "parent": "get-setup-for-testing",
+        "order": 4
+    },
+    "get-setup-for-testing\/email-testing": {
+        "title": "Email Testing",
+        "slug": "email-testing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/email-testing.md",
+        "parent": "get-setup-for-testing",
+        "order": 30
+    },    
     "test-reports": {
         "title": "Test Reports",
         "slug": "test-reports",
@@ -41,33 +69,19 @@
         "parent": null,
         "order": 30
     },
-    "test-reports\/testing-instructions": {
-        "title": "Testing Instructions",
-        "slug": "testing-instructions",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/testing-instructions.md",
-        "parent": "test-reports",
-        "order": 1
-    },
     "test-reports\/issue-reproduction": {
         "title": "Issue Reproduction",
         "slug": "issue-reproduction",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/issue-reproduction.md",
         "parent": "test-reports",
-        "order": 2
+        "order": 1
     },
     "test-reports\/patch-testing": {
         "title": "Patch Testing",
         "slug": "patch-testing",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/patch-testing.md",
         "parent": "test-reports",
-        "order": 3
-    },
-    "test-reports\/combined-report": {
-        "title": "Combined Report",
-        "slug": "combined-report",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/combined-report.md",
-        "parent": "test-reports",
-        "order": 4
+        "order": 2
     },
     "triage": {
         "title": "Triage & Testing Issues",
@@ -187,5 +201,26 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/full-site-editing-outreach-experiment\/faq-for-fse-outreach-experiment.md",
         "parent": "full-site-editing-outreach-experiment",
         "order": 1
+    },
+    "archive\/archived-test-reports": {
+        "title": "Test Reports",
+        "slug": "archived-test-reports",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/archived-test-reports\/index.md",
+        "parent": "archive",
+        "order": 4
+    },
+    "archive\/archived-test-reports\/testing-instructions": {
+        "title": "Testing Instructions",
+        "slug": "testing-instructions",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/archived-test-reports\/testing-instructions.md",
+        "parent": "archived-test-reports",
+        "order": 1
+    },
+    "archive\/archived-test-reports\/combined-report": {
+        "title": "Combined Report",
+        "slug": "combined-report",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/archived-test-reports\/combined-report.md",
+        "parent": "archived-test-reports",
+        "order": 2
     }
 }

@@ -17,7 +17,7 @@ Test Team Rep duties include:
 - Write weekly [Test Team Update](https://make.wordpress.org/updates/tag/test/) posts, and post to [Team Updates](https://make.wordpress.org/updates/).
 - Write weekly [Week in Test](https://make.wordpress.org/test/category/week-in-test/) posts, and post to [Make WordPress Test](https://make.wordpress.org/test/).
 - Write agenda for bi-weekly `<test-chat>` sessions ([example](https://make.wordpress.org/test/2025/10/07/team-chat-agenda-8-october-2025/)).
-- Run alternating weekly `<test-chat>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1759931984959659)) and `<patch-testing-scrub>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1759417225194679)) sessions in [#core-test](https://wordpress.slack.com/messages/core-test/). See the [Test Chat Moderator Guide](test-chat-moderator-guide.md) for detailed instructions.
+- Run alternating weekly `<test-chat>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1759931984959659)) and `<patch-testing-scrub>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1759417225194679)) sessions in [#core-test](https://wordpress.slack.com/messages/core-test/). See the [Test Chat Moderator Guide](https://make.wordpress.org/test/handbook/team-reps/test-chat-moderator-guide/) for detailed instructions.
 - Write `<test-chat>` session recaps, and post to [Make WordPress Test](https://make.wordpress.org/test/).
 - Help raise awareness for testing needs, especially for upcoming releases.
 - Raise issues or red flags that other teams should be aware of or discussing.
@@ -36,13 +36,15 @@ Test Team Reps must be committed to showing up and performing regular duties, an
 
 The first step is to reach out to the community with a Call for Nominations, such as these examples from [2024](https://make.wordpress.org/test/2024/08/13/test-team-reps-call-for-nominations-4/) and [2025](https://make.wordpress.org/test/2025/08/14/test-team-reps-call-for-nominations-5/). Nominations are held each August, with the new term starting by September.
 
-Self-nominations are the primary way of getting into the elections list “I nominate for the Test Team Reps position.” Also other Team Members could nominate someone else “I nominate @username for the Test Team Reps position.” but the nominee must accept the nomination before the nomination period ends to be valid. Just answering to the Call for Nominations post is sufficient to nominate oneself or someone else.
+Self-nominations are the primary way to get on the elections list. To nominate yourself, simply state: "I nominate myself for the Test Team Reps position."
+Other Team Members may also nominate someone else, for example: "I nominate @username for the Test Team Reps position." However, the nominee must accept the nomination before the nomination period ends for it to be valid.
+In both cases, replying to the Call for Nominations post is sufficient to submit a nomination.
 
 ### Step 2: Criteria of Eligibility
 
 Only active members of the Test Team are eligible to be nominated as Test Team Reps. An active member is someone who has done one, both, or a combination of the following activities:
 
-- Lead at least three Test Team chats (with the corresponding write-ups posted to Make WordPress Test aftwerwards)
+- Lead at least three Test Team chats (with the corresponding write-ups posted to Make WordPress Test afterwards)
 - Managed at least six Patch Testing Scrubs
 
 For example: Leading 2 Test Team chats and managing 2 Patch Testing Scrubs would also qualify as an active member.
