@@ -20,6 +20,13 @@
         "parent": "team-reps",
         "order": 1
     },
+    "team-organization": {
+        "title": "Team Organization",
+        "slug": "team-organization",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/team-organization.md",
+        "parent": null,
+        "order": 15
+    },
     "get-setup-for-testing": {
         "title": "Get Setup for Testing",
         "slug": "get-setup-for-testing",
