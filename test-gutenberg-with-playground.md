@@ -99,31 +99,41 @@ Add a short test report in the ticket or PR with:
 
 ## Suggested test report template
 
-Use this template for consistent reporting:
+To stay consistent with existing handbook reporting style, use a format similar to the issue reproduction template and adapt headings for GitHub comments.
 
 ```md
-### Playground test report
+## Reproduction Report
+This report validates whether the issue can be reproduced and whether the Gutenberg PR resolves it in Playground.
 
-- Ticket: <ticket URL>
-- PR tested: <PR URL or PR number; Playground URL with `gutenberg-pr` if relevant>
-- Environment: WordPress Playground (Gutenberg from PR or branch)
+### Environment
+- WordPress: Playground default (or specify if changed)
+- Gutenberg source: `?gutenberg-pr=PR_NUMBER` or `?gutenberg-branch=BRANCH_NAME`
+- Browser: <name and version>
+- OS: <operating system>
+- Additional details: <theme, plugins, settings, post type, user role>
 
-#### Baseline (before fix)
+### Baseline Results (Before PR)
 - Steps followed:
   1. ...
   2. ...
 - Actual result: ...
 - Expected result: ...
+- Reproduced: Yes/No
 
-#### After applying fix
-- Result: ...
+### Results After Applying PR
+- Same steps repeated: Yes/No
+- Result after PR: ...
+- Issue resolved: Yes/No/Partially
 
-#### Regression checks
+### Regression Checks
 - Checked: ...
 - Result: ...
 
-#### Notes
-- ...
+### Additional Notes
+- Any follow-up details or edge cases.
+
+### Supplemental Artifacts
+- Screenshots/video: <links if available>
 ```
 
 ## Example scenario
