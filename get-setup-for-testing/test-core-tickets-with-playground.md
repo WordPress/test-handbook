@@ -104,9 +104,9 @@ Your WordPress instance should now be accessible at: <a href="http://localhost:9
 
 <p>You may also consider creating an alias for this long command in your terminal, so that you don't need to remember and type it every time.</p>
 
-<p>Optionally, you can mount your <code>themes</code> folder if you will be adding code snippets into your active theme's <code>functions.php</code> file and want to keep the changes between rebuilds. To avoid affecting future tests, don't forget to remove any custom code snippets you have added.
+<p>Optionally, you can mount your themes folder if you will be adding code snippets into your active theme's functions.php file and want to keep the changes between rebuilds. To avoid affecting future tests, don't forget to remove any custom code snippets you have added.
 
-Here is how you would mount the <code>themes</code> folder alongside the plugins.
+Here is how you would mount the themes folder alongside the plugins.
 
 ```bash
 npx @wp-playground/cli@latest server \
