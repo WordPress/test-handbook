@@ -17,7 +17,7 @@ Additionally, now is a good time to bookmark key Make WordPress resources, which
 
 Be on the lookout for posts about the release, features, etc -- consume as much as you can.
 
-And finally, make sure to join the appropriate release leads channel in [Make WordPress Slack](https://make.wordpress.org/chat/) to coordinate with other release squad teams, and to stay in the loop on latest developments! 👍
+And finally, make sure to join the appropriate release leads channel in [Make WordPress Slack](https://make.wordpress.org/chat/) to coordinate with other release squad teams, and to stay in the loop on latest developments! 👍
 
 ## Call for Testing Post
 The official release Call for Testing (CfT) post helps align the testing community around the key features and enhancements planned for the release. An example is the CfT for WordPress [6.1](https://make.wordpress.org/test/2022/09/21/help-test-wordpress-6-1/), [6.9](https://make.wordpress.org/test/2025/10/21/help-test-wordpress-6-9/).
@@ -74,7 +74,7 @@ Whenever possible, try to include a screenshot, animated GIF, video, or code sam
 - [Licecap](https://www.cockos.com/licecap/) - animated GIFs; great for micro demonstrations without sound
 - [HandBrake](https://handbrake.fr) - video resizing/compression/transcoding
 - [TinyPNG](https://tinypng.com) - image web optimization (WebP, PNG, JPEG)
-- [WordPress Playground]([https://wordpress.org/playground/](https://playground.wordpress.net/)) - one-click environments, which can be [pre-configured for tests or demos](https://wordpress.github.io/wordpress-playground/blueprints/)
+- [WordPress Playground](https://playground.wordpress.net/) - one-click environments, which can be [pre-configured for tests or demos](https://wordpress.github.io/wordpress-playground/blueprints/)
 - [WP Playground CLI](https://wordpress.github.io/wordpress-playground/developers/local-development/wp-playground-cli/)
  
 Here's an example workflow (on Mac) you might use to show how a feature works:
@@ -91,4 +91,4 @@ As you go through the list and draft up the copy, some things to consider:
 - Would a visual example (image, video, etc) help explain this better?
 - Are there test instructions provided at any of the links?
 
-For any of these that don’t have [test instructions](https://make.wordpress.org/test/handbook/test-reports/testing-instructions/#feature-or-enhancement-testing-instructions-template), please drop a note into [#core-test](https://wordpress.slack.com/archives/core-test), and we can ask contributors to add them.
+For any of these that don’t have [test instructions](https://make.wordpress.org/test/handbook/test-reports/testing-instructions/#feature-or-enhancement-testing-instructions-template), please drop a note into [#core-test](https://wordpress.slack.com/archives/core-test), and we can ask contributors to add them.

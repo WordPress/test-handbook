@@ -20,6 +20,13 @@
         "parent": "team-reps",
         "order": 1
     },
+    "team-organization": {
+        "title": "Team Organization",
+        "slug": "team-organization",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/team-organization.md",
+        "parent": null,
+        "order": 15
+    },
     "get-setup-for-testing": {
         "title": "Get Setup for Testing",
         "slug": "get-setup-for-testing",
@@ -76,33 +83,19 @@
         "parent": null,
         "order": 30
     },
-    "test-reports\/testing-instructions": {
-        "title": "Testing Instructions",
-        "slug": "testing-instructions",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/testing-instructions.md",
-        "parent": "test-reports",
-        "order": 1
-    },
     "test-reports\/issue-reproduction": {
         "title": "Issue Reproduction",
         "slug": "issue-reproduction",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/issue-reproduction.md",
         "parent": "test-reports",
-        "order": 2
+        "order": 1
     },
     "test-reports\/patch-testing": {
         "title": "Patch Testing",
         "slug": "patch-testing",
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/patch-testing.md",
         "parent": "test-reports",
-        "order": 3
-    },
-    "test-reports\/combined-report": {
-        "title": "Combined Report",
-        "slug": "combined-report",
-        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/test-reports\/combined-report.md",
-        "parent": "test-reports",
-        "order": 4
+        "order": 2
     },
     "triage": {
         "title": "Triage & Testing Issues",
@@ -110,6 +103,13 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/triage.md",
         "parent": null,
         "order": 40
+    },
+    "trac-keyword-triage-guide": {
+        "title": "Trac Keyword Triage Guide",
+        "slug": "trac-keyword-triage-guide",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/trac-keyword-triage-guide.md",
+        "parent": "triage",
+        "order": 1
     },
     "call-for-testing": {
         "title": "How to facilitate a Call for Testing",
@@ -215,5 +215,26 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/full-site-editing-outreach-experiment\/faq-for-fse-outreach-experiment.md",
         "parent": "full-site-editing-outreach-experiment",
         "order": 1
+    },
+    "archive\/archived-test-reports": {
+        "title": "Test Reports",
+        "slug": "archived-test-reports",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/archived-test-reports\/index.md",
+        "parent": "archive",
+        "order": 4
+    },
+    "archive\/archived-test-reports\/testing-instructions": {
+        "title": "Testing Instructions",
+        "slug": "testing-instructions",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/archived-test-reports\/testing-instructions.md",
+        "parent": "archived-test-reports",
+        "order": 1
+    },
+    "archive\/archived-test-reports\/combined-report": {
+        "title": "Combined Report",
+        "slug": "combined-report",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/archive\/archived-test-reports\/combined-report.md",
+        "parent": "archived-test-reports",
+        "order": 2
     }
 }
