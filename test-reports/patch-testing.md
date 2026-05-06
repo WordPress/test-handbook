@@ -41,6 +41,42 @@ Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
 Add as Attachment</code></pre>
 
+### GitHub Markdown template
+
+Use this version when posting a bug or defect patch test report to a GitHub PR:
+
+```markdown
+## Test Report
+
+This report validates that the indicated patch addresses the issue.
+
+Patch tested: REPLACE_WITH_PATCH_URL
+
+### Environment
+
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z
+- Active Plugins:
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
+
+### Actual Results
+
+- ✅ Issue resolved with patch.
+
+### Additional Notes
+
+- Any additional details worth mention.
+
+### Supplemental Artifacts
+
+Add screenshots, screencasts, or logs here.
+```
+
 If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.
 
 ## Feature or Enhancement Patch Report Template
@@ -75,5 +111,42 @@ Patch tested: REPLACE_WITH_PATCH_URL
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
 Add as Attachment</code></pre>
+
+### GitHub Markdown template
+
+Use this version when posting a feature or enhancement patch test report to a GitHub PR:
+
+```markdown
+## Test Report
+
+This report validates that the indicated patch addresses the issue.
+
+Patch tested: REPLACE_WITH_PATCH_URL
+
+### Environment
+
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z
+- Active Plugins:
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
+
+### Actual Results
+
+- ✅ Expected result #1 works as expected with patch.
+- ✅ Expected result #2 works as expected with patch.
+
+### Additional Notes
+
+- Any additional details worth mention.
+
+### Supplemental Artifacts
+
+Add screenshots, screencasts, or logs here.
+```
 
 If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.
