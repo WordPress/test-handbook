@@ -5,8 +5,8 @@
  * WordPress Trac, then builds a JSON payload for Slack.
  *
  * Usage:
- *   node weekly-testing-digest.mjs                  # dry-run: prints payload
- *   node weekly-testing-digest.mjs --post <URL>     # posts payload to webhook
+ *   node weekly-testing-digest.mjs                           # dry-run: prints payload
+ *   SLACK_WEBHOOK_URL=<url> node weekly-testing-digest.mjs   # posts to Slack
  *
  * Requirements: Node.js 18+ (native fetch), playwright
  */
@@ -17,7 +17,6 @@ const REPO = 'WordPress/gutenberg';
 const LABEL = 'Needs Testing';
 const TRAC_QUERY_URL =
 	'https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing&group=milestone&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority&max=0';
-const TRAC_REPORT_URL = 'https://core.trac.wordpress.org/tickets/needs-testing';
 
 // ---------------------------------------------------------------------------
 // GitHub
@@ -50,12 +49,17 @@ async function fetchGitHubCount( type ) {
 
 /**
  * Build the GitHub web UI filtered URL.
+ *
+ * The `is:pr` qualifier is required on `/pulls` because the URL otherwise
+ * redirects to the unified issues view.
+ *
  * @param {'issues'|'pulls'} type
  * @returns {string}
  */
 function buildGitHubURL( type ) {
 	const encodedLabel = encodeURIComponent( `"${ LABEL }"` );
-	return `https://github.com/${ REPO }/${ type }?q=is%3Aopen+label%3A${ encodedLabel }`;
+	const typeQualifier = type === 'pulls' ? '+is%3Apr' : '';
+	return `https://github.com/${ REPO }/${ type }?q=is%3Aopen${ typeQualifier }+label%3A${ encodedLabel }`;
 }
 
 // ---------------------------------------------------------------------------
@@ -74,8 +78,8 @@ async function fetchTracMilestones() {
 	const browser = await chromium.launch();
 	try {
 		const page = await browser.newPage();
-		await page.goto( TRAC_QUERY_URL, { timeout: 45000 } );
-		await page.waitForSelector( 'table.listing', { timeout: 30000 } );
+		await page.goto( TRAC_QUERY_URL, { timeout: 60000 } );
+		await page.waitForSelector( 'table.listing', { timeout: 45000 } );
 
 		const allMilestones = await page.evaluate( () => {
 			return [ ...document.querySelectorAll( 'h2' ) ]
@@ -90,8 +94,24 @@ async function fetchTracMilestones() {
 				.filter( Boolean );
 		} );
 
+		if ( allMilestones.length === 0 ) {
+			console.error(
+				'Warning: Trac scrape returned no milestones — page structure may have changed.'
+			);
+		}
+
 		// Keep only versioned milestones (e.g. "7.0", "7.1")
-		return allMilestones.filter( ( m ) => /^\d+\.\d+$/.test( m.milestone ) );
+		const versioned = allMilestones.filter( ( m ) =>
+			/^\d+\.\d+$/.test( m.milestone )
+		);
+
+		if ( versioned.length === 0 && allMilestones.length > 0 ) {
+			console.error(
+				`Warning: Found ${ allMilestones.length } milestone(s) but none matched versioned pattern (X.Y).`
+			);
+		}
+
+		return versioned;
 	} finally {
 		await browser.close();
 	}
@@ -127,35 +147,7 @@ async function postToSlack( webhookURL, payload ) {
 // ---------------------------------------------------------------------------
 
 async function main() {
-	const args = process.argv.slice( 2 );
-	let mode = 'dry-run';
-	let webhookURL = '';
-
-	for ( let i = 0; i < args.length; i++ ) {
-		if ( args[ i ] === '--post' ) {
-			mode = 'post';
-			webhookURL = args[ i + 1 ];
-			if ( ! webhookURL ) {
-				console.error( 'Error: --post requires a webhook URL argument.' );
-				process.exit( 1 );
-			}
-			i++;
-		} else if ( args[ i ] === '--help' || args[ i ] === '-h' ) {
-			console.log(
-				'Usage: node weekly-testing-digest.mjs [--post WEBHOOK_URL]'
-			);
-			console.log(
-				'  (no args)       Dry-run: print JSON payload to stdout'
-			);
-			console.log(
-				'  --post URL      Post the payload to the given Slack webhook URL'
-			);
-			process.exit( 0 );
-		} else {
-			console.error( `Unknown argument: ${ args[ i ] }` );
-			process.exit( 1 );
-		}
-	}
+	const webhookURL = process.env.SLACK_WEBHOOK_URL || '';
 
 	// Fetch GitHub and Trac data in parallel
 	console.error( 'Fetching data from GitHub and Trac...' );
@@ -170,19 +162,25 @@ async function main() {
 	const tracTotal = tracMilestones.reduce( ( sum, m ) => sum + m.count, 0 );
 	const date = new Date().toISOString().split( 'T' )[ 0 ];
 
+	// Slack Workflow webhook variables only accept primitives, so flatten
+	// the per-milestone breakdown into a string (e.g. "7.0: 2 • 7.1: 8").
+	const tracMilestonesSummary = tracMilestones
+		.map( ( m ) => `${ m.milestone }: ${ m.count }` )
+		.join( ' • ' );
+
 	const payload = {
 		gutenberg_issue_count: String( issueCount ),
 		gutenberg_pr_count: String( prCount ),
 		gutenberg_total: String( gutenbergTotal ),
-		trac_milestones: tracMilestones,
+		trac_milestones: tracMilestonesSummary,
 		trac_total: String( tracTotal ),
 		gutenberg_issues_url: buildGitHubURL( 'issues' ),
 		gutenberg_prs_url: buildGitHubURL( 'pulls' ),
-		trac_url: TRAC_REPORT_URL,
+		trac_url: TRAC_QUERY_URL,
 		date,
 	};
 
-	if ( mode === 'dry-run' ) {
+	if ( ! webhookURL ) {
 		// Human-readable summary
 		console.error( '' );
 		console.error( '=== Weekly Testing Digest ===' );
