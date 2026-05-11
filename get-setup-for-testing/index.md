@@ -73,6 +73,10 @@ Use this option if you want to test pull requests or work with the bleeding-edge
 
 The Gutenberg plugin will be installed and activated automatically in the local environment.
 
+### Finding Tickets to Test
+
+A great place to start is the [Needs Testing](https://github.com/WordPress/gutenberg/pulls?q=is%3Aopen+is%3Apr+label%3A%22Needs+Testing%22) queue on GitHub. These are Gutenberg PRs that need a fresh set of eyes.
+
 **Resources:**
 - [Getting Started with Code Contribution](https://developer.wordpress.org/block-editor/contributors/code/getting-started-with-code-contribution/) – Block Editor Handbook
 - [Testing Overview](https://developer.wordpress.org/block-editor/contributors/code/testing-overview/) – Block Editor Handbook
