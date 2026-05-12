@@ -58,7 +58,7 @@ async function fetchGitHubCount( type ) {
  */
 function buildGitHubURL( type ) {
 	const encodedLabel = encodeURIComponent( `"${ LABEL }"` );
-	const typeQualifier = type === 'pulls' ? '+is%3Apr' : '';
+	const typeQualifier = type === 'pulls' ? '+is%3Apr' : '+is%3Aissue';
 	return `https://github.com/${ REPO }/${ type }?q=is%3Aopen${ typeQualifier }+label%3A${ encodedLabel }`;
 }
 
