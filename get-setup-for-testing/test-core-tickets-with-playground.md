@@ -96,17 +96,15 @@ npx @wp-playground/cli@latest server \
 ```
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-terminal-scaled.webp" alt="Run PlayGround CLI in Terminal" style="max-width: 100%">
 
-<p>
-Your WordPress instance should now be accessible at: <a href="http://localhost:9400">http://localhost:9400</a>
+Your WordPress instance should now be accessible at: `http://localhost:9400`
 <br />
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-browser-scaled.webp" alt="WordPress Playground running locally on port 9400" style="max-width: 100%">
-</p>
 
-<p>You may also consider creating an alias for this long command in your terminal, so that you don't need to remember and type it every time.</p>
+You may also consider creating an alias for this long command in your terminal, so that you don't need to remember and type it every time.
 
-<p>Optionally, you can mount your themes folder if you will be adding code snippets into your active theme's functions.php file and want to keep the changes between rebuilds. To avoid affecting future tests, don't forget to remove any custom code snippets you have added.
+Optionally, you can mount your `themes` folder if you will be adding code snippets into your active theme's `functions.php` file and want to keep the changes between rebuilds. To avoid affecting future tests, don't forget to remove any custom code snippets you have added.
 
-Here is how you would mount the themes folder alongside the plugins.
+Here is how you would mount the `themes` folder alongside the `plugins`.
 
 ```bash
 npx @wp-playground/cli@latest server \
@@ -117,7 +115,6 @@ npx @wp-playground/cli@latest server \
   --mount=./src/wp-content/plugins:/wordpress/wp-content/plugins \
   --mount=./src/wp-content/themes:/wordpress/wp-content/themes
 ```
-</p>
 
 ### How to Create an Alias in MacOS
 
