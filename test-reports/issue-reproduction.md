@@ -38,3 +38,37 @@ This report validates that the issue can be reproduced.
 Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
 or
 Add as Attachment</code></pre>
+
+### GitHub Markdown template
+
+Use this version when posting a reproduction report to a GitHub issue:
+
+```markdown
+## Reproduction Report
+
+This report validates that the issue can be reproduced.
+
+### Environment
+
+- OS: Operating System X.Y.Z
+- Web Server: Server Name X.Y.Z
+- PHP: X.Y.Z
+- WordPress: X.Y-Z
+- Browser: Browser Name X.Y.Z
+- Theme: Theme Name X.Y.Z
+- Active Plugins:
+  - Plugin 1 X.Y.Z
+  - Plugin 2 X.Y.Z
+
+### Actual Results
+
+- ✅ Error condition occurs (reproduced).
+
+### Additional Notes
+
+- Any additional details worth mention.
+
+### Supplemental Artifacts
+
+Add screenshots, screencasts, or logs here.
+```
