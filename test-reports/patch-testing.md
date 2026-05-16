@@ -11,142 +11,106 @@ Example patch testing reports:
 -   [Trac #54896](https://core.trac.wordpress.org/ticket/54896#comment:3)
 -   [Trac #54905](https://core.trac.wordpress.org/ticket/54905#comment:29)
 
-## Bug/Defect Patch Report Template
-Here is an example Test Report starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment.
+## Patch Testing Report Template
 
-<pre><code>== Test Report
-This report validates that the indicated patch addresses the issue.
+### Trac template
+
+Use this version when posting a patch testing report to a Trac ticket:
+
+In the "Steps taken" section, the final step reports the outcome using ✅ to indicate the patch is solving the problem or ❌ to indicate the patch is failing.
+
+```
+== Patch Testing Report
 
 Patch tested: REPLACE_WITH_PATCH_URL
 
 === Environment
-- OS: Operating System X.Y.Z
-- Web Server: Server Name X.Y.Z
-- PHP: X.Y.Z
 - WordPress: X.Y-Z
+- PHP: X.Y.Z
+- Server: Server Name X.Y.Z
+- Database: Database Name X.Y.Z
 - Browser: Browser Name X.Y.Z
-- Theme: Theme Name X.Y.Z 
-- Active Plugins:
+- OS: Operating System X.Y.Z
+- Theme: Theme Name X.Y.Z
+- MU Plugins:
+  - MU Plugin 1 X.Y.Z
+- Plugins:
   - Plugin 1 X.Y.Z
   - Plugin 2 X.Y.Z
 
-=== Actual Results
-- ✅ Issue resolved with patch.
+=== Steps taken
+1. Step one
+2. Step two
+x. ✅ Patch is solving the problem: Describe what was fixed / ❌ Patch is failing: Describe what went wrong
+
+=== Expected result
+- Explain what results you were expecting from this patch.
 
 === Additional Notes
-- Any additional details worth mention.
+- Any additional details worth mentioning.
 
-=== Supplemental Artifacts
-Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
-or
-Add as Attachment</code></pre>
+=== Screenshots/Screencast with results
+- Screenshot/Screencast before
+- Screenshot/Screencast after
 
-### GitHub Markdown template
+=== Support Content
+- Here you can add any support content useful for testing.
+  1. Blueprint JSON
+  2. Website Playground URL with parameters
+  3. Snippets of code
+  4. Additional Screenshots
+  5. etc...
+```
 
-Use this version when posting a bug or defect patch test report to a GitHub PR:
+### GitHub template
+
+Use this version when posting a patch testing report to a GitHub PR:
 
 ```markdown
-## Test Report
-
-This report validates that the indicated patch addresses the issue.
+## Patch Testing Report
 
 Patch tested: REPLACE_WITH_PATCH_URL
 
 ### Environment
 
-- OS: Operating System X.Y.Z
-- Web Server: Server Name X.Y.Z
-- PHP: X.Y.Z
 - WordPress: X.Y-Z
+- PHP: X.Y.Z
+- Server: Server Name X.Y.Z
+- Database: Database Name X.Y.Z
 - Browser: Browser Name X.Y.Z
+- OS: Operating System X.Y.Z
 - Theme: Theme Name X.Y.Z
-- Active Plugins:
+- MU Plugins:
+  - MU Plugin 1 X.Y.Z
+- Plugins:
   - Plugin 1 X.Y.Z
   - Plugin 2 X.Y.Z
 
-### Actual Results
+### Steps taken
 
-- ✅ Issue resolved with patch.
+1. Step one
+2. Step two
+x. ✅ Patch is solving the problem: Describe what was fixed / ❌ Patch is failing: Describe what went wrong
+
+### Expected result
+
+- Explain what results you were expecting from this patch.
 
 ### Additional Notes
 
-- Any additional details worth mention.
+- Any additional details worth mentioning.
 
-### Supplemental Artifacts
+### Screenshots/Screencast with results
 
-Add screenshots, screencasts, or logs here.
+- Screenshot/Screencast before
+- Screenshot/Screencast after
+
+### Support Content
+
+- Here you can add any support content useful for testing.
+  1. Blueprint JSON
+  2. Website Playground URL with parameters
+  3. Snippets of code
+  4. Additional Screenshots
+  5. etc...
 ```
-
-If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.
-
-## Feature or Enhancement Patch Report Template
-Here is an example Test Report starter template, which can be copied and pasted directly into a text editor to prepare the report, and then added to Trac as a comment.
-
-In the “Actual Results” section, list each of the “Expected Results” and report your findings using ✅ to indicate your testing validated it works as expected or ❌ to indicate it does not work as expected.
-
-<pre><code>== Test Report
-This report validates that the indicated patch addresses the issue.
-
-Patch tested: REPLACE_WITH_PATCH_URL
-
-=== Environment
-- OS: Operating System X.Y.Z
-- Web Server: Server Name X.Y.Z
-- PHP: X.Y.Z
-- WordPress: X.Y-Z
-- Browser: Browser Name X.Y.Z
-- Theme: Theme Name X.Y.Z 
-- Active Plugins:
-  - Plugin 1 X.Y.Z
-  - Plugin 2 X.Y.Z
-
-=== Actual Results
-- ✅ Expected result #1 works as expected with patch.
-- ✅ Expected result #2 works as expected with patch.
-
-=== Additional Notes
-- Any additional details worth mention.
-
-=== Supplemental Artifacts
-Add Inline: [[Image(REPLACE_WITH_IMAGE_URL)]]
-or
-Add as Attachment</code></pre>
-
-### GitHub Markdown template
-
-Use this version when posting a feature or enhancement patch test report to a GitHub PR:
-
-```markdown
-## Test Report
-
-This report validates that the indicated patch addresses the issue.
-
-Patch tested: REPLACE_WITH_PATCH_URL
-
-### Environment
-
-- OS: Operating System X.Y.Z
-- Web Server: Server Name X.Y.Z
-- PHP: X.Y.Z
-- WordPress: X.Y-Z
-- Browser: Browser Name X.Y.Z
-- Theme: Theme Name X.Y.Z
-- Active Plugins:
-  - Plugin 1 X.Y.Z
-  - Plugin 2 X.Y.Z
-
-### Actual Results
-
-- ✅ Expected result #1 works as expected with patch.
-- ✅ Expected result #2 works as expected with patch.
-
-### Additional Notes
-
-- Any additional details worth mention.
-
-### Supplemental Artifacts
-
-Add screenshots, screencasts, or logs here.
-```
-
-If already provided in the ticket, Testing Instructions do not need to be duplicated in the Test Report.
