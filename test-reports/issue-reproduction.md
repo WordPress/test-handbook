@@ -9,6 +9,35 @@ Example reproduction reports:
 -   [Trac #55671](https://core.trac.wordpress.org/ticket/55671#comment:1)
 -   [GitHub Issue #41067](https://github.com/WordPress/gutenberg/issues/41067#issuecomment-1130569145)
 
+## Generating Reports with the Test Reports Plugin
+
+Instead of filling out the template manually, you can use the **Test Reports** plugin to auto-generate reproduction reports pre-filled with your environment details.
+
+### What it does
+
+The plugin automatically captures your WordPress version, PHP version, active theme, plugins, browser, and OS — eliminating manual data entry for the Environment section.
+
+### Where to get it
+
+Install **Test Reports** directly from [wordpress.org/plugins/test-reports](https://wordpress.org/plugins/test-reports/).
+
+### How to use it
+
+1. Install and activate the plugin on your test site.
+2. Navigate to **Tools > Test Reports** or click **Test Reports** in the admin toolbar.
+3. Select the **Report Type** (Bug Reproduction) and **Report Location** (Trac or GitHub) — the plugin will format the output accordingly.
+4. Fill in only the fields that require manual input: **Steps taken**, **Expected behavior**, and **Additional Notes**.
+
+### Plugin Screenshot
+
+![Test Reports plugin: admin toolbar menu, Report Type and Report Location selection, and generated reproduction report output](https://raw.githubusercontent.com/WordPress/test-handbook/refs/heads/trunk/assets/issue-reproduction.png)
+
+### Tips
+
+- For **GitHub issues**, the plugin outputs Markdown-formatted reports ready to paste directly.
+- For **Trac tickets**, the plugin outputs Wiki-formatted reports compatible with Trac's syntax.
+- Always review the auto-filled environment details before posting to confirm accuracy.
+
 ## Reproduction Report Template
 
 ### Trac template
