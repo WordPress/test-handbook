@@ -20,6 +20,13 @@
         "parent": "team-reps",
         "order": 1
     },
+    "team-reps\/patch-testing-scrub-guide": {
+        "title": "Patch Testing Scrub Guide",
+        "slug": "patch-testing-scrub-guide",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/team-reps\/patch-testing-scrub-guide.md",
+        "parent": "team-reps",
+        "order": 2
+    },
     "team-organization": {
         "title": "Team Organization",
         "slug": "team-organization",
