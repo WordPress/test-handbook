@@ -11,7 +11,7 @@ Test Team contributions touch on all aspects of manual and automated testing wit
 - [Patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/)
 - Feature and enhancement testing
 - End-to-end (E2E) testing
-- Patch testing scrubbing
+- [Patch testing scrubbing](https://make.wordpress.org/test/handbook/team-reps/patch-testing-scrub-guide/)
 - Education, outreach, and documentation
 
 With such a wide range of opportunities available, contributors are sure to find an area of interest to help make WordPress better.
