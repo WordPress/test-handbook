@@ -72,7 +72,7 @@ function buildGitHubURL( type ) {
  * so we use a headless browser that auto-solves it.
  *
  * @returns {Promise<Array<{milestone: string, count: number}>>}
- *          Only versioned milestones (X.X pattern).
+ *          Only versioned milestones (X.X or X.X.X pattern).
  */
 async function fetchTracMilestones() {
 	const browser = await chromium.launch();
@@ -100,14 +100,14 @@ async function fetchTracMilestones() {
 			);
 		}
 
-		// Keep only versioned milestones (e.g. "7.0", "7.1")
+		// Keep only versioned milestones (e.g. "7.0", "7.0.1", "7.1")
 		const versioned = allMilestones.filter( ( m ) =>
-			/^\d+\.\d+$/.test( m.milestone )
+			/^\d+(\.\d+)+$/.test( m.milestone )
 		);
 
 		if ( versioned.length === 0 && allMilestones.length > 0 ) {
 			console.error(
-				`Warning: Found ${ allMilestones.length } milestone(s) but none matched versioned pattern (X.Y).`
+				`Warning: Found ${ allMilestones.length } milestone(s) but none matched versioned pattern (X.Y or X.Y.Z).`
 			);
 		}
 
