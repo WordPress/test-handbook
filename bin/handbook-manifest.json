@@ -82,6 +82,13 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/email-testing.md",
         "parent": "get-setup-for-testing",
         "order": 30
+    },
+    "get-setup-for-testing\/database-inspection": {
+        "title": "Database Inspection",
+        "slug": "database-inspection",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/database-inspection.md",
+        "parent": "get-setup-for-testing",
+        "order": 40
     },    
     "test-reports": {
         "title": "Test Reports",
