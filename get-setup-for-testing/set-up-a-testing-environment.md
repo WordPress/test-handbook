@@ -82,8 +82,6 @@ Your local WordPress site should now be accessible at `http://localhost:8889`.
 -   **Reset environment:** `npm run env:reset` (Warning: deletes database)
 -   **Run WP-CLI commands:** `npm run env:cli -- <command>` (e.g., `npm run env:cli -- user list`)
 
-For test scenarios that require checking or editing database rows directly, see [Database Inspection](https://make.wordpress.org/test/handbook/get-setup-for-testing/database-inspection/).
-
 ## Next Steps
 
 Now that your local environment is set up, learn how to apply patches and run tests:
