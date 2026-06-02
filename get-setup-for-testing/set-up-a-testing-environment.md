@@ -27,8 +27,8 @@ The recommended way to set up a local environment for WordPress core development
 
 ### Prerequisites
 Before you begin, ensure you have the following installed on your computer:
-1.  **Node.js**: Version 20.10.0 or later.
-2.  **npm**: Version 10.2.3 or later (usually comes with Node.js).
+1.  **Node.js**: Version 20.x or later.
+2.  **npm**: Version 10.x or later (usually comes with Node.js).
 3.  **Git**: For version control.
 4.  **Docker Desktop** (or a compatible container runtime like OrbStack, Colima, or Rancher Desktop).
 
@@ -82,40 +82,7 @@ Your local WordPress site should now be accessible at `http://localhost:8889`.
 -   **Reset environment:** `npm run env:reset` (Warning: deletes database)
 -   **Run WP-CLI commands:** `npm run env:cli -- <command>` (e.g., `npm run env:cli -- user list`)
 
-### Optional Database Inspection
-
-Some test scenarios require checking or editing database rows directly. If you need a browser-based database tool, add a `phpmyadmin` service to a `docker-compose.override.yml` file in the root of your local `wordpress-develop` checkout.
-If you already use an override file for another local service, such as Mailpit, add `phpmyadmin` under the same `services` block.
-
-```yaml
-services:
-  phpmyadmin:
-    image: phpmyadmin:latest
-    restart: unless-stopped
-    depends_on:
-      - mysql
-    ports:
-      - '8080:80'
-    environment:
-      PMA_HOST: mysql
-      PMA_USER: root
-      PMA_PASSWORD: password
-    networks:
-      - wpdevnet
-```
-
-Start the service with:
-
-```bash
-docker compose up -d phpmyadmin
-```
-
-Then open `http://localhost:8080` in your browser. This uses the default local database credentials from the WordPress development environment. The default database name is `wordpress_develop`.
-When you are finished, stop the service with:
-
-```bash
-docker compose stop phpmyadmin
-```
+For test scenarios that require checking or editing database rows directly, see [Database Inspection](https://make.wordpress.org/test/handbook/get-setup-for-testing/database-inspection/).
 
 ## Next Steps
 

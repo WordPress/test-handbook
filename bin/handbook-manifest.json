@@ -69,12 +69,19 @@
         "parent": "get-setup-for-testing",
         "order": 4
     },
+    "get-setup-for-testing\/database-inspection": {
+        "title": "Database Inspection",
+        "slug": "database-inspection",
+        "markdown_source": "https:\/\/github.com\/WordPress\/test-handbook\/blob\/trunk\/get-setup-for-testing\/database-inspection.md",
+        "parent": "get-setup-for-testing",
+        "order": 5
+    },
     "get-setup-for-testing/test-gutenberg-with-playground": {
         "title": "Test Gutenberg Tickets with Playground",
         "slug": "test-gutenberg-with-playground",
         "markdown_source": "https://github.com/WordPress/test-handbook/blob/trunk/get-setup-for-testing/test-gutenberg-with-playground.md",
         "parent": "get-setup-for-testing",
-        "order": 5
+        "order": 6
     },
     "get-setup-for-testing\/email-testing": {
         "title": "Email Testing",
