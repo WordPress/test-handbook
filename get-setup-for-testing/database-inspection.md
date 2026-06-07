@@ -1,6 +1,6 @@
 # Database Inspection
 
-Some test scenarios require checking or editing database rows directly. If you need a browser-based database tool for a local WordPress development environment, you can add phpMyAdmin to your `wordpress-develop` Docker setup.
+Some test scenarios require checking or editing database rows directly. If you need a browser-based database tool for a local WordPress development environment, you can add phpMyAdmin to the Docker setup for your local [WordPress Develop](https://github.com/WordPress/wordpress-develop) checkout.
 
 ## Using phpMyAdmin
 
