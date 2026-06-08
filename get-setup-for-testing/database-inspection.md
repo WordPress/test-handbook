@@ -29,7 +29,7 @@ Start the service with:
 docker compose up -d phpmyadmin
 ```
 
-Then open `http://localhost:8080` in your browser. This uses the default local database credentials from the WordPress development environment. The default database name is `wordpress_develop`.
+Then open http://localhost:8080 in your browser. This uses the default local database credentials from the WordPress development environment. The default database name is `wordpress_develop`.
 
 When you are finished, stop the service with:
 

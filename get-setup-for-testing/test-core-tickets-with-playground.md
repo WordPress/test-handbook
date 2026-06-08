@@ -96,7 +96,7 @@ npx @wp-playground/cli@latest server \
 ```
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-terminal-scaled.webp" alt="Run PlayGround CLI in Terminal" style="max-width: 100%">
 
-Your WordPress instance should now be accessible at: `http://localhost:9400`
+Your WordPress instance should now be accessible at: http://localhost:9400
 <br />
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-browser-scaled.webp" alt="WordPress Playground running locally on port 9400" style="max-width: 100%">
 

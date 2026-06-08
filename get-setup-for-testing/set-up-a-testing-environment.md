@@ -70,7 +70,7 @@ Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?
     npm run env:install
     ```
 
-Your local WordPress site should now be accessible at `http://localhost:8889`.
+Your local WordPress site should now be accessible at http://localhost:8889.
 
 - **Username:** `admin`
 - **Password:** `password`
