@@ -6,7 +6,7 @@ Email testing is important for WordPress testing because WordPress core relies o
 
 Depending on your testing environment, you can use:
 
-- [Email Logger](https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip), a plugin that hooks into the `wp_mail()` function. See the [wp_mail() reference](https://developer.wordpress.org/reference/functions/wp_mail/).
+- [Email Logger](https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) plugin that hooks into the [wp_mail](https://developer.wordpress.org/reference/functions/wp_mail/) function.
 - [Mailpit](https://github.com/axllent/mailpit), a lightweight email testing tool that provides a web interface to view the captured emails.
 
 ### 1. Using Email Logger Plugin
@@ -17,10 +17,10 @@ This method can be used on your local development environment as well as on [Wor
 
 Steps to use:
 
-1. [Download the Email Logger plugin](https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip), install it from `Plugins > Add Plugin > Upload Plugin`, and activate it.
+1. [Download](https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) the plugin, install it from `Plugins > Add Plugin > Upload Plugin` and activate it.
 2. Use the `Email Log` menu item to view captured emails.
 
-You can also use this [WordPress Playground instance](https://playground.wordpress.net/?php=8.3&wp=trunk&plugin=https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip), which comes with the Email Logger plugin preinstalled.
+You can also use this [WordPress Playground](https://playground.wordpress.net/?php=8.3&wp=trunk&plugin=https://make.wordpress.org/test/files/2026/02/wp-email-logger.zip) instance that comes with `Email Logger` plugin preinstalled.
 
 ### 2. Using Mailpit
 
@@ -34,7 +34,7 @@ You can browse emails easily through Mailpit's user interface that acts as a mai
 
 Steps to install and use Mailpit:
 
-1. Create `docker-compose.override.yml` with the following code in the root folder of your cloned [WordPress Develop](https://github.com/WordPress/wordpress-develop) repository.
+1. Create `docker-compose.override.yml` with the following code in root folder of your cloned [WordPress Develop](https://github.com/WordPress/wordpress-develop) Repo.
 
 ```yaml
 services:
@@ -56,7 +56,7 @@ services:
 <a href="https://make.wordpress.org/test/files/2026/02/docker-compose-override.png"><img src="https://make.wordpress.org/test/files/2026/02/docker-compose-override.png" alt="Docker Compose Override File" style="max-width: 100%"></a>
 
 2. Run the command `docker compose up -d mail` in your terminal.
-3. Test access to Mailpit at `http://localhost:8025/`.
+3. Test access to Mailpit at http://localhost:8025/.
 4. Add the following snippet to your active theme's `functions.php` or via [Code Snippets](https://wordpress.org/plugins/code-snippets/) plugin.
 
 ```php
@@ -73,7 +73,7 @@ add_filter( 'wp_mail_from', function( $email ) {
 
 ## Other Tools for Mail Testing
 
-- For testing emails with [WordPress Studio](https://developer.wordpress.com/studio/), you can use [WP Mail](https://github.com/jonathanbossenger/wp-mail) by [@jonathanbossenger](https://github.com/jonathanbossenger), a desktop application for logging and viewing emails sent from WordPress Studio local sites.
+- For testing emails with [WordPress Studio](https://developer.wordpress.com/studio/) you can use [WP Mail](https://github.com/jonathanbossenger/wp-mail) by [@jonathanbossenger](https://github.com/jonathanbossenger), a desktop application for logging and viewing emails sent from WordPress Studio local sites.
 
 ## Conclusion
 

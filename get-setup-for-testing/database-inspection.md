@@ -1,6 +1,6 @@
 # Database Inspection
 
-Some test scenarios require checking or editing database rows directly. If you need a browser-based database tool for a local WordPress development environment, you can add phpMyAdmin to the Docker setup for your local [WordPress Develop](https://github.com/WordPress/wordpress-develop) checkout.
+Some test scenarios require checking or editing database rows directly. If you need a browser-based database tool for a local WordPress development environment, you can add phpMyAdmin to your `wordpress-develop` Docker setup.
 
 ## Using phpMyAdmin
 
@@ -29,7 +29,7 @@ Start the service with:
 docker compose up -d phpmyadmin
 ```
 
-Then open `http://localhost:8080` in your browser. This uses the default local database credentials from the WordPress development environment. The default database name is `wordpress_develop`.
+Then open http://localhost:8080 in your browser. This uses the default local database credentials from the WordPress development environment. The default database name is `wordpress_develop`.
 
 When you are finished, stop the service with:
 

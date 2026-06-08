@@ -1,26 +1,26 @@
 # Test Core Tickets with Playground
 
-[WordPress Playground](https://playground.wordpress.net/) is an online platform that lets you experiment and learn about WordPress without affecting your live website. It is a virtual sandbox where you can test features, designs, and settings in a safe and controlled environment. Learn more in the [WordPress Playground documentation](https://wordpress.github.io/wordpress-playground/).
+[WordPress Playground](https://playground.wordpress.net/) is an online platform that lets you experiment and learn about WordPress without affecting your live website. It’s a virtual sandbox where you can test features, designs, and settings in a safe and controlled environment. More about WordPress Playground can be read [here](https://wordpress.github.io/wordpress-playground/). 
 
 ## How to Test Core Tickets with Playground
 
-1. Go to the Trac ticket and check whether it has a GitHub pull request or a patch file. If the ticket has a pull request, you can test it with Playground. If the ticket only has a `.patch` file, this automatic test environment will not work.
+1. Go to the Trac ticket and check that the ticket has a GitHub PR or a patch file. If a ticket has PR, you can test that Trac ticket with Playground. If the Trac ticket has “.patch”. This automatic test environment will not work. 
 
     <a href="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png"><img src="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png" alt="Example Trac Ticket" style="max-width: 100%"></a>
 
-2. Click the "View PR" button. It will open the related GitHub pull request as shown in the screenshot below.
+2. Click on the ‘View PR’ button, it will open the respective GitHub PR as shown in the screenshot below.
 
     <a href="https://make.wordpress.org/test/files/2025/10/github-pull-request-example.png"><img src="https://make.wordpress.org/test/files/2025/10/github-pull-request-example.png" alt="GitHub Pull Request Example" style="max-width: 100%"></a>
 
-3. In the pull request comment thread, find the GitHub Actions comment about "Test using WordPress Playground".
+3. On the PR comment thread, it will find the GitHub action default comment about ‘Test using WordPress Playground’ 
 
     <a href="https://make.wordpress.org/test/files/2025/10/github-test-using-playground.png"><img src="https://make.wordpress.org/test/files/2025/10/github-test-using-playground.png" alt="Test using WordPress Playground" style="max-width: 100%"></a>
 
-4. Click the "Test this pull request with WordPress Playground" link. It will create a disposable WordPress website with the changes from the pull request.
+4. You will find a link with the text ‘Test this pull request with WordPress Playground’. Click on this link. It will create a disposable WordPress website with the changes implemented in the PR. 
 
     <a href="https://make.wordpress.org/test/files/2025/10/creating-plaground-site-with-pr.png"><img src="https://make.wordpress.org/test/files/2025/10/creating-plaground-site-with-pr.png" alt="Creating Playground Site with PR" style="max-width: 100%"></a>
 
-5. Click the "Go" button if the page does not redirect automatically to the WordPress site.
+5. Click on the ‘Go’ button if the page doesn’t redirect automatically to the WordPress site. 
 
     <a href="https://make.wordpress.org/test/files/2025/10/playground-site-preparing.png"><img src="https://make.wordpress.org/test/files/2025/10/playground-site-preparing.png" alt="Playground Site Preparing" style="max-width: 100%"></a>
 
@@ -28,12 +28,12 @@
 
     <a href="https://make.wordpress.org/test/files/2025/10/playground-site-with-pr.png"><img src="https://make.wordpress.org/test/files/2025/10/playground-site-with-pr.png" alt="Playground Site with PR" style="max-width: 100%"></a>
 
-There are some limitations to this Playground environment. Learn more in the [Playground limitations documentation](https://wordpress.github.io/wordpress-playground/developers/limitations/).
+There are some limitations to this Playground environment. You can read more [here](https://wordpress.github.io/wordpress-playground/developers/limitations/).
 
 - All changes will be lost when a tab is closed with a Playground instance.
 - All changes will be lost when refreshing the page.
 
-In the WordPress Playground environment, you can test pull requests for feature changes, bug fixes, regression issues, and more.
+In the WordPress Playground environment you can test the PR for the feature changes, bug fixes, regression issues and more.
 
 ## Writing a Test Report
 
@@ -75,7 +75,7 @@ For example, to initiate the Playground with WordPress `trunk` and PHP `8.3` you
 
 ## How to Install and Configure Playground CLI
 
-WordPress Playground CLI can be used as an alternative to the current Docker instance for some WordPress core testing tasks.
+WordPress Playground CLI is a potential replacement for the current Docker instance for testing purposes within the Wordpress Core development scope.
 
 You can refer to this [video guide](https://www.youtube.com/watch?v=-O8oubXyhUg) for a visual walkthrough.
 
@@ -96,8 +96,8 @@ npx @wp-playground/cli@latest server \
 ```
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-terminal-scaled.webp" alt="Run PlayGround CLI in Terminal" style="max-width: 100%">
 
-Your WordPress instance should now be accessible at `http://localhost:9400`.
-
+Your WordPress instance should now be accessible at: http://localhost:9400
+<br />
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-browser-scaled.webp" alt="WordPress Playground running locally on port 9400" style="max-width: 100%">
 
 You may also consider creating an alias for this long command in your terminal, so that you don't need to remember and type it every time.
@@ -134,7 +134,6 @@ alias play-start='npx @wp-playground/cli@latest server \
   --site-url=http://localhost:9400 \
   --mount=./src/wp-content/plugins:/wordpress/wp-content/plugins'
 ```
-
 Here, `play-start` is your `alias` that you will be using to run the long npx command. You can choose any name that you can easily remember.
 
 
@@ -152,9 +151,7 @@ To edit it, run `notepad $PROFILE`.
 
 If you don't have an existing `$PROFILE`, you might need to run the following command first to create it:
 
-```powershell
-New-Item -Path $PROFILE -ItemType File -Force
-```
+`New-Item -Path $PROFILE -ItemType File -Force`
 
 The `-Force` flag handles it gracefully. It creates the file (and any missing folders) if it doesn't exist, and does nothing if it already exists.
 
@@ -171,7 +168,7 @@ function play-start {
 }
 ```
 
-Note the backtick character, `` ` ``, instead of `\` for line continuation.
+Note the backtick ` instead of \ for line continuation.
 
 Close your PowerShell and reopen it before calling your alias, which is `play-start` in this example.
 

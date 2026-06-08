@@ -1,6 +1,6 @@
 # Set Up a Testing Environment
 
-To test WordPress core tickets effectively, you need an environment where you can apply patches and run tests. **Patches are created against the `trunk` branch of [WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop)**, the development version of WordPress, not the stable release from the [WordPress download page](https://wordpress.org/download/). This guide covers the options available for setting up a testing environment.
+To test WordPress core tickets effectively, you need an environment where you can apply patches and run tests. **Patches are created against the [`trunk`](https://github.com/WordPress/wordpress-develop) branch**, the development version of WordPress, not the stable release from wordpress.org/download, so you'll need to work with the development codebase. This guide covers the options available for setting up a testing environment.
 
 ## Choose Your Environment
 
@@ -34,12 +34,10 @@ Before you begin, ensure you have the following installed on your computer:
 
 ### Setup Instructions
 
-**Prefer a video walkthrough?**
-
+**Prefer a video walkthrough?** <br>
 Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?v=LMgn8GjUdNk) as you work through the instructions below.
 
-1.  **Fork and Clone the Repository**
-
+1.  **Fork and Clone the Repository** <br>
     Fork the [WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop) repository to your GitHub account, then clone it locally:
     ```bash
     git clone https://github.com/YOUR_USERNAME/wordpress-develop.git
@@ -48,35 +46,31 @@ Follow along with this [step-by-step setup guide](https://www.youtube.com/watch?
     ```
     Adding the `upstream` remote allows you to keep your local repository in sync with the latest changes from WordPress core.
 
-2.  **Install Dependencies**
-
+2.  **Install Dependencies** <br>
     Run the following command to install the necessary JavaScript and PHP tools:
     ```bash
     npm install
     ```
 
-3.  **Build WordPress**
-
+3.  **Build WordPress** <br>
     Compile the source files into a running WordPress instance:
     ```bash
     npm run build:dev
     ```
 
-4.  **Start the Environment**
-
+4.  **Start the Environment** <br>
     Ensure Docker Desktop is running, then start the Docker environment:
     ```bash
     npm run env:start
     ```
 
-5.  **Install WordPress**
-
+5.  **Install WordPress** <br>
     Run the installation script to set up the database and site:
     ```bash
     npm run env:install
     ```
 
-Your local WordPress site should now be accessible at `http://localhost:8889`.
+Your local WordPress site should now be accessible at http://localhost:8889.
 
 - **Username:** `admin`
 - **Password:** `password`
