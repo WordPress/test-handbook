@@ -31,21 +31,8 @@ jobs:
               run: npm install
               working-directory: .github/scripts
 
-            - name: Cache Playwright browsers
-              id: playwright-cache
-              uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
-              with:
-                  path: ~/.cache/ms-playwright
-                  key: playwright-chromium-${{ runner.os }}-${{ hashFiles('.github/scripts/package.json') }}
-
             - name: Install Playwright Chromium
-              if: steps.playwright-cache.outputs.cache-hit != 'true'
               run: npx playwright install chromium --with-deps
-              working-directory: .github/scripts
-
-            - name: Install Playwright system deps (cached browsers)
-              if: steps.playwright-cache.outputs.cache-hit == 'true'
-              run: npx playwright install-deps chromium
               working-directory: .github/scripts
 
             - name: Collect and post testing digest
