@@ -278,6 +278,52 @@ After the meeting:
 
 **Total Duration:** ~55-60 minutes
 
+## Automating This Guide with a Session Plugin
+
+Currently, running a Test Chat means manually copying and pasting each message from this page into Slack. Before you do that, you can use the [TestFlow](https://github.com/ozgursar/testflow) plugin to conduct the whole session instead: it keeps the script, session variables, and timer in one screen and copies each message to your clipboard for you.
+
+### What it does
+
+The plugin turns the script above into an interactive session screen: a running timer, one-click **Copy** buttons for every message in this guide, and session variables (agenda URL, facilitator, note-taker) that get merged into the messages automatically.
+
+### Where to get it
+
+Try it instantly via [WordPress Playground](https://playground.wordpress.net/?plugin=https%3A%2F%2Fgithub.com%2Fozgursar%2Ftestflow%2Farchive%2Frefs%2Ftags%2Fv0.5.2.zip&url=/wp-admin/admin.php?page=testflow) — no installation required. You can also download it from [GitHub](https://github.com/ozgursar/testflow) and install it as a regular plugin. See the [proposal and discussion](https://github.com/WordPress/test-handbook/issues/165) for background and status.
+
+### Screenshot
+
+![Test Chat screen: session script with Opening, Attendance Check, Share Agenda, and Meeting Notes steps and Copy buttons on the left, and Session Variables (Agenda URL, Facilitator, Note-taker), Your Clipboard, Resources & Links, and Moderator Tips on the right](https://raw.githubusercontent.com/WordPress/test-handbook/refs/heads/trunk/assets/test-chat.png)
+
+### How to use it
+
+1. Activate the plugin, then go to **TestFlow > Test Chat** in the admin sidebar.
+2. Before the session, fill in the fields listed below, so they're merged into the messages as you copy them.
+3. Click **▶ Start** to begin the session timer (it turns red past 50:00).
+4. Work through **1. Opening**: click **Copy** next to each message (Announce Start, or the alternative wording, then Welcome) and paste it into Slack in order.
+5. In **2. Attendance Check**, copy the attendance request, and the async note if needed for participants joining later.
+6. In **3. Share Agenda**, copy the message — it automatically includes the **Agenda URL** you entered in Session Variables.
+7. In **4. Meeting Notes**, copy the section header, then the facilitator/note-taker message that matches your session (same person, or different people).
+8. Continue copying each message for the remaining agenda items, Open Floor, Announcements, and Closing sections as you move through the meeting.
+9. Use **Edit** if you need to customize any message template, and **Reset** to clear session variables and the timer between sessions.
+
+#### Fields you'll need to fill in
+
+- **Agenda URL:** the link to today's published [meeting agenda](https://make.wordpress.org/test/tag/test-chat-agenda/), e.g. `https://make.wordpress.org/test/...`. Gets inserted into the Share Agenda message.
+- **Facilitator:** the `@username` of today's session facilitator. Gets inserted into the Meeting Notes messages.
+- **Note-taker (if different from facilitator):** the `@username` of the note-taker, only needed when it's not the same person as the facilitator.
+
+### Tips
+
+- Fill in **Session Variables** before you click Start, so the Share Agenda and Meeting Notes messages are ready to copy without edits.
+- The messages in the plugin mirror the script in this guide, so you can still improvise or paste your own text when needed.
+- **Reset:** clears session variables and the timer for a fresh session.
+- **Edit:** opens the message templates so you can tweak wording per step.
+- **Start:** begins the timer, which turns red past 50:00 as a wrap-up cue.
+- **Session script (1. Opening, 2. Attendance Check, 3. Share Agenda, 4. Meeting Notes, and onward):** each step has labeled messages with a **Copy** button that puts the ready-to-paste text on your clipboard.
+- **Your Clipboard:** shows the exact text last copied, letting you double-check the message before pasting it into Slack.
+- **Resources & Links:** quick jump-off links to this handbook guide, example agendas, Test Handbook issues, and the Make WordPress Test blog.
+- **Moderator Tips:** a condensed reminder of the moderator tips from this guide, visible throughout the session.
+
 ## Resources & Links
 
 ### Essential Pages
