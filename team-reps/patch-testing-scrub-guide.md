@@ -108,6 +108,52 @@ Assign one ticket at a time per participant. Wait for them to reply or post a re
 - **Monitor the thread:** keep an eye on replies throughout
 - **Close gracefully:** give a clear end message so participants know when the hosted portion is done, even if testing continues
 
+## Facilitating with the TestFlow Plugin
+
+Instead of running the session from this guide manually, you can use the **TestFlow** plugin to conduct the whole scrub: it keeps the script, timer, and ticket tracker in one screen and copies each message to your clipboard for you.
+
+### What it does
+
+TestFlow turns the script and tips above into an interactive session screen: a running timer, one-click **Copy** buttons for every message in this guide, and a live tracker that assigns tickets to participants and copies the assignment message automatically.
+
+### Where to get it
+
+Try it instantly via [WordPress Playground](https://playground.wordpress.net/?plugin=https%3A%2F%2Fgithub.com%2Fozgursar%2Ftestflow%2Farchive%2Frefs%2Ftags%2Fv0.5.2.zip&url=/wp-admin/admin.php?page=testflow) — no installation required. You can also download it from [GitHub](https://github.com/ozgursar/testflow) and install it as a regular plugin. See the [proposal and discussion](https://github.com/WordPress/test-handbook/issues/165) for background and status.
+
+### Screenshot
+
+![TestFlow Patch Testing Scrub screen: session script with Opening, Assigning Tickets, and Monitoring the Session steps and Copy buttons on the left, and a tracker with Participants, Tickets / Issues, an assignment table, a clipboard preview, and Resources & Links on the right](https://raw.githubusercontent.com/WordPress/test-handbook/refs/heads/trunk/assets/patch-testing-scrub.png)
+
+### How to use it
+
+1. Activate the plugin, then go to **TestFlow > Patch Testing Scrub** in the admin sidebar.
+2. Before the session, fill in the fields listed below, so the tracker is ready as soon as people reply.
+3. Click **▶ Start** to begin the session timer (it turns red past 50:00).
+4. Work through **1. Opening**: click **Copy** next to each message (Announce Start, Welcome, Invite Participants, Call for Testers) and paste it into Slack in order. Use the optional **Announcement** field to add a custom note, e.g. a new release candidate.
+5. In **2. Assigning Tickets**, assign a participant a ticket from the tracker — the assignment message is copied to your clipboard automatically, ready to paste.
+6. In **3. Monitoring the Session**, use **Copy** on the "Acknowledge Report" and "Another Ticket" messages as participants post reports and need follow-up tickets. The **Participant / Assigned Tickets** table and **Your Clipboard** panel let you confirm who has what before you paste.
+7. Use **Edit** if you need to customize any message template, and **Reset** to clear participants, tickets, and the timer between sessions.
+
+#### Fields you'll need to fill in
+
+- **Participants (one per line):** the Slack/WordPress.org usernames of everyone you expect to join, e.g. `username1`. You can keep adding names here as people show up mid-session.
+- **Tickets / Issues (one URL per line):** the Trac ticket or GitHub issue/PR URLs you plan to assign, e.g. `https://core.trac.wordpress.org/ticket/65403`. Prepare more than you think you'll need so you're never scrambling for the next assignment.
+- **Announcement (optional):** free-text field on the Opening step for one-off news, e.g. `WordPress 7.0 RC 2 is now available...` — it gets folded into the opening message preview and copy.
+
+### Tips
+
+- Fill in **Participants** and **Tickets / Issues** before you click Start, so the tracker is ready as soon as people reply.
+- The messages in TestFlow mirror the script in this guide, so you can still improvise or paste your own text when needed.
+- Session data (participants, tickets, timer) persists in your browser, so an accidental refresh won't lose your progress.
+- **Reset:** clears participants, tickets, and the timer for a fresh session.
+- **Edit:** opens the message templates so you can tweak wording per step.
+- **Start:** begins the timer, which turns red past 50:00 as a wrap-up cue.
+- **Session script (1. Opening, 2. Assigning Tickets, 3. Monitoring the Session, 4. Closing):** each step has labeled messages (e.g. Announce Start, Welcome) and a **Copy** button that puts the ready-to-paste text on your clipboard.
+- **Participants / Tickets lists:** the two text areas where you seed attendee usernames and ticket/issue URLs before and during the session.
+- **Participant / Assigned Tickets table:** fills in automatically as you assign tickets, so you always have an at-a-glance record of who's working on what.
+- **Your Clipboard:** shows the exact text last copied, letting you double-check the message before pasting it into Slack.
+- **Resources & Links:** quick jump-off links to this handbook guide, Trac Needs Testing, and the Gutenberg Needs Testing/PRs queries, so you don't have to leave the screen to find more tickets.
+
 ## Resources & Links
 
 ### Essential Pages
