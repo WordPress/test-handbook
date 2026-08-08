@@ -110,7 +110,7 @@ Assign one ticket at a time per participant. Wait for them to reply or post a re
 
 ## Facilitating with the TestFlow Plugin
 
-Instead of running the session from this guide manually, you can use the **TestFlow** plugin to conduct the whole scrub: it keeps the script, timer, and ticket tracker in one screen and copies each message to your clipboard for you.
+Instead of running the session from this guide manually, you can use the **TestFlow** plugin to conduct the entire scrub in a guided and assisted way. It displays the session's phases with approximate durations, runs a timer, helps you copy each message to the clipboard, and provides a ticket tracker so you can easily assign tickets to the participants.
 
 ### What it does
 
