@@ -14,15 +14,17 @@ As a reminder, **Reps are not called "Team Leads" for a reason**. While people e
 
 Test Team Rep duties include:
 
-- Write weekly [Test Team Update](https://make.wordpress.org/updates/tag/test/) posts, and post to [Team Updates](https://make.wordpress.org/updates/).
-- Write weekly [Week in Test](https://make.wordpress.org/test/category/week-in-test/) posts, and post to [Make WordPress Test](https://make.wordpress.org/test/).
-- Write agenda for bi-weekly `<test-chat>` sessions ([example](https://make.wordpress.org/test/2025/10/07/team-chat-agenda-8-october-2025/)).
-- Run alternating weekly `<test-chat>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1759931984959659)) and `<patch-testing-scrub>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1759417225194679)) sessions in [#core-test](https://wordpress.slack.com/messages/core-test/). See the [Test Chat Moderator Guide](https://make.wordpress.org/test/handbook/team-reps/test-chat-moderator-guide/) and [Patch Testing Scrub Guide](https://make.wordpress.org/test/handbook/team-reps/patch-testing-scrub-guide/) for instructions for each session.
-- Write `<test-chat>` session recaps, and post to [Make WordPress Test](https://make.wordpress.org/test/).
-- Help raise awareness for testing needs, especially for upcoming releases.
+- Write bi-weekly [Test Team Update](https://make.wordpress.org/updates/tag/test/) posts and publish them on the [Team Updates](https://make.wordpress.org/updates/) page.
+- Write monthly [Month in Test](https://make.wordpress.org/test/category/month-in-test/) posts and publish them on [Make WordPress Test](https://make.wordpress.org/test/).
+- Write agendas for bi-weekly `<test-chat>` sessions ([example](https://make.wordpress.org/test/tag/test-chat-agenda/)).
+- Run alternating weekly `<test-chat>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1626181220122300)) and `<Patch Testing>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1785423614352719)) sessions in [#core-test](https://wordpress.slack.com/messages/core-test/).
+- Write `<test-chat>` session recaps and publish them on [Make WordPress Test](https://make.wordpress.org/test/).
+- Run Voice Chat sessions in [#core-test](https://wordpress.slack.com/archives/C03B0H5J0) every **1st Thursday of the month**.
+- Help new contributors with their WordPress testing-related queries.
+- Help raise awareness of testing needs, especially for upcoming WordPress releases.
 - Raise issues or red flags that other teams should be aware of or discussing.
 
-These duties are shared between the primary and secondary Reps (see **Rep Responsibilities** on [the Team Rep page](https://make.wordpress.org/updates/team-reps/#team-rep-orientation)).
+These duties are shared between the two Reps (see **Rep Responsibilities** on [the Team Rep page](https://make.wordpress.org/updates/team-reps/#team-rep-orientation)).
 
 ### Qualifications
 
