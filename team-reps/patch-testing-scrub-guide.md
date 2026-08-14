@@ -118,7 +118,7 @@ TestFlow turns the script and tips above into an interactive session screen: a r
 
 ### Where to get it
 
-Try it instantly via [WordPress Playground](https://playground.wordpress.net/?plugin=https%3A%2F%2Fgithub.com%2Fozgursar%2Ftestflow%2Farchive%2Frefs%2Ftags%2Fv0.5.2.zip&url=/wp-admin/admin.php?page=testflow) — no installation required. You can also download it from [GitHub](https://github.com/ozgursar/testflow) and install it as a regular plugin. See the [proposal and discussion](https://github.com/WordPress/test-handbook/issues/165) for background and status.
+Try it instantly via [WordPress Playground](https://playground.wordpress.net/?plugin=testflow&url=/wp-admin/admin.php?page=testflow) — no installation required. You can also download it from [WordPress Plugin Directory](https://wordpress.org/plugins/testflow/) and install it as a regular plugin. See the [proposal and discussion](https://github.com/WordPress/test-handbook/issues/165) for background and status.
 
 ### Screenshot
 
