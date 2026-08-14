@@ -280,7 +280,7 @@ After the meeting:
 
 ## Automating This Guide with a Session Plugin
 
-Currently, running a Test Chat means manually copying and pasting each message from this page into Slack. Before you do that, you can use the [TestFlow](https://github.com/ozgursar/testflow) plugin to conduct the whole session instead: it keeps the script, session variables, and timer in one screen and copies each message to your clipboard for you.
+Currently, running a Test Chat means manually copying and pasting each message from this page into Slack. Before you do that, you can use the [TestFlow](https://wordpress.org/plugins/testflow/) plugin to conduct the whole session instead: it keeps the script, session variables, and timer in one screen and copies each message to your clipboard for you.
 
 ### What it does
 
