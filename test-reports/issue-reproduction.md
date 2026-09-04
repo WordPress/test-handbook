@@ -13,7 +13,7 @@ Example reproduction reports:
 
 Sometimes the reported behavior sits behind a condition your environment doesn't meet: a missing server library, a different hosting configuration, a file type your install handles natively, or a capability your test user doesn't have. You follow the steps and nothing happens, because the code never ran.
 
-That isn't the same as the bug being absent, and a bare "cannot reproduce" doesn't tell a reviewer which of the two it was. Two reports like that can close a valid ticket.
+That isn't the same as the bug being absent, and a bare "cannot reproduce" doesn't tell a reviewer which of the two it was. Two reports like that can lead to early closing of a valid ticket or misguide other people working on it.
 
 **Check the guard first.** Find the condition that gates the branch and check what it returns on your install, rather than judging from what's on screen. For example:
 
