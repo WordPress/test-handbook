@@ -9,6 +9,26 @@ Example reproduction reports:
 -   [Trac #55671](https://core.trac.wordpress.org/ticket/55671#comment:1)
 -   [GitHub Issue #41067](https://github.com/WordPress/gutenberg/issues/41067#issuecomment-1130569145)
 
+## When the Code Path Can't Run on Your Setup
+
+Sometimes the reported behavior sits behind a condition your environment doesn't meet: a missing server library, a different hosting configuration, a file type your install handles natively, or a capability your test user doesn't have. You follow the steps and nothing happens, because the code never ran.
+
+That isn't the same as the bug being absent, and a bare "cannot reproduce" doesn't tell a reviewer which of the two it was. Two reports like that can lead to early closing of a valid ticket or misguide other people working on it.
+
+**Check the guard first.** Find the condition that gates the branch and check what it returns on your install, rather than judging from what's on screen. For example:
+
+```php
+var_dump( wp_image_editor_supports( array( 'mime_type' => 'image/heic' ) ) );
+```
+
+Now you know why nothing happened, which tells you which of the next two steps applies.
+
+**If you can't reach the condition, hand it back.** Comment with what you tried and what the guard returned, mention the reporter, and add the `needs-test-info` keyword so the ticket shows it's waiting on environment details rather than looking untested.
+
+**If you can force the condition, force it and disclose it.** A must-use plugin that filters or short-circuits the guard is usually enough. Don't edit core files. Re-run your check to confirm the forced state took effect, then test the branch. Record what you forced in your report, using the MU Plugins field in the environment template, so nobody mistakes a forced test for a normal reproduction.
+
+"This branch can't run on my setup because X, I forced it like this, here's what happened" is worth considerably more than a silent pass.
+
 ## Generating Reports with the Test Reports Plugin
 
 Instead of filling out the template manually, you can use the **Test Reports** plugin to auto-generate reproduction reports pre-filled with your environment details.
