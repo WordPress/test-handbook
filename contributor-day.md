@@ -25,17 +25,22 @@ Tip: Wifi at the venue during a busy Contributor Day can be slow and unreliable,
 
 Differences between operating systems and personal workflows make environment configuration beyond the scope of this article, but here are some links to get started on a local test/dev environment:
 
-- [Installing a Local Server](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/): setting up Docker, Local, etc.
+- [Get Set Up for Testing](https://make.wordpress.org/test/handbook/get-setup-for-testing/): the Test Handbook's guide to choosing and configuring a testing environment.
+- [Set Up a Testing Environment](https://make.wordpress.org/test/handbook/get-setup-for-testing/set-up-a-testing-environment/): Docker-based local setup with Node.js and Git prerequisites.
+- [Test Core Tickets with Grunt](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-grunt/): applying `.patch`, `.diff`, and GitHub PR patches to your local environment.
+- [Installing a Local Server](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/): the Core Handbook's guide to setting up Docker, Local, etc.
 - [Installing WordPress Locally](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/): setting up WordPress using Git, SVN, or from a zip file.
-- [Get Set Up for Testing](https://make.wordpress.org/test/handbook/get-setup-for-testing/): environment setup for Gutenberg plugin PR testing.
-- [Apply a Patch from the Command Line](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#apply-a-patch-from-the-command-line) or [Download a GitHub PR](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#download-a-github-pull-request): common ways to test patches from Trac and GitHub.
 
-If you need help setting up your environment, reach out on [Make/Test Slack](https://wordpress.slack.com/archives/C03B0H5J0) and there will be other contributors who can provide additional guidance.
+If you need help setting up your environment, reach out on [Make/Test Slack](https://wordpress.slack.com/messages/core-test/) and there will be other contributors who can provide additional guidance.
 
 ### Browser-Only Testing
 **Browser-based testing is suggested for users who have not contributed to WordPress before.**
 
-If you prefer to test using a browser only -- a good option if you have joined Contributor Day at the last minute! -- then you might consider using [gutenberg.run](http://gutenberg.run), [WordPress Playground](https://developer.wordpress.org/playground/), or a service like [InstaWP](https://instawp.com) or [TasteWP](https://tastewp.com).
+If you prefer to test using a browser only -- a great option if you've joined Contributor Day at the last minute -- the recommended approach is to use [WordPress Playground](https://playground.wordpress.net/), which allows you to run WordPress directly in your browser without any setup.
+
+For most common testing scenarios, WordPress Playground is sufficient and provides a quick, reliable way to test patches and GitHub PRs. The Test Handbook's [Test Core Tickets with Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/) page includes step-by-step instructions for doing this.
+
+If you need features like persistent environments, sharing setups with others, or longer-running instances, you may also consider using third-party services such as [InstaWP](https://instawp.com) or [TasteWP](https://tastewp.com).
 
 ### Plugins for Testing
 These plugins may be helpful, or even required, during testing sessions:
@@ -65,7 +70,7 @@ To kick things off, here are some suggestions:
 	- Have you contributed before, and what interests you most about contributing?
 
 ### Slack/Coordination
-[Recommended] After doing IRL introductions, consider posting a short note in the [#core-test channel](https://wordpress.slack.com/archives/C03B0H5J0) to let the Slack community know that a Contributor Day event is underway. Here is a great example [Slack thread for WC Asia 2023 Contributor Day](https://wordpress.slack.com/archives/C03B0H5J0/p1676600490483579).
+[Recommended] After doing IRL introductions, consider posting a short note in the [#core-test channel](https://wordpress.slack.com/messages/core-test/) to let the Slack community know that a Contributor Day event is underway. Here is a great example [Slack thread for WC Asia 2023 Contributor Day](https://wordpress.slack.com/archives/C03B0H5J0/p1676600490483579).
 
 Slack can be a good way to connect with remote attendees, many of whom can help answer questions and collaborate with testing. Everyone at the event and remote should be invited to keep in touch online.
 
@@ -76,7 +81,7 @@ Tip: While it's not required to run/mirror table collaboration in Slack, it does
 ### Remote Attendance
 Not everyone can make it to Contributor Day, but Test table attendees are encouraged to invite remote participation. The Test table lead should make every effort to keep remote Slack attendees up to date, or assign another volunteer at the table to handle these communications.
 
-If you show up as a remote attendee on the [#core-test channel](https://wordpress.slack.com/archives/C03B0H5J0), make sure to let everyone know you're there for Contributor Day.
+If you show up as a remote attendee on the [#core-test channel](https://wordpress.slack.com/messages/core-test/), make sure to let everyone know you're there for Contributor Day.
 
 ### Community Building
 And finally, perhaps the most important part of attending Contributor Day is being able to connect with each other as individuals. Take the time to get to know each other, and foremost, have fun!
@@ -87,15 +92,15 @@ The [Test Team's "duty of care"](https://make.wordpress.org/test/handbook/#duty-
 ### Reproduction and Patch Testing
 The most popular activity for Test table participants is usually...**testing!** Core's official [Bug Reports page](https://make.wordpress.org/core/reports/) is a good place to start, but here are some other themed examples of testing opportunities:
 
-- Key features from the latest major release, e.g. [https://make.wordpress.org/test/2023/02/07/help-test-wordpress-6-2/](https://make.wordpress.org/test/2023/02/07/help-test-wordpress-6-2/).
-- Focus on a particular beta or RC release, e.g. [https://wordpress.org/news/2023/03/wordpress-6-2-release-candidate-1/](https://wordpress.org/news/2023/03/wordpress-6-2-release-candidate-1/).
+- Key features from the latest major release -- check the [Calls for Testing](https://make.wordpress.org/test/category/call-for-testing/) on the Test blog for the most recent testing posts.
+- Focus on a particular beta or RC release -- check [WordPress Releases](https://wordpress.org/news/category/releases/) for the latest release announcements.
 - Features or updates highlighted in recent [Core Dev Notes](https://make.wordpress.org/core/tag/dev-notes/).
 - Gutenberg [issues that need testing](https://github.com/WordPress/gutenberg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Needs+Testing%22+) (e.g. reproduction testing), or [PRs that need testing](https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+is%3Aopen+label%3A%22Needs+Testing%22).
 - Triage [Trac tickets opened in the past 2 weeks](https://core.trac.wordpress.org/query?status=new&focuses=!docs&time=2weekago..&component=!Build%2FTest+Tools&keywords=~-reporter-feedback+-close+-dev-feedback+-2nd-opinion+-needs-refresh+-needs-design+-needs-design-feedback&milestone=Awaiting+Review&owner=&type=defect+(bug)&col=id&col=summary&col=focuses&col=keywords&col=changetime&order=changetime).
-- Triage "ancient" tickets, like in this proposal: [https://make.wordpress.org/core/2023/01/24/proposal-old-tickets-trac-triage-sessions/](https://make.wordpress.org/core/2023/01/24/proposal-old-tickets-trac-triage-sessions/).
+- Triage older tickets -- see the [Triage & Testing Issues](https://make.wordpress.org/test/handbook/triage/) handbook page for guidance on how to approach triage work.
 - Any testing you think is fun, like [tickets about cropping that need testing](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing&description=~crop&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority). Go wild!
 
-Finally, don't forget to post a clear [test report](https://make.wordpress.org/test/handbook/test-reports/) as a new comment on the tested issue ticket or patch PR.
+Finally, don't forget to post a clear [test report](https://make.wordpress.org/test/handbook/test-reports/) as a new comment on the tested issue ticket or patch PR. The Test Handbook provides templates for [issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/) and [patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/) reports.
 
 ### Documentation
 Handbook articles (like the one you're reading now) are the result of numerous hours of collaboration effort from Test contributors, and benefit current and new Test Team members alike.
@@ -103,7 +108,7 @@ Handbook articles (like the one you're reading now) are the result of numerous h
 If you have at least a basic understanding of Test Team procedures (or are willing to learn about them), and you enjoy moderately-technical writing, please consider opening a PR for [one of the documentation issues in the Test Handbook repo](https://github.com/WordPress/test-handbook/issues).
 
 ## Test Contributor Profile Badge
-Contributors who provide a meaningful contribution to Test Team, such as a reproduction or patch test report, submit unit tests, or open a PR for a documentation update, will be awarded a shiny [Test Contributor profile badge](https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/).
+Contributors who provide a meaningful contribution to Test Team, such as a reproduction or patch test report, submit unit tests, or open a PR for a documentation update, will be awarded a shiny Test Contributor profile badge. See the [Test Team Profile Badges](https://make.wordpress.org/test/handbook/test-team-profile-badges/) page for full eligibility criteria and how to request a badge.
 
 If during your participation in Contributor Day you were unable to post a traceable contribution (i.e. something that can be shared in a URL), speak with your table lead before the day is through and share how you contributed to the team.
 
@@ -111,11 +116,14 @@ If during your participation in Contributor Day you were unable to post a tracea
 Here are some commonly shared links that are helpful for Test Team contributors:
 
 - [Test Handbook](https://make.wordpress.org/test/handbook/): the Test Team's reference manual.
+- [Get Set Up for Testing](https://make.wordpress.org/test/handbook/get-setup-for-testing/): step-by-step guides for setting up a testing environment.
+- [Test Reports](https://make.wordpress.org/test/handbook/test-reports/): guidelines and templates for preparing great test reports.
+- [Calls for Testing](https://make.wordpress.org/test/handbook/call-for-testing/): curated testing tasks published by the Test Team, great for new contributors.
+- [Triage & Testing Issues](https://make.wordpress.org/test/handbook/triage/): procedures for triaging and testing bugs in GitHub and Trac.
 - [Trac New User Quick Start Guide](https://make.wordpress.org/core/handbook/tutorials/trac/new-user-quick-start/): overview of WordPress's bug tracking system, [Trac](https://core.trac.wordpress.org/).
-- [Test Reports](https://make.wordpress.org/test/handbook/test-reports/): guidelines for preparing great test reports.
 - [Contribute with Testing](https://make.wordpress.org/core/handbook/testing/): the Core Team's test contribution content.
 - [FAQ for New Contributors](https://make.wordpress.org/core/handbook/tutorials/faq-for-new-contributors/): common questions from the Core Handbook.
 - [Reporting Bugs](https://make.wordpress.org/core/handbook/testing/reporting-bugs/): not testing *per se*, but a good checklist for testers who find bugs.
 - [Reporting Security Vulnerabilities](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/): special reporting considerations for security issues.
 - [Bug Gardening](https://make.wordpress.org/core/handbook/testing/bug-gardening/): a good resource for triage work.
-- [Test Team Meetings](https://make.wordpress.org/meetings/#test):  schedule for upcoming chat and triage in the [#core-test channel](https://wordpress.slack.com/archives/C03B0H5J0).
+- [Test Team Meetings](https://make.wordpress.org/meetings/#test):  schedule for upcoming chat and triage in the [#core-test channel](https://wordpress.slack.com/messages/core-test/).
