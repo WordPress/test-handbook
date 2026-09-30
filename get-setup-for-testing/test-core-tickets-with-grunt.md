@@ -65,6 +65,10 @@ Once a patch is applied, you should run automated tests to ensure no regressions
 For detailed instructions on running PHPUnit and E2E tests, see [Run Automated Tests](https://make.wordpress.org/test/handbook/get-setup-for-testing/run-automated-tests/).
 
 
+## Writing a Test Report
+
+After testing a patch, share your results by writing a test report on the Trac ticket. For report templates and guidelines, see [Patch Testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/).
+
 ## Troubleshooting
 
 ### "Patch failed to apply"

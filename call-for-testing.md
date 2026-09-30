@@ -18,7 +18,7 @@ Remember that it’s better to alert the need for testing than not to test at al
 
 If you want to help with calls for testing and you don’t have a specific feature you’re working on in mind, there are a few sources to pull from for insight around what would be most impactful to test. When in doubt, it’s always a good idea to ask in the open what folks would like more testing help on in the [Core Dev and Core Editor meetings](https://make.wordpress.org/meetings/). Otherwise, here are sources to examine:
 
-- Features on roadmap posts for releases often shared 3-4 months before a release ([5.9](https://make.wordpress.org/core/2021/08/13/preliminary-road-to-5-9/), [6.0](https://make.wordpress.org/core/2022/01/26/preliminary-roadmap-for-6-0/), [6.1](https://make.wordpress.org/core/2022/06/04/roadmap-to-6-1/)).
+- Features on roadmap posts for releases often shared 3-4 months before a release ([6.9](https://make.wordpress.org/core/2025/07/28/roadmap-to-6-9/), [7.0](https://make.wordpress.org/core/2025/12/11/planning-for-7-0/), [7.1](https://make.wordpress.org/core/2026/06/19/roadmap-to-7-1/)).
 - Features discussed in [Core Editor](https://make.wordpress.org/core/tag/core-editor-agenda/) and [Core Dev](https://make.wordpress.org/core/tag/dev-chat/) meetings.
 - [Feature projects](https://make.wordpress.org/core/features/) that reach a level of stability or exploration and need feedback to continue.
 

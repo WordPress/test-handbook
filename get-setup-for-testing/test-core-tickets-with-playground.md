@@ -35,6 +35,10 @@ There are some limitations to this Playground environment. You can read more [he
 
 In the WordPress Playground environment you can test the PR for the feature changes, bug fixes, regression issues and more.
 
+## Writing a Test Report
+
+After testing a PR, share your results by writing a test report on the Trac ticket. For report templates and guidelines, see [Patch Testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/).
+
 ## How to Configure Playground Using Query API Parameters
 
 If you prefer a video walkthrough, you may follow along with this [video guide](https://www.youtube.com/watch?v=9q6unIg_Pto) as you work through the instructions below.
@@ -92,11 +96,13 @@ npx @wp-playground/cli@latest server \
 ```
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-terminal-scaled.webp" alt="Run PlayGround CLI in Terminal" style="max-width: 100%">
 
-5. Your WordPress instance should now be accessible at: [http://localhost:9400](http://localhost:9400)
-
+Your WordPress instance should now be accessible at: http://localhost:9400
+<br />
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-browser-scaled.webp" alt="WordPress Playground running locally on port 9400" style="max-width: 100%">
 
-7. Optionally, you can mount your `themes` folder if you will be adding code snippets into your active theme's `functions.php` file and want to keep the changes between rebuilds. To avoid affecting future tests, don't forget to remove any custom code snippets you have added.
+You may also consider creating an alias for this long command in your terminal, so that you don't need to remember and type it every time.
+
+Optionally, you can mount your `themes` folder if you will be adding code snippets into your active theme's `functions.php` file and want to keep the changes between rebuilds. To avoid affecting future tests, don't forget to remove any custom code snippets you have added.
 
 Here is how you would mount the `themes` folder alongside the `plugins`.
 
@@ -107,10 +113,8 @@ npx @wp-playground/cli@latest server \
   --login \
   --site-url=http://localhost:9400 \
   --mount=./src/wp-content/plugins:/wordpress/wp-content/plugins \
-  --mount=./src/wp-content/themes:/wordpress/wp-content/themes
+  --mount=./src/wp-content/themes:/wordpress/wp-content/themes
 ```
-
-6. You may also consider creating an alias for this long command in your terminal, so that you don't need to remember and type it every time. 
 
 ### How to Create an Alias in MacOS
 
