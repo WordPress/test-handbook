@@ -1,8 +1,13 @@
 # Triage & Testing Issues
 
+In context of bug repositories such as Trac or GitHub, triage means sorting, labeling, and closing duplicate incoming issues and testing means manually testing bug reports, questions, and feature requests.
 
-In the context of bug repositories such as Trac or GitHub, triage means sorting, labeling, and closing duplicate incoming issues and testing means manually testing bug reports, questions, and feature requests. Triage is intended to be fast and to clear away clutter. Testing checks to make sure each issue is accurate and concise and has enough relevant information needed in order for a contributor who is a developer or designer to take action. The end goal for testing and triage is a clean list of verified bug reports and feature requests that are ready for action or decision.
+## Trac Triage
+
+When working with [WordPress Core Trac](https://core.trac.wordpress.org/), testers use a specific set of keywords to signal the state of a ticket. For a full explanation of those keywords, the decision workflow, and ready-to-use comment templates, see the [Trac Keyword Triage Guide](https://make.wordpress.org/test/handbook/triage/trac-keyword-triage-guide/). Triage is intended to be fast and to clear away clutter. Testing checks to make sure each issue is accurate and concise and has enough relevant information needed in order for a contributor who is a developer or designer to take action. Then end goal for testing and triage is a clean list of verified bug reports and feature requests that are ready for action or decision.
+
 ## Testing Bugs
+
 1. Start with the [`Needs Testing`](https://github.com/WordPress/gutenberg/labels/Needs%20Testing) or [`[Type] Bug`](https://github.com/WordPress/gutenberg/labels/%5BType%5D%20Bug) label or the [oldest open issues](https://github.com/WordPress/gutenberg/issues?q=is%3Aopen+is%3Aissue+sort%3Acreated-asc). Go to [Needs Technical Feedback](https://github.com/WordPress/gutenberg/labels/Needs%20Technical%20Feedback) for issues that need testing from a developer perspective. If you are testing from a support perspective, [`[Type] Help Request`](https://github.com/WordPress/gutenberg/labels/%5BType%5D%20Help%20Request) is a good spot.
 2. Always search for duplicate issues first and close or consolidate them with a thank you.
 3. Make sure the title is accurate and descriptive and suggest a change if it isn’t.
