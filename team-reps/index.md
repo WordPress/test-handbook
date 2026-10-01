@@ -4,7 +4,7 @@ For a quick refresher of Team Rep roles across the project, please see the [Offi
 
 ## Current Reps
 
-The Test Team Reps for the 2025-2026 term are [@nikunj8866](https://profiles.wordpress.org/nikunj8866/) and [@mosescursor](https://profiles.wordpress.org/mosescursor/).
+The Test Team Reps for the 2026-2027 term are [@r1k0](https://profiles.wordpress.org/r1k0/) and [@huzaifaalmesbah](https://profiles.wordpress.org/huzaifaalmesbah/).
 
 ## The Role
 

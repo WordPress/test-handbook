@@ -10,12 +10,12 @@ For more about the team's mission and scope, see the [Test Team Handbook Homepag
 
 Team Reps are elected annually and serve as the primary coordinators of the Test Team. They facilitate meetings, publish updates, and represent the team across the WordPress project. For full details on the role and election process, see the [Team Reps](https://make.wordpress.org/test/handbook/team-reps/) page.
 
-**Current Reps (2025-2026):**
+**Current Reps (2026-2027):**
 
 | Name | Username |
 | --- | --- |
-| Nikunj Hatkar | [@nikunj8866](https://profiles.wordpress.org/nikunj8866/) |
-| Moses Cursor Ssebunya| [@mosescursor](https://profiles.wordpress.org/mosescursor/) |
+| Erick Wambua | [@r1k0](https://profiles.wordpress.org/r1k0/) |
+| Huzaifa Al Mesbah| [@huzaifaalmesbah](https://profiles.wordpress.org/huzaifaalmesbah/) |
 
 ### Contributors
 
@@ -45,6 +45,8 @@ Emeritus status recognizes contributors who have made sustained, significant con
 
 | Name | Username | Contributions |
 | --- | --- | --- |
+| Nikunj Hatkar | [@nikunj8866](https://profiles.wordpress.org/nikunj8866/) | Team Rep 2025-2026 |
+| Moses Cursor Ssebunya | [@mosescursor](https://profiles.wordpress.org/mosescursor/) | Team Rep 2025-2026 |
 | Manuel Camargo | [@SirLouen](https://profiles.wordpress.org/sirlouen/) | Test Team Training Program, Pathway Videos |
 | Olga Gleckler | [@oglekler](https://profiles.wordpress.org/oglekler/) | Team Rep 2024-2025 |
 | Krupa Nanda | [@krupajnanda](https://profiles.wordpress.org/krupajnanda/) | Team Rep 2024-2025 |
