@@ -4,7 +4,7 @@ This page offers comprehensive information about Test Team [Profile Badges](http
 
 ## Test Contributor Badge
 
-To earn a Test Contributor Badge, you must have completed at least **any the following**:
+To earn a Test Contributor Badge, you must have completed at least **any of the following**:
 
 - Submitted five test reports for tickets, comprising an [issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/), and/or [patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/). Acceptable reports should be submitted to Trac or GitHub, and can apply to any WordPress project area included in the [Test Team duty of care](https://make.wordpress.org/test/handbook/#duty-of-care).
 - Contributed with five new pages, reviews or both to a [Test handbook](https://github.com/wordpress/test-handbook) PR that has been merged.
@@ -23,7 +23,7 @@ If you have served as a Test Team Rep or have provided consistent substantial co
 - Testing dozens of tickets over a sustained period.
 - Becoming a [Test Team Representative](https://make.wordpress.org/test/handbook/team-reps/).
 
-From 2026 onwards, Test Team Badges will be awarded temporarily as long as the individual keeps actively participating in the Test Team activities. If an individual becomes inactive for a period of three months or more, the badge may be removed until they resume active contributions. Members that have been active for a good period of time (e.g., two years or more) may be eligible for a emeritus badge upon review by the current Test Team members.
+From 2026 onwards, Test Team Badges will be awarded temporarily as long as the individual keeps actively participating in the Test Team activities. If an individual becomes inactive for a period of three months or more, the badge may be removed until they resume active contributions. Members that have been active for a good period of time (e.g., two years or more) may be eligible for an emeritus badge upon review by the current Test Team members.
 
 ## Requesting a Test Profile Badge
 
