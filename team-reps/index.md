@@ -19,7 +19,7 @@ Test Team Rep duties include:
 - Write agendas for bi-weekly `<test-chat>` sessions ([example](https://make.wordpress.org/test/tag/test-chat-agenda/)).
 - Run alternating weekly `<test-chat>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1626181220122300)) and `<Patch Testing>` ([example](https://wordpress.slack.com/archives/C03B0H5J0/p1785423614352719)) sessions in [#core-test](https://wordpress.slack.com/messages/core-test/).
 - Write `<test-chat>` session recaps and publish them on [Make WordPress Test](https://make.wordpress.org/test/).
-- Run Voice Chat sessions in [#core-test](https://wordpress.slack.com/archives/C03B0H5J0) every **1st Thursday of the month**.
+- Run Voice Chat sessions in [#core-test](https://wordpress.slack.com/archives/C03B0H5J0) on the first Thursday of every month.
 - Help new contributors with their WordPress testing-related queries.
 - Help raise awareness of testing needs, especially for upcoming WordPress releases.
 - Raise issues or red flags that other teams should be aware of or discussing.
