@@ -24,7 +24,7 @@ Test Team Rep duties include:
 - Help raise awareness of testing needs, especially for upcoming WordPress releases.
 - Raise issues or red flags that other teams should be aware of or discussing.
 
-These duties are shared between the two Reps (see **Rep Responsibilities** on [the Team Rep page](https://make.wordpress.org/updates/team-reps/#team-rep-orientation)).
+These duties are shared between all team Reps (see **Rep Responsibilities** on [the Team Rep page](https://make.wordpress.org/updates/team-reps/#team-rep-orientation)).
 
 ### Qualifications
 
