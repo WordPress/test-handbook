@@ -68,18 +68,25 @@ function buildGitHubURL( type ) {
 
 /**
  * Scrape Trac "needs-testing" query grouped by milestone.
- * Trac blocks automated requests with a hashcash browser challenge,
- * so we use a headless browser that auto-solves it.
+ * Trac can answer automated requests with a browser challenge, so we use a
+ * headless browser, which gets through only when the challenge solves itself.
  *
  * @returns {Promise<Array<{milestone: string, count: number}>>}
  *          Only versioned milestones (X.X or X.X.X pattern).
+ * @throws {Error} If the query results don't load, with the HTTP status and page title.
  */
 async function fetchTracMilestones() {
 	const browser = await chromium.launch();
 	try {
 		const page = await browser.newPage();
-		await page.goto( TRAC_QUERY_URL, { timeout: 60000 } );
-		await page.waitForSelector( 'table.listing', { timeout: 45000 } );
+		const response = await page.goto( TRAC_QUERY_URL, { timeout: 60000 } );
+		try {
+			await page.waitForSelector( 'table.listing', { timeout: 45000 } );
+		} catch {
+			throw new Error(
+				`Query results did not load (HTTP ${ response?.status() }, page title: "${ await page.title() }")`
+			);
+		}
 
 		const allMilestones = await page.evaluate( () => {
 			return [ ...document.querySelectorAll( 'h2' ) ]
@@ -155,25 +162,35 @@ async function main() {
 	const [ issueCount, prCount, tracMilestones ] = await Promise.all( [
 		fetchGitHubCount( 'issue' ),
 		fetchGitHubCount( 'pr' ),
-		fetchTracMilestones(),
+		// Still post the Gutenberg counts when Trac can't be reached.
+		fetchTracMilestones().catch( ( err ) => {
+			console.error(
+				`::warning::Could not fetch Trac data: ${ err.message.split( '\n' )[ 0 ] }`
+			);
+			return null;
+		} ),
 	] );
 
 	const gutenbergTotal = issueCount + prCount;
-	const tracTotal = tracMilestones.reduce( ( sum, m ) => sum + m.count, 0 );
+	const tracTotal = tracMilestones
+		? String( tracMilestones.reduce( ( sum, m ) => sum + m.count, 0 ) )
+		: 'N/A';
 	const date = new Date().toISOString().split( 'T' )[ 0 ];
 
 	// Slack Workflow webhook variables only accept primitives, so flatten
 	// the per-milestone breakdown into a string (e.g. "7.0: 2 • 7.1: 8").
 	const tracMilestonesSummary = tracMilestones
-		.map( ( m ) => `${ m.milestone }: ${ m.count }` )
-		.join( ' • ' );
+		? tracMilestones
+				.map( ( m ) => `${ m.milestone }: ${ m.count }` )
+				.join( ' • ' )
+		: 'Trac data unavailable this week';
 
 	const payload = {
 		gutenberg_issue_count: String( issueCount ),
 		gutenberg_pr_count: String( prCount ),
 		gutenberg_total: String( gutenbergTotal ),
 		trac_milestones: tracMilestonesSummary,
-		trac_total: String( tracTotal ),
+		trac_total: tracTotal,
 		gutenberg_issues_url: buildGitHubURL( 'issues' ),
 		gutenberg_prs_url: buildGitHubURL( 'pulls' ),
 		trac_url: TRAC_QUERY_URL,
@@ -190,11 +207,15 @@ async function main() {
 			`Gutenberg: ${ gutenbergTotal } open (${ issueCount } issues, ${ prCount } PRs)`
 		);
 		console.error( '' );
-		console.error(
-			`Trac: ${ tracTotal } tickets in versioned milestones`
-		);
-		for ( const m of tracMilestones ) {
-			console.error( `  ${ m.milestone }: ${ m.count } tickets` );
+		if ( tracMilestones ) {
+			console.error(
+				`Trac: ${ tracTotal } tickets in versioned milestones`
+			);
+			for ( const m of tracMilestones ) {
+				console.error( `  ${ m.milestone }: ${ m.count } tickets` );
+			}
+		} else {
+			console.error( `Trac: ${ tracMilestonesSummary }` );
 		}
 		console.error( '' );
 		console.error( '=== JSON payload ===' );
