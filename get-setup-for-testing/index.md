@@ -20,11 +20,12 @@ WordPress core development happens in the [`wordpress-develop`](https://github.c
 
 ### Step 1 – Set Up a Testing Environment
 
-Before testing core tickets, you need an environment where you can apply patches. There are two approaches:
+Before testing core tickets, you need an environment where you can apply patches. There are three approaches:
 
 | Option | Best For |
 |---|---|
 | **WordPress Playground** (browser-based) | Quick visual verification of a PR; no local install needed |
+| **Contributor Toolkit** (desktop app) | Reproducing bugs and applying PRs, `.patch`, and `.diff` files on a local site without Docker |
 | **Local development environment** (Docker-based) | Running automated tests, applying `.patch` and `.diff` files, complex testing |
 
 👉 **[Set Up a Testing Environment](https://make.wordpress.org/test/handbook/get-setup-for-testing/set-up-a-testing-environment/)**
@@ -34,6 +35,7 @@ Before testing core tickets, you need an environment where you can apply patches
 Once your environment is ready, pick a ticket to test:
 
 - **[Test Core Tickets with Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/)** – Use this for tickets linked to a GitHub Pull Request (PR). No local setup required. *(Note: `.patch` and `.diff` files from Trac are not supported in Playground.)*
+- **[Test Core Tickets with the Contributor Toolkit](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-contributor-toolkit/)** – Use this desktop app to reproduce bugs and to apply PRs, `.patch`, and `.diff` files. No Docker or command line needed.
 - **[Test Core Tickets with Grunt](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-grunt/)** – Use this to apply `.patch` and `.diff` files from Trac, or patches from GitHub Pull Requests, to your local environment.
 
 ### Step 3 – Run Automated Tests

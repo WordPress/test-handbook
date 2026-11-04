@@ -33,6 +33,9 @@ Differences between operating systems and personal workflows make environment co
 
 If you need help setting up your environment, reach out on [Make/Test Slack](https://wordpress.slack.com/messages/core-test/) and there will be other contributors who can provide additional guidance.
 
+### Desktop App Testing
+The [WordPress Contributor Toolkit](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-contributor-toolkit/) sets up a local core development site without Git, Node.js, npm, or Docker. It still downloads a lot of files, so create your site at home before the event.
+
 ### Browser-Only Testing
 **Browser-based testing is suggested for users who have not contributed to WordPress before.**
 
