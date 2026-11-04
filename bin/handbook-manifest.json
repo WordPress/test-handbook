@@ -76,6 +76,13 @@
         "parent": "get-setup-for-testing",
         "order": 5
     },
+    "get-setup-for-testing/test-core-tickets-with-contributor-toolkit": {
+        "title": "Test Core Tickets with the Contributor Toolkit",
+        "slug": "test-core-tickets-with-contributor-toolkit",
+        "markdown_source": "https://github.com/WordPress/test-handbook/blob/trunk/get-setup-for-testing/test-core-tickets-with-contributor-toolkit.md",
+        "parent": "get-setup-for-testing",
+        "order": 6
+    },
     "get-setup-for-testing\/email-testing": {
         "title": "Email Testing",
         "slug": "email-testing",
