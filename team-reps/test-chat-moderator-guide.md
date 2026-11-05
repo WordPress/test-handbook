@@ -177,11 +177,10 @@ _Or:_
 > As there are no more comments we can wrap up the meeting.
 
 **Final closing message:**
-> So this bring us to the end of our meeting `</test-chat>` thank you all for coming.
+> So this brings us to the end of our meeting `</test-chat>` thank you all for coming.
 
 _Alternative:_
-> And this bring us to the end of our meeting. Thank you all for coming.
-
+> And this brings us to the end of our meeting. Thank you all for coming.
 ## Moderator Tips
 
 ### During Discussions
