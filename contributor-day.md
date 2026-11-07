@@ -28,7 +28,7 @@ Differences between operating systems and personal workflows make environment co
 - [Get Set Up for Testing](https://make.wordpress.org/test/handbook/get-setup-for-testing/): the Test Handbook's guide to choosing and configuring a testing environment.
 - [Set Up a Testing Environment](https://make.wordpress.org/test/handbook/get-setup-for-testing/set-up-a-testing-environment/): Docker-based local setup with Node.js and Git prerequisites.
 - [Test Core Tickets with Grunt](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-grunt/): applying `.patch`, `.diff`, and GitHub PR patches to your local environment.
-- [Installing a Local Server](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/): the Core Handbook's guide to setting up Docker, Local, etc.
+- [Using Contributor Toolkit](https://github.com/WordPress/contributor-toolkit/): a desktop app that sets up a WordPress Core or Gutenberg development environment with no prerequisites, applies existing patches and PRs from a Trac ticket or GitHub issue, and helps you submit your contribution.
 - [Installing WordPress Locally](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/): setting up WordPress using Git, SVN, or from a zip file.
 
 If you need help setting up your environment, reach out on [Make/Test Slack](https://wordpress.slack.com/messages/core-test/) and there will be other contributors who can provide additional guidance.
@@ -47,6 +47,7 @@ These plugins may be helpful, or even required, during testing sessions:
 
 - [Gutenberg](https://wordpress.org/plugins/gutenberg/)
 - [WordPress Beta Tester](https://wordpress.org/plugins/wordpress-beta-tester/)
+- [Test Reports](https://wordpress.org/plugins/test-reports/)
 - [Debug Bar](https://wordpress.org/plugins/debug-bar/)
 - [Query Monitor](https://wordpress.org/plugins/query-monitor/)
 
