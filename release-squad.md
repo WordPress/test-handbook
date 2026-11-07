@@ -3,11 +3,11 @@ First of all, welcome to the Test release squad! 🎉 It's so awesome you've ste
 
 If you haven’t already, please take some time to read through the release process, team roles, and expectations:
 
-- [Release Cycle](https://make.wordpress.org/core/handbook/about/release-cycle/)
-	- [Major Versions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/)
-- [Release Team](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/). Some key sections:
-	- [Shared Responsibilities](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#shared-responsibilities)
-	- [Test Responsibilities](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#test)
+- [Release Cycle](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/)
+	- [Major Versions](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/releasing-major-versions/)
+- [Release Team](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/wordpress-release-team-and-focus-leads/). Some key sections:
+	- [Shared Responsibilities](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/wordpress-release-team-and-focus-leads/#shared-responsibilities)
+	- [Test Responsibilities](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/wordpress-release-team-and-focus-leads/#test)
 
 Additionally, now is a good time to bookmark key Make WordPress resources, which grow and evolve as the release unfolds. Look for this release's "Development Cycle", "Planning", and "Roadmap" posts for a good start. Here are some examples from multiple versions:
 
@@ -91,4 +91,4 @@ As you go through the list and draft up the copy, some things to consider:
 - Would a visual example (image, video, etc) help explain this better?
 - Are there test instructions provided at any of the links?
 
-For any of these that don’t have [test instructions](https://make.wordpress.org/test/handbook/test-reports/testing-instructions/#feature-or-enhancement-testing-instructions-template), please drop a note into [#core-test](https://wordpress.slack.com/archives/core-test), and we can ask contributors to add them.
+For any of these that don’t have [test instructions](https://make.wordpress.org/test/handbook/archive/archived-test-reports/testing-instructions/#feature-or-enhancement-testing-instructions-template), please drop a note into [#core-test](https://wordpress.slack.com/archives/core-test), and we can ask contributors to add them.
