@@ -63,7 +63,7 @@ Use this option to test the latest beta or release candidate of Gutenberg on an 
 
 Use this option if you want to test pull requests or work with the bleeding-edge development version:
 
-1. Make sure you have [git](https://git-scm.com), [Node.js](https://nodejs.org) (v20+), and [npm](https://www.npmjs.com/get-npm) (v10+) installed.
+1. Make sure you have [git](https://git-scm.com), [Node.js](https://nodejs.org) (v24+, the version in the repository's `.nvmrc` file), and [npm](https://www.npmjs.com/get-npm) (v11+) installed.
 2. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 3. Fork and [clone](https://help.github.com/articles/cloning-a-repository/) the [gutenberg](https://github.com/WordPress/gutenberg) repository locally.
 4. Run `npm install` to install dependencies.
