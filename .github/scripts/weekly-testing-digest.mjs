@@ -8,15 +8,22 @@
  *   node weekly-testing-digest.mjs                           # dry-run: prints payload
  *   SLACK_WEBHOOK_URL=<url> node weekly-testing-digest.mjs   # posts to Slack
  *
- * Requirements: Node.js 18+ (native fetch), playwright
+ * Requirements: Node.js 18+ (native fetch)
  */
-
-import { chromium } from 'playwright';
 
 const REPO = 'WordPress/gutenberg';
 const LABEL = 'Needs Testing';
 const TRAC_QUERY_URL =
 	'https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing&group=milestone&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority&max=0';
+const TRAC_MCP_URL =
+	'https://wordpress-trac-mcp-server-prod.a8c-aiops.workers.dev/mcp';
+// Same filters as TRAC_QUERY_URL, sorted by ID so tickets don't move between pages.
+const TRAC_SEARCH_QUERY =
+	'status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords~=needs-testing&order=id';
+// Stops paging if the server keeps reporting more results (50 tickets a page).
+const TRAC_MAX_PAGES = 40;
+const USER_AGENT =
+	'WordPress-test-handbook-weekly-testing-digest (+https://github.com/WordPress/test-handbook)';
 
 // ---------------------------------------------------------------------------
 // GitHub
@@ -67,61 +74,121 @@ function buildGitHubURL( type ) {
 // ---------------------------------------------------------------------------
 
 /**
- * Scrape Trac "needs-testing" query grouped by milestone.
- * Trac can answer automated requests with a browser challenge, so we use a
- * headless browser, which gets through only when the challenge solves itself.
+ * Call a tool on the WordPress Trac MCP server and return its parsed result.
+ *
+ * Trac answers automated requests with a browser challenge, so the counts come
+ * from the read-only WordPress Trac MCP server instead.
+ *
+ * @see https://github.com/WordPress/trac-mcp
+ *
+ * @param {string} name Tool name.
+ * @param {object} args Tool arguments.
+ * @returns {Promise<object>}
+ * @throws {Error} If the request fails or the tool returns an error.
+ */
+async function callTracTool( name, args ) {
+	const res = await fetch( TRAC_MCP_URL, {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+			Accept: 'application/json, text/event-stream',
+			// Cloudflare rejects some default user agents, so name this client.
+			'User-Agent': USER_AGENT,
+		},
+		body: JSON.stringify( {
+			jsonrpc: '2.0',
+			id: 1,
+			method: 'tools/call',
+			params: { name, arguments: args },
+		} ),
+		signal: AbortSignal.timeout( 60000 ),
+	} );
+
+	const body = await res.text();
+	if ( ! res.ok ) {
+		throw new Error(
+			`Trac MCP server returned HTTP ${ res.status }: ${ body.slice( 0, 200 ) }`
+		);
+	}
+
+	// The server can answer with plain JSON or a server-sent event stream.
+	const json = res.headers.get( 'content-type' )?.includes( 'text/event-stream' )
+		? body
+				.split( '\n' )
+				.filter( ( line ) => line.startsWith( 'data:' ) )
+				.map( ( line ) => line.slice( 5 ).trim() )
+				.pop()
+		: body;
+	const message = JSON.parse( json ?? '' );
+
+	if ( message.error ) {
+		throw new Error( `Trac MCP error: ${ message.error.message }` );
+	}
+
+	const text = message.result?.content?.[ 0 ]?.text ?? '';
+	if ( message.result?.isError ) {
+		throw new Error( `${ name } failed: ${ text.slice( 0, 200 ) }` );
+	}
+
+	return JSON.parse( text );
+}
+
+/**
+ * Count open "needs-testing" Trac tickets per milestone.
+ *
+ * Pages through `searchTickets` with the same filters as TRAC_QUERY_URL.
  *
  * @returns {Promise<Array<{milestone: string, count: number}>>}
- *          Only versioned milestones (X.X or X.X.X pattern).
- * @throws {Error} If the query results don't load, with the HTTP status and page title.
+ *          Only versioned milestones (X.Y or X.Y.Z), oldest version first.
+ * @throws {Error} If a request fails.
  */
 async function fetchTracMilestones() {
-	const browser = await chromium.launch();
-	try {
-		const page = await browser.newPage();
-		const response = await page.goto( TRAC_QUERY_URL, { timeout: 60000 } );
-		try {
-			await page.waitForSelector( 'table.listing', { timeout: 45000 } );
-		} catch {
-			throw new Error(
-				`Query results did not load (HTTP ${ response?.status() }, page title: "${ await page.title() }")`
-			);
-		}
+	const tickets = new Map();
+	let totalFound = 0;
 
-		const allMilestones = await page.evaluate( () => {
-			return [ ...document.querySelectorAll( 'h2' ) ]
-				.map( ( h ) => {
-					const match = h.textContent
-						.trim()
-						.match( /Milestone:\s*(.+?)\s*\((\d+)\s*match/ );
-					return match
-						? { milestone: match[ 1 ], count: parseInt( match[ 2 ] ) }
-						: null;
-				} )
-				.filter( Boolean );
+	for ( let page = 1; page <= TRAC_MAX_PAGES; page++ ) {
+		const result = await callTracTool( 'searchTickets', {
+			query: TRAC_SEARCH_QUERY,
+			limit: 50,
+			page,
 		} );
 
-		if ( allMilestones.length === 0 ) {
-			console.error(
-				'Warning: Trac scrape returned no milestones — page structure may have changed.'
-			);
+		for ( const ticket of result.results ?? [] ) {
+			tickets.set( ticket.id, ticket.metadata?.milestone ?? '' );
 		}
+		totalFound = result.totalFound;
 
-		// Keep only versioned milestones (e.g. "7.0", "7.0.1", "7.1")
-		const versioned = allMilestones.filter( ( m ) =>
-			/^\d+(\.\d+)+$/.test( m.milestone )
+		if ( ! result.hasMore ) {
+			break;
+		}
+	}
+
+	if ( tickets.size !== totalFound ) {
+		console.error(
+			`::warning::Trac reported ${ totalFound } ticket(s) but ${ tickets.size } were read.`
+		);
+	}
+
+	const counts = new Map();
+	for ( const milestone of tickets.values() ) {
+		counts.set( milestone, ( counts.get( milestone ) ?? 0 ) + 1 );
+	}
+
+	// Keep only versioned milestones (e.g. "7.0", "7.0.1", "7.1")
+	const versioned = [ ...counts ]
+		.filter( ( [ milestone ] ) => /^\d+(\.\d+)+$/.test( milestone ) )
+		.map( ( [ milestone, count ] ) => ( { milestone, count } ) )
+		.sort( ( a, b ) =>
+			a.milestone.localeCompare( b.milestone, 'en', { numeric: true } )
 		);
 
-		if ( versioned.length === 0 && allMilestones.length > 0 ) {
-			console.error(
-				`Warning: Found ${ allMilestones.length } milestone(s) but none matched versioned pattern (X.Y or X.Y.Z).`
-			);
-		}
-
-		return versioned;
-	} finally {
-		await browser.close();
+	if ( versioned.length === 0 && tickets.size > 0 ) {
+		console.error(
+			`Warning: Found ${ tickets.size } ticket(s) but none in a versioned milestone (X.Y or X.Y.Z).`
+		);
 	}
+
+	return versioned;
 }
 
 // ---------------------------------------------------------------------------
