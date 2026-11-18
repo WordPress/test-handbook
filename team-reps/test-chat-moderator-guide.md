@@ -181,6 +181,7 @@ _Or:_
 
 _Alternative:_
 > And this brings us to the end of our meeting. Thank you all for coming.
+
 ## Moderator Tips
 
 ### During Discussions
