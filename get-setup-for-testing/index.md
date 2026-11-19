@@ -12,6 +12,7 @@ Testing in the WordPress project covers several areas. Choose the section that m
 
 - **[WordPress Core](#test-wordpress-core)** – Patches, tickets, and automated test suites for WordPress core.
 - **[Gutenberg / Block Editor](#test-gutenberg)** – Features and releases from the Gutenberg plugin.
+- **[Additional Testing Tools](#additional-testing-tools)** – Specialized guides for email testing and database inspection.
 - **[Calls for Testing](#calls-for-testing)** – Curated, focused testing tasks published by the Test Team.
 
 ## Test WordPress Core
@@ -50,6 +51,12 @@ A great place to start is the [Needs Patch Testing](https://core.trac.wordpress.
 
 The Gutenberg plugin ships block editor features before they land in WordPress core. You can test pre-release versions of Gutenberg in a few ways:
 
+### Test Gutenberg Tickets with Playground
+
+Use this option to test Gutenberg pull requests directly in your browser without requiring a local development environment. Playground can build and load Gutenberg PRs on the fly using query parameters.
+
+👉 **[Test Gutenberg Tickets with Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-gutenberg-with-playground/)**
+
 ### Install Gutenberg as a Plugin
 
 Use this option to test the latest beta or release candidate of Gutenberg on an existing site:
@@ -80,6 +87,13 @@ A great place to start is the [Needs Testing](https://github.com/WordPress/guten
 **Resources:**
 - [Getting Started with Code Contribution](https://developer.wordpress.org/block-editor/contributors/code/getting-started-with-code-contribution/) – Block Editor Handbook
 - [Testing Overview](https://developer.wordpress.org/block-editor/contributors/code/testing-overview/) – Block Editor Handbook
+
+## Additional Testing Tools
+
+Depending on the ticket or feature under test, you may need additional tools to verify specific behaviors:
+
+- **[Email Testing](https://make.wordpress.org/test/handbook/get-setup-for-testing/email-testing/)** – Learn how to capture and inspect transactional emails (such as user registration or password reset emails) using the Email Logger plugin or Mailpit.
+- **[Database Inspection](https://make.wordpress.org/test/handbook/get-setup-for-testing/database-inspection/)** – Learn how to add phpMyAdmin to your local Docker development environment when test cases require directly checking or modifying database records.
 
 ## Calls for Testing
 
