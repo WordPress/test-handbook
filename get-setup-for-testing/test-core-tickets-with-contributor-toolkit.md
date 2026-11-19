@@ -13,10 +13,10 @@ WordPress runs on SQLite in this app, and the app does not include a MySQL serve
 
 ## Set Up the App
 
-Creating your first site downloads a lot of files. If you are preparing for a [Contributor Day](https://make.wordpress.org/test/handbook/contributor-day/), set it up at home first.
+Creating your first site downloads a lot of files. If you are preparing for a [Contributor Day](https://make.wordpress.org/test/handbook/contributor-day/), set it up at home first, and run **Update to latest trunk** on the day of the event to download only the newest changes.
 
 1. Download the file for your system from the [latest release](https://github.com/WordPress/contributor-toolkit/releases/latest) and open it. If macOS blocks the app, see [Troubleshooting](https://wordpress.github.io/contributor-toolkit/guide/troubleshooting#macos-blocks-the-app-from-opening).
-2. Click **Create site**, enter a site name, choose **WordPress Core** as the project, choose a location, and click **Create site** again.
+2. Click **Create site** (or **Create new site** if you already have a site), enter a site name, choose **WordPress Core** as the project, choose a location, and click **Create site** again.
 3. Wait for the setup to finish. The app downloads the repository, installs the dependencies, and runs the first build by itself.
 4. Click **Start dev server and finish the wizard**. When the server is ready, the site's details show **View site**, **wp-admin**, and **Database** links, along with the admin username and password.
 
@@ -29,22 +29,23 @@ As an optional shortcut, the [WP Trac Triager](https://chromewebstore.google.com
 
 ## Reproduce a Bug
 
-1. Open the **Site actions** menu and choose **Update to latest trunk** so that you are testing current code.
+1. Open the **Site actions** menu and choose **Update to latest trunk** so that you are testing current code. (If the ticket is already linked, updating does not move the ticket branch's base, so update on trunk before linking the ticket.)
 2. Link the ticket, and don't apply a patch or PR.
 3. Follow the steps in the ticket on your site.
 4. Look for the problem in the app as well as on the site:
     - The **Debug.log** tab under [**Logs**](https://wordpress.github.io/contributor-toolkit/guide/logs-and-debugging) shows PHP errors, warnings, and notices.
     - The [**Database**](https://wordpress.github.io/contributor-toolkit/guide/database) link opens Adminer, which shows what is in the database.
     - The [**Email**](https://wordpress.github.io/contributor-toolkit/guide/mail) tab shows emails the site tried to send. They never leave your computer.
-5. Share your results in an [Issue Reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/) report.
+5. Share your results in an [Issue Reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/) report. Under **Environment**, list SQLite as the database.
 
 ## Test a Patch or PR
 
 1. Choose what to test:
     - **A PR:** click **Apply…** next to a PR listed on the ticket, or enter the PR's URL or number in the **Apply a patch or PR** panel and click **Apply PR**.
     - **A patch file from Trac:** click **Apply…** next to the file under **Trac attachments**. If the files aren't listed, click **Show Trac attachments**. If Trac shows an "I am human" checkbox, click it once.
+    - **A local patch file:** click **or choose a .diff / .patch file…** to select a file from disk.
 2. Review the list of changed files, then click **Apply and rebuild**.
-3. Wait until the app says the change has finished compiling, then test it on your site.
+3. Wait until compilation finishes: the *(compiling)* notice in the applied banner and the **Build watcher** tab title clears, then test it on your site.
 4. Share your results in a [Patch Testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/) report. Under **Environment**, list SQLite as the database.
 5. Click **Revert this PR** or **Revert this patch** to go back before you test something else. A branch can have only one patch file applied at a time.
 
