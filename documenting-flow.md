@@ -73,7 +73,6 @@ To make finding visual records taken against a certain release easier, include t
 
 The workflow tags are analogous to the [workflow tags](https://make.wordpress.org/core/handbook/trac/keywords/) used in core trac, with a few additions. We haven’t used these consistently either. This needs to be hashed out. needs-ticket and needs-captions are the most frequently used.
 
-
 - 2nd-opinion  
 - needs-refresh  
 - reporter-feedback  
@@ -85,7 +84,6 @@ The workflow tags are analogous to the [workflow tags](https://make.wordpress.or
 ### Trends and Patterns
 
 Spotting trends and patterns is fun and an important part of flow patrol. For example, iOS devices often expose [scroll bleed](https://make.wordpress.org/test/tag/scroll-bleed/) bugs in our modals. Tag scroll bleed related posts with [scroll-bleed](https://make.wordpress.org/test/tag/scroll-bleed/). Here are some common patterns.
-
 
 - [Scroll bleed](https://make.wordpress.org/test/glossary/#scroll-bleed): [scroll-bleed](https://make.wordpress.org/test/tag/scroll-bleed/)
 - [Keyboard flyup](https://make.wordpress.org/test/glossary/#keyboard-flyup): [keyboard-flyup](https://make.wordpress.org/test/tag/keyboard-flyup/)

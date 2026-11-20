@@ -1,13 +1,14 @@
 # Release Squad Duties
+
 First of all, welcome to the Test release squad! 🎉 It's so awesome you've stepped forward to help spread feature awareness and to support testing efforts for the release!
 
 If you haven’t already, please take some time to read through the release process, team roles, and expectations:
 
 - [Release Cycle](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/)
-	- [Major Versions](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/releasing-major-versions/)
+  - [Major Versions](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/releasing-major-versions/)
 - [Release Team](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/wordpress-release-team-and-focus-leads/). Some key sections:
-	- [Shared Responsibilities](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/wordpress-release-team-and-focus-leads/#shared-responsibilities)
-	- [Test Responsibilities](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/wordpress-release-team-and-focus-leads/#test)
+  - [Shared Responsibilities](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/wordpress-release-team-and-focus-leads/#shared-responsibilities)
+  - [Test Responsibilities](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/wordpress-release-team-and-focus-leads/#test)
 
 Additionally, now is a good time to bookmark key Make WordPress resources, which grow and evolve as the release unfolds. Look for this release's "Development Cycle", "Planning", and "Roadmap" posts for a good start. Here are some examples from multiple versions:
 
@@ -20,9 +21,11 @@ Be on the lookout for posts about the release, features, etc -- consume as much 
 And finally, make sure to join the appropriate release leads channel in [Make WordPress Slack](https://make.wordpress.org/chat/) to coordinate with other release squad teams, and to stay in the loop on latest developments! 👍
 
 ## Call for Testing Post
+
 The official release Call for Testing (CfT) post helps align the testing community around the key features and enhancements planned for the release. An example is the CfT for WordPress [6.1](https://make.wordpress.org/test/2022/09/21/help-test-wordpress-6-1/), [6.9](https://make.wordpress.org/test/2025/10/21/help-test-wordpress-6-9/).
 
 ### Timing
+
 In recent releases, the CfT has shipped just before the Beta 1 release post goes out on [wordpress.org/news](http://wordpress.org/news), where the release post typically includes a link to the CfT. The thought behind this timing is to allow testing to begin right away, and for bugs to be uncovered early in the cycle. However, there isn't often much urgency at this point, and most testing typically ramps up around RC1.
 
 The CfT is one of the first major tasks for the Test release team. It should be noted that during the beta cycle, there are usually outstanding questions as to what *exactly* will officially make it into the release 😅 With this timeline and ambiguity, it can feel frantic putting it together!
@@ -30,23 +33,25 @@ The CfT is one of the first major tasks for the Test release team. It should be 
 So to be clear: **It’s OKAY for the CfT to be edited/updated during the release cycle, or for follow-up CfTs to be published afterwards.** The post's change log is used to track updates, and major updates may even warrant detailed separate posts in Make/Core. If you’ve followed past releases, you'll notice there are always adjustments made because we're all human, and things fall through the cracks. But most features are typically settled by RC1.
 
 ### Post Format
+
 The format of the CfT was adapted from the [WordPress 5.9 CfT](https://make.wordpress.org/test/2021/11/30/help-test-wordpress-5-9-features/), where some of the post is boilerplate, but the majority of content is specific to new release features.
 
 A great way to start the CfT is to make a copy of the document used by the previous Test Team release squad, which is often co-authored in Google Docs.
 
 ### Source Information
+
 Info related to features introduced in the release comes from a variety of sources, including:  
 
 - “Roadmap” posts, e.g. [6.1](https://make.wordpress.org/core/2022/06/04/roadmap-to-6-1/), [6.9](https://make.wordpress.org/core/2025/07/28/roadmap-to-6-9/)
 - GitHub project boards, e.g. WordPress Editor Tasks for [6.2](https://github.com/orgs/WordPress/projects/63), [6.9](https://github.com/orgs/WordPress/projects/249).
 - Trac release queries, e.g. enhancements and features for the current milestone like [6.9](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=closed&status=new&status=reopened&status=reviewing&type=enhancement&milestone=6.9&or&status=accepted&status=assigned&status=closed&status=new&status=reopened&status=reviewing&type=feature+request&milestone=6.9&col=id&col=summary&col=type&col=status&col=milestone&col=owner&col=priority&order=priority) (Simply change the milestone number in the query to the current future release)
-- “Source of Truth” documents (which typically come _after_ beta, but for which drafts are shared quite early).
+- “Source of Truth” documents (which typically come *after* beta, but for which drafts are shared quite early).
 - Release walkthroughs.
 - Guidance from the release coordinators or previous Test release leads.
 
 That’s a LOT of info, and it can be helpful to create a CfT planning document to sort out a curated list of items to include. You might also use a color-coding system to indicate whether the source info is good (🟢), just started (🟡), or needs a lot of work (🔴).
 
-<div class="callout callout-tip"> 
+<div class="callout callout-tip">
     For shared Google Docs, make sure to keep the link private among the release team. And use the "document outline" feature to quickly jump between sections.
 </div>
 
@@ -55,6 +60,7 @@ That’s a LOT of info, and it can be helpful to create a CfT planning document 
 </div>
 
 ### Feature Details
+
 Once key features have been identified, and while building out testing info for each, you should strive for the following:
 
 - Provide a clear/recognizable feature name.
@@ -69,6 +75,7 @@ In the end, it’s up to the Test Team release leads to decide on the final deta
 </div>
 
 ### Useful Tools
+
 Whenever possible, try to include a screenshot, animated GIF, video, or code sample to demonstrate the feature. Here are some tools and services that can be helpful putting together visual assets to support feature details.
 
 - [Licecap](https://www.cockos.com/licecap/) - animated GIFs; great for micro demonstrations without sound
@@ -76,14 +83,16 @@ Whenever possible, try to include a screenshot, animated GIF, video, or code sam
 - [TinyPNG](https://tinypng.com) - image web optimization (WebP, PNG, JPEG)
 - [WordPress Playground](https://playground.wordpress.net/) - one-click environments, which can be [pre-configured for tests or demos](https://wordpress.github.io/wordpress-playground/blueprints/)
 - [WP Playground CLI](https://wordpress.github.io/wordpress-playground/developers/local-development/wp-playground-cli/)
- 
+
 Here's an example workflow (on Mac) you might use to show how a feature works:
+
 - If you need a clean test environment, use Playground to fire up a fresh site (based on the nightly build).
 - Use QuickTime on Mac, or Snipping tool on Windows to do a screen recording of the feature in action.
 - Resize and compress the video using HandBrake.
 - Upload the video asset to the test site to attach and use in the post.
 
 ### Review
+
 As you go through the list and draft up the copy, some things to consider:  
 
 - Does this describe the feature how a UI user or extender (plugin/theme dev) would understand it?

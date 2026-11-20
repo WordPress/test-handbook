@@ -1,10 +1,10 @@
 # Test Core Tickets with Playground
 
-[WordPress Playground](https://playground.wordpress.net/) is an online platform that lets you experiment and learn about WordPress without affecting your live website. It’s a virtual sandbox where you can test features, designs, and settings in a safe and controlled environment. More about WordPress Playground can be read [here](https://wordpress.github.io/wordpress-playground/). 
+[WordPress Playground](https://playground.wordpress.net/) is an online platform that lets you experiment and learn about WordPress without affecting your live website. It’s a virtual sandbox where you can test features, designs, and settings in a safe and controlled environment. You can read more in the [WordPress Playground documentation](https://wordpress.github.io/wordpress-playground/).
 
 ## How to Test Core Tickets with Playground
 
-1. Go to the Trac ticket and check that the ticket has a GitHub PR or a patch file. If a ticket has PR, you can test that Trac ticket with Playground. If the Trac ticket has “.patch”. This automatic test environment will not work. 
+1. Go to the Trac ticket and check that the ticket has a GitHub PR or a patch file. If a ticket has PR, you can test that Trac ticket with Playground. If the Trac ticket has “.patch”. This automatic test environment will not work.
 
     <a href="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png"><img src="https://make.wordpress.org/test/files/2025/10/example-trac-ticket.png" alt="Example Trac Ticket" style="max-width: 100%"></a>
 
@@ -12,15 +12,15 @@
 
     <a href="https://make.wordpress.org/test/files/2025/10/github-pull-request-example.png"><img src="https://make.wordpress.org/test/files/2025/10/github-pull-request-example.png" alt="GitHub Pull Request Example" style="max-width: 100%"></a>
 
-3. On the PR comment thread, it will find the GitHub action default comment about ‘Test using WordPress Playground’ 
+3. On the PR comment thread, it will find the GitHub action default comment about ‘Test using WordPress Playground’
 
     <a href="https://make.wordpress.org/test/files/2025/10/github-test-using-playground.png"><img src="https://make.wordpress.org/test/files/2025/10/github-test-using-playground.png" alt="Test using WordPress Playground" style="max-width: 100%"></a>
 
-4. You will find a link with the text ‘Test this pull request with WordPress Playground’. Click on this link. It will create a disposable WordPress website with the changes implemented in the PR. 
+4. You will find a link with the text ‘Test this pull request with WordPress Playground’. Click on this link. It will create a disposable WordPress website with the changes implemented in the PR.
 
     <a href="https://make.wordpress.org/test/files/2025/10/creating-plaground-site-with-pr.png"><img src="https://make.wordpress.org/test/files/2025/10/creating-plaground-site-with-pr.png" alt="Creating Playground Site with PR" style="max-width: 100%"></a>
 
-5. Click on the ‘Go’ button if the page doesn’t redirect automatically to the WordPress site. 
+5. Click on the ‘Go’ button if the page doesn’t redirect automatically to the WordPress site.
 
     <a href="https://make.wordpress.org/test/files/2025/10/playground-site-preparing.png"><img src="https://make.wordpress.org/test/files/2025/10/playground-site-preparing.png" alt="Playground Site Preparing" style="max-width: 100%"></a>
 
@@ -28,7 +28,7 @@
 
     <a href="https://make.wordpress.org/test/files/2025/10/playground-site-with-pr.png"><img src="https://make.wordpress.org/test/files/2025/10/playground-site-with-pr.png" alt="Playground Site with PR" style="max-width: 100%"></a>
 
-There are some limitations to this Playground environment. You can read more [here](https://wordpress.github.io/wordpress-playground/developers/limitations/).
+There are some limitations to this Playground environment. You can read more about the [Playground limitations](https://wordpress.github.io/wordpress-playground/developers/limitations/).
 
 - All changes will be lost when a tab is closed with a Playground instance.
 - All changes will be lost when refreshing the page.
@@ -94,6 +94,7 @@ npx @wp-playground/cli@latest server \
   --site-url=http://localhost:9400 \
   --mount=./src/wp-content/plugins:/wordpress/wp-content/plugins
 ```
+
 <img src="https://make.wordpress.org/test/files/2026/04/playground-cli-in-terminal-scaled.webp" alt="Run PlayGround CLI in Terminal" style="max-width: 100%">
 
 Your WordPress instance should now be accessible at: http://localhost:9400
@@ -134,8 +135,8 @@ alias play-start='npx @wp-playground/cli@latest server \
   --site-url=http://localhost:9400 \
   --mount=./src/wp-content/plugins:/wordpress/wp-content/plugins'
 ```
-Here, `play-start` is your `alias` that you will be using to run the long npx command. You can choose any name that you can easily remember.
 
+Here, `play-start` is your `alias` that you will be using to run the long npx command. You can choose any name that you can easily remember.
 
 Then reload your config with one of the following commands: `source ~/.zshrc` if you are using Zsh or `source ~/.bashrc` if you are using Bash.
 
@@ -187,6 +188,7 @@ However, since Playground CLI serves files from the `build` folder, which is com
 But you don't need to rerun `npm install` after applying changes, unless changes affect `package.json` or `package.lock.json`.
 
 ## Resources
+
 - [WPContrib WordPress Test Contributor Pathway YouTube Channel](https://www.youtube.com/@WPContrib) by [@SirLouen](https://profiles.wordpress.org/sirlouen/)
 - [WordPress Playground Docs](https://wordpress.github.io/wordpress-playground/)
 - [Playground CLI Docs](https://wordpress.github.io/wordpress-playground/developers/local-development/wp-playground-cli/)

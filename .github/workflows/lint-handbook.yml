@@ -1,0 +1,40 @@
+name: Lint Handbook
+
+on:
+    pull_request:
+    push:
+        branches:
+            - trunk
+
+# Cancels earlier runs for the same pull request or branch.
+concurrency:
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+permissions:
+    contents: read
+
+jobs:
+    lint:
+        name: Check manifest and Markdown
+        runs-on: ubuntu-latest
+        timeout-minutes: 10
+        steps:
+            - name: Checkout
+              uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+              with:
+                  persist-credentials: false
+
+            - name: Set up Node.js
+              uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+              with:
+                  node-version: '22'
+
+            - name: Test the manifest validator
+              run: node --test .github/scripts/*.test.mjs
+
+            - name: Validate handbook manifest
+              run: node .github/scripts/validate-manifest.mjs
+
+            - name: Lint Markdown
+              run: npx --yes markdownlint-cli@0.45.0 "**/*.md" --ignore node_modules

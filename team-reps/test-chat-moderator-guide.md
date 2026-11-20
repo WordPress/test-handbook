@@ -5,6 +5,7 @@ This guide helps moderators run Test Team Chat meetings. Use the structure and e
 ## Pre-Meeting Preparation
 
 Before the meeting:
+
 1. Review the [meeting agenda](https://make.wordpress.org/test/tag/test-chat-agenda/) published beforehand
 2. Prepare any links or resources mentioned in the agenda
 3. Have the Test Team Handbook open: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
@@ -32,6 +33,7 @@ _Or:_
 
 **Request attendance:**
 > Who is joining us today? Please reply in the thread:
+>
 > 1. Please say hello and note your WordPress.org profile username, as we will use this to record attendees in the notes.
 > 2. Feel welcome to introduce yourself briefly and share a flag or your favorite emoji!
 
@@ -41,9 +43,10 @@ _Or:_
 ### 3. Share Agenda
 
 **Link to agenda:**
-> Today's chat agenda can be found [here](https://make.wordpress.org/test/tag/test-chat-agenda/). Please take a look.
+> Please take a look at [today's chat agenda](https://make.wordpress.org/test/tag/test-chat-agenda/).
 
 **Example links:**
+
 - [https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/](https://make.wordpress.org/test/2026/01/21/team-chat-agenda-22nd-january-2026/)
 - [https://make.wordpress.org/test/2026/01/14/team-chat-agenda-14th-january-2026/](https://make.wordpress.org/test/2026/01/14/team-chat-agenda-14th-january-2026/)
 
@@ -62,10 +65,10 @@ _Or, if the roles are handled by different people:_
 
 > 📅 **Upcoming 4-Week Schedule**
 >
-> * 12 February 2026 – Facilitator: @username1 | Note-taker: @username2
-> * 26 February 2026 – Facilitator: @username3 | Note-taker: @username4
-> * 12 March 2026 – Facilitator: (Open) | Note-taker: (Open)
-> * 26 March 2026 – Facilitator: (Open) | Note-taker: (Open)
+> - 12 February 2026 – Facilitator: @username1 | Note-taker: @username2
+> - 26 February 2026 – Facilitator: @username3 | Note-taker: @username4
+> - 12 March 2026 – Facilitator: (Open) | Note-taker: (Open)
+> - 26 March 2026 – Facilitator: (Open) | Note-taker: (Open)
 >
 > 🙌 If you'd like to volunteer for any open slot, please reply in the thread.
 
@@ -77,12 +80,14 @@ _Or, if the roles are handled by different people:_
 **For each agenda item:**
 
 **Introduce the item:**
+>
 > - [AGENDA_ITEM_TITLE]
 
 **Provide context (if needed):**
 > [Brief explanation or context about the topic]
 
 **Facilitate discussion:**
+
 - Let participants share their thoughts
 - Ask clarifying questions when needed
 - Summarize key points
@@ -90,6 +95,7 @@ _Or, if the roles are handled by different people:_
 
 **Transition between items:**
 > Then I think we can move to the next item in the agenda:
+>
 > - [NEXT_AGENDA_ITEM]
 
 **When discussion needs continuation:**
@@ -110,6 +116,7 @@ _Or, if the roles are handled by different people:_
 > Does anyone have anything they'd like to share or discuss?
 
 **If no responses:**
+
 - Wait a reasonable amount of time (1-2 minutes)
 - If still no responses, proceed to announcements
 
@@ -127,11 +134,13 @@ _Or:_
 > **WordPress Ecosystem Announcements**
 
 **List announcements with links:**
+>
 > - [Gutenberg releases](https://make.wordpress.org/core/tag/gutenberg/)
 > - [WordPress Latest News](https://wordpress.org/news/)
 > - [Dev news](https://make.wordpress.org/core/tag/dev-notes/)
 
 **Example announcements to include:**
+
 - Gutenberg releases
 - WordPress version releases and schedules
 - PHP version support changes
@@ -148,6 +157,7 @@ _Or:_
 > next move to **Test Team Announcements**:
 
 **List Test Team specific items:**
+>
 > - [Test Team Program Information](https://make.wordpress.org/test/2026/01/06/launch-information-for-the-test-team-training-program/)
 > - [Week in Test Post](https://make.wordpress.org/test/category/week-in-test/): Brief description
 > - [Test Team Update](http://make.wordpress.org/updates/tag/test/): Metrics for overall team progress
@@ -161,10 +171,12 @@ _Or:_
 > next **Call for Testing**
 
 **List testing needs:**
+>
 > - [Help Test WordPress X.X](https://make.wordpress.org/test/tag/release-field-guide/)
 > - We have [Patch Testing Issues](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing+has-patch&focuses=!docs&col=id&col=summary&col=focuses&col=keywords&col=owner&col=type&col=priority&col=changetime&desc=1&order=changetime) that need testing
 
 **Standard links:**
+
 - Core Needs Testing: [https://core.trac.wordpress.org/tickets/needs-testing](https://core.trac.wordpress.org/tickets/needs-testing) (this report is slated to be deprecated and removed)
 - Gutenberg Needs Testing: [https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22](https://github.com/WordPress/gutenberg/issues?q=state%3Aopen%20label%3A%22Needs%20Testing%22)
 
@@ -199,12 +211,14 @@ _Alternative:_
 ### GitHub Integration
 
 When discussions need follow-up:
+
 - Suggest creating GitHub issues
 - Reference the test-handbook repo
 - Encourage PRs for concrete proposals
 - Link to existing issues when relevant
 
 **Common references:**
+
 - Test Handbook: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
 - Test Handbook Issues: [https://github.com/WordPress/test-handbook/issues](https://github.com/WordPress/test-handbook/issues)
 
@@ -218,6 +232,7 @@ When discussions need follow-up:
 ### Note-Taking
 
 As facilitator, you should:
+
 - Capture key discussion points
 - Note action items and owners
 - Record decisions made
@@ -231,21 +246,25 @@ Since meetings are conducted asynchronously in Slack, you can copy the entire me
 ### Common Situations
 
 **If discussion gets detailed/technical:**
+
 - Suggest moving detailed discussions to GitHub issues
 - Remind participants that chat is for brainstorming, GitHub is for finalizing details
 - Offer to create a GitHub issue to track the conversation
 
 **If someone offers help:**
+
 - Acknowledge their willingness to contribute
 - Note their offer in the meeting notes
 - Provide relevant links or resources they might need
 
 **If clarification is needed:**
+
 - Ask clarifying questions
 - Restate the point to confirm understanding
 - Summarize the discussion so far
 
 **If moving to next topic:**
+
 - Announce the transition
 - Briefly reference the next agenda item
 - Allow a moment for any final comments
@@ -253,6 +272,7 @@ Since meetings are conducted asynchronously in Slack, you can copy the entire me
 ## Post-Meeting Tasks
 
 After the meeting:
+
 1. Compile meeting notes from the discussion
 2. Create GitHub issues as mentioned during meeting
 3. Update calendar if schedule changes were discussed
@@ -327,12 +347,14 @@ Try it instantly via [WordPress Playground](https://playground.wordpress.net/?pl
 ## Resources & Links
 
 ### Essential Pages
+
 - Make Test: [https://make.wordpress.org/test/](https://make.wordpress.org/test/)
 - Test Handbook: [https://github.com/WordPress/test-handbook](https://github.com/WordPress/test-handbook)
 - Test Handbook Issues: [https://github.com/WordPress/test-handbook/issues](https://github.com/WordPress/test-handbook/issues)
 - Core Reports: [https://make.wordpress.org/core/reports/](https://make.wordpress.org/core/reports/)
 
 ### Regular Reports
+
 - Month in Test: Published monthly at make.wordpress.org/test
 - Test Team Update: Weekly metrics report
 - Gutenberg Releases: Bi-weekly release announcements
@@ -344,12 +366,13 @@ Try it instantly via [WordPress Playground](https://playground.wordpress.net/?pl
 > [14:02] Moderator: Hello and welcome to this bi-weekly test team chat meeting!
 >
 > [14:02] Moderator: Who is joining us today? Please reply in the thread:
+>
 > 1. Please say hello and note your WordPress.org profile username, as we will use this to record attendees in the notes.
 > 2. Feel welcome to introduce yourself briefly and share a flag or your favorite emoji!
 >
 > [14:05] Moderator: If you're joining this chat **async**, please add your details to the thread later and include (async) after your name. This helps us review meeting times and encourage participation across all time zones.
 >
-> [14:06] Moderator: Today's chat agenda can be found [here](https://make.wordpress.org/test/tag/test-chat-agenda/). Please take a look.
+> [14:06] Moderator: Please take a look at [today's chat agenda](https://make.wordpress.org/test/tag/test-chat-agenda/).
 >
 > [14:07] Moderator: **Meeting Notes**
 >

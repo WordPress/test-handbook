@@ -1,9 +1,11 @@
 # Combined Report
+
 Many tickets receive patches _before_ test reviewers have had a chance to list test steps or perform reproduction testing. If this is the case, it is helpful to begin by outlining the test instructions and expected results, followed by the actual reproduction and patch validations.
 
 Alternatively, testers can post testing instructions first (if not supplied), followed by a reproduction report, and then a patch test report, each in separate comments.
 
 ## Bug/Defect Combined Report Template
+
 An example combined report might look like this (some sections removed for brevity):
 
 <pre><code>== Test Report
@@ -28,7 +30,7 @@ When reproducing a bug:
 - PHP: X.Y.Z
 - WordPress: X.Y-Z
 - Browser: Browser Name X.Y.Z
-- Theme: Theme Name X.Y.Z 
+- Theme: Theme Name X.Y.Z
 - Active Plugins:
   - Plugin 1 X.Y.Z
   - Plugin 2 X.Y.Z
@@ -41,6 +43,7 @@ When testing the bugfix patch:
 - ✅ Issue resolved with patch.</code></pre>
 
 ## Feature or Enhancement Combined Report Template
+
 An example combined report might look like this (some sections removed for brevity):
 
 <pre><code>== Test Report
@@ -65,7 +68,7 @@ Lists each expected result or behavior, i.e. what should happen when running the
 - PHP: X.Y.Z
 - WordPress: X.Y-Z
 - Browser: Browser Name X.Y.Z
-- Theme: Theme Name X.Y.Z 
+- Theme: Theme Name X.Y.Z
 - Active Plugins:
   - Plugin 1 X.Y.Z
   - Plugin 2 X.Y.Z

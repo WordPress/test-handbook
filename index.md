@@ -3,11 +3,12 @@
 Welcome to the Test Team Handbook! In these pages you can learn how and where to get involved in testing WordPress. If you want to help improve WordPress quality and usability, and advance the development process, then you've come to the right place!
 
 ## Duty of Care
+
 While the Test Team originally stemmed from the [Core Team](https://make.wordpress.org/core/), contributions to WordPress testing have grown to encompass the entire WordPress ecosystem. Of course the efforts of Test Team contributors benefit WordPress and the [core editor](https://wordpress.org/gutenberg/), but also sub-projects like [Design](https://make.wordpress.org/design/) and [Themes](https://make.wordpress.org/themes/), [Accessibility](https://make.wordpress.org/accessibility/), [mobile apps](https://wordpress.org/mobile/), [WP-CLI](https://make.wordpress.org/cli/), [Feature Projects](https://make.wordpress.org/core/features/), [importers](https://github.com/WordPress?q=importers), and even [WordPress.org](https://wordpress.org) itself.
 
 Test Team contributions touch on all aspects of manual and automated testing within the project, including:
 
-- [Issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/) 
+- [Issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/)
 - [Patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/)
 - Feature and enhancement testing
 - End-to-end (E2E) testing
@@ -17,11 +18,13 @@ Test Team contributions touch on all aspects of manual and automated testing wit
 With such a wide range of opportunities available, contributors are sure to find an area of interest to help make WordPress better.
 
 ## New Initiatives
+
 The Test Team is continually evolving to meet the needs of the WordPress project. Currently all the discussions and planning for new initiatives are going to be happening in the [Test Handbook Github page](https://github.com/WordPress/test-handbook).
 
 If you want to propose a new initiative or help with an existing one, please open an issue in the repository to start the conversation and eventually we will bring it to the Test Chat if further discussion is needed.
 
 ## Contributors Welcome
+
 Contributors to testing have a wide variety of experience and technical knowledge, from beginners with little WordPress experience to seasoned developers who have contributed for years.
 
 Just as WordPress is open to anyone and everyone, numerous opportunities exist for Test Team contributions regardless of individual skill level. And, like the larger WordPress community, contributors in the Test Team are enthusiastic to share their knowledge and expertise.
@@ -29,9 +32,11 @@ Just as WordPress is open to anyone and everyone, numerous opportunities exist f
 Are you looking to join Test Team at a WordCamp Contributor Day? Check out the [Getting Started at Contributor Day](https://make.wordpress.org/test/handbook/contributor-day/) page for important info on preparing for and attending the event.
 
 ## Where to Find the Test Team
+
 In addition to posts and discussions in the [Test Team blog](https://make.wordpress.org/test/), the team [meets regularly](https://make.wordpress.org/meetings/#test) on the [Make WordPress Slack #core-test channel](https://wordpress.slack.com/archives/core-test/). Stop on by, and let's talk about testing!
 
 ## Get Started
+
 Ready to get started? Here are some links to get you on your way:
 
 - [Guidelines for writing great Test Reports](https://make.wordpress.org/test/handbook/test-reports/)

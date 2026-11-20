@@ -1,4 +1,5 @@
 # Patch Testing
+
 Once a patch is made available for a ticket, it is critical to validate that the code change (a) addresses the issue (for bug report) or (b) delivers the expected behavior or result (for feature or enhancement).
 
 If you haven't applied a patch yet, see [Test Core Tickets with Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/) or [Test Core Tickets with Grunt](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-grunt/) to get started.
@@ -7,9 +8,9 @@ During patch testing, please be aware of “regression” issues, where the patc
 
 Example patch testing reports:
 
--   [Trac #54596](https://core.trac.wordpress.org/ticket/54596#comment:40)
--   [Trac #54896](https://core.trac.wordpress.org/ticket/54896#comment:3)
--   [Trac #54905](https://core.trac.wordpress.org/ticket/54905#comment:29)
+- [Trac #54596](https://core.trac.wordpress.org/ticket/54596#comment:40)
+- [Trac #54896](https://core.trac.wordpress.org/ticket/54896#comment:3)
+- [Trac #54905](https://core.trac.wordpress.org/ticket/54905#comment:29)
 
 ## Generating Reports with the Test Reports Plugin
 
@@ -48,7 +49,7 @@ Use this version when posting a patch testing report to a Trac ticket:
 
 In the "Steps taken" section, the final step reports the outcome using ✅ to indicate the patch is solving the problem or ❌ to indicate the patch is failing.
 
-```
+```text
 == Patch Testing Report
 
 Patch tested: REPLACE_WITH_PATCH_URL
