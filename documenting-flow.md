@@ -32,7 +32,7 @@ Platform is the operating system:
 
 - [android](https://make.wordpress.org/test/tag/android/)
 - [ios](https://make.wordpress.org/test/tag/ios/)
-- [linux](https://make.wordpress.org/test/tag/linux/)
+- linux
 - [macos](https://make.wordpress.org/test/tag/macos/)
 - [windows](https://make.wordpress.org/test/tag/windows/)
 - [winphone](https://make.wordpress.org/test/tag/winphone/)
@@ -49,9 +49,9 @@ Web interfaces are served from core WordPress to a web browser. All posts relati
 For web interfaces, indicate the browser used. This is not necessary for apps.
 
 - [chrome](https://make.wordpress.org/test/tag/chrome/)
-- [explorer](https://make.wordpress.org/test/tag/explorer/)
-- [firefox](https://make.wordpress.org/test/tag/firefox/)
-- [opera](https://make.wordpress.org/test/tag/opera/)
+- explorer
+- firefox
+- opera
 - [safari](https://make.wordpress.org/test/tag/safari/)
 
 ### Version and Development Phase
@@ -89,11 +89,11 @@ Spotting trends and patterns is fun and an important part of flow patrol. For ex
 
 - [Scroll bleed](https://make.wordpress.org/test/glossary/#scroll-bleed): [scroll-bleed](https://make.wordpress.org/test/tag/scroll-bleed/)
 - [Keyboard flyup](https://make.wordpress.org/test/glossary/#keyboard-flyup): [keyboard-flyup](https://make.wordpress.org/test/tag/keyboard-flyup/)
-- [Rogue cursor](https://make.wordpress.org/test/glossary/#rogue-cursor): [rogue-cursor](https://make.wordpress.org/test/tag/rogue-cursor/)
+- [Rogue cursor](https://make.wordpress.org/test/glossary/#rogue-cursor): rogue-cursor
 - [Boxed input scrolling](https://make.wordpress.org/test/glossary/#boxed-input-scrolling): [boxed-input-scrolling](https://make.wordpress.org/test/tag/input-scrolling/)
 - [Desktop bias](https://make.wordpress.org/test/glossary/#desktop-bias): [desktop-bias](https://make.wordpress.org/test/tag/desktop-bias/)
 - [Forked flow (open in new window)](https://make.wordpress.org/test/glossary/#forked-flow): [forked-flow](https://make.wordpress.org/test/tag/forked-flow/)
-- [Threshold friction](https://make.wordpress.org/test/glossary/#threshold-friction): [threshold-friction](https://make.wordpress.org/test/tag/threshold-friction/)
+- [Threshold friction](https://make.wordpress.org/test/glossary/#treshold-friction): [threshold-friction](https://make.wordpress.org/test/tag/threshold-friction/)
 - [Anxiety flow](https://make.wordpress.org/test/glossary/#anxiety-flow): [anxiety-flow](https://make.wordpress.org/test/tag/anxiety-flow/)
 
 For more trends and patterns, see the [glossary](https://make.wordpress.org/test/handbook/glossary/).
