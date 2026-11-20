@@ -27,8 +27,8 @@ The recommended way to set up a local environment for WordPress core development
 
 ### Prerequisites
 Before you begin, ensure you have the following installed on your computer:
-1.  **Node.js**: Version 20.x or later.
-2.  **npm**: Version 10.x or later (usually comes with Node.js).
+1.  **Node.js**: Version 24.x or later. The exact version is in the repository's `.nvmrc` file; running `nvm use` (or `fnm use`) in the repository folder switches to it.
+2.  **npm**: Version 11.x or later (usually comes with Node.js).
 3.  **Git**: For version control.
 4.  **Docker Desktop** (or a compatible container runtime like OrbStack, Colima, or Rancher Desktop).
 
