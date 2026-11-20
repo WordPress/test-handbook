@@ -4,10 +4,11 @@ To test WordPress core tickets effectively, you need an environment where you ca
 
 ## Choose Your Environment
 
-There are two main ways to test WordPress core tickets:
+There are three main ways to test WordPress core tickets:
 
 1.  **WordPress Playground (Browser-based):** Best for quick visual testing and verifying patches without installing anything on your computer.
-2.  **Local Development Environment:** Required for more advanced testing, running automated tests (PHPUnit, e2e), and working with complex patches or build tools.
+2.  **Contributor Toolkit (Desktop app):** Best for reproducing bugs and applying PRs, `.patch`, and `.diff` files on a local site without installing Docker.
+3.  **Local Development Environment:** Required for more advanced testing, running automated tests (PHPUnit, e2e), and working with complex patches or build tools.
 
 ### When to use Playground?
 - You need to quickly verify a visual change or a bug fix.
@@ -15,6 +16,13 @@ There are two main ways to test WordPress core tickets:
 - The ticket has a Pull Request (PR) or a ZIP file that Playground can load.
 
 [Learn how to use Playground for testing](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/)
+
+### When to use the Contributor Toolkit?
+- You need to test a `.patch` or `.diff` file from Trac and you do not want to install Docker.
+- You want a local site that keeps its data between testing sessions.
+- The ticket does not depend on MySQL behavior. The app runs WordPress on SQLite.
+
+[Learn how to use the Contributor Toolkit for testing](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-contributor-toolkit/)
 
 ### When to use a Local Environment?
 - You need to use command-line tools like `grunt` or `git`.
