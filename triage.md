@@ -17,6 +17,7 @@ When working with [WordPress Core Trac](https://core.trac.wordpress.org/), teste
 7. Ask clarifying questions if needed and add the `[Type] Needs More Info` label.
 
 ## Triaging Incoming Issues
+
 1. Start with the newest incoming issues or [unlabeled open issues](https://github.com/WordPress/gutenberg/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Alabel).
 2. Search right away for duplicate issues or issues that can be consolidated, and note them.
 3. If asking for more information would be helpful, ask right away.
@@ -24,6 +25,7 @@ When working with [WordPress Core Trac](https://core.trac.wordpress.org/), teste
 5. If you do not have rights to add labels, continue to the [Testing Bugs](https://make.wordpress.org/test/handbook/triage/#testing-bugs) section. If you do have rights to add labels, continue to the [Triage for Admins](https://make.wordpress.org/test/handbook/triage/#triage-for-admins) section.
 
 ## Triage for Admins
+
 In the case of GitHub, such as the Gutenberg repo, not everyone has write permissions to add labels or update titles. If you do have write permissions, you have the option to do a bit more in-depth triage.
 
 1. Start with the newest incoming issues or unlabeled issues.
@@ -34,6 +36,7 @@ In the case of GitHub, such as the Gutenberg repo, not everyone has write permis
 6. Add workflow labels if needed, such as `Needs Testing`, `Needs Design Feedback`, or `Needs Decision`.
 
 ## Good Details to Include
+
 - Add a screenshot whenever it makes sense. Videos should only be added if a screenshot isn’t enough to communicate the issue.
 - Version numbers for WordPress, plugin (if applicable), OS, and browser.
 - Errors from the browser Console tab in Developer Tools.

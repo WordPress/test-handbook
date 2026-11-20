@@ -3,6 +3,7 @@
 For more information about the role Test Team members play in the WordPress project, see the [Test Team Handbook Homepage](https://make.wordpress.org/test/handbook/).
 
 ## Prepare for Contributor Day
+
 In order to make the most of your time meeting and working with fellow contributors, follow these helpful **pre-Contributor Day** tips!
 
 <div class="callout callout-info">
@@ -10,11 +11,13 @@ Did you know? Your <a href="https://profiles.wordpress.org/">WordPress.org profi
 </div>
 
 ### Accounts Setup
+
 1. [Required] Set up a WordPress.org account on the [account registration page](https://login.wordpress.org/register). If you get stuck, check out the [Learn WordPress lesson plan covering this topic](https://learn.wordpress.org/lesson-plan/creating-a-wordpress-org-account/) for guidance. And for users who already have a WordPress.org account, make sure you can still [log in](https://login.wordpress.org/) if it's been a while.
 2. [Recommended] Join the conversation on [WordPress Slack](https://make.wordpress.org/chat/) (must be logged on to WordPress.org). While Slack is not required for Contributor Day participation, it connects you directly with the talented and diverse community behind WordPress.
 3. [Optional] For users who intend to work with the [Gutenberg plugin](https://github.com/wordpress/gutenberg) or test PRs (pull requests), having a GitHub account is very helpful. You can [sign up for GitHub here](https://github.com/signup).
 
 ### Local Test Environment
+
 **Local environment testing is suggested for past contributors or users with prior development experience.**
 
 Perhaps the biggest challenge faced by new contributors is preparing a test environment. If you would like to test patches and PRs directly during Contributor Day, it is **highly recommended** that you set things up at home *before* the event.
@@ -34,6 +37,7 @@ Differences between operating systems and personal workflows make environment co
 If you need help setting up your environment, reach out on [Make/Test Slack](https://wordpress.slack.com/messages/core-test/) and there will be other contributors who can provide additional guidance.
 
 ### Browser-Only Testing
+
 **Browser-based testing is suggested for users who have not contributed to WordPress before.**
 
 If you prefer to test using a browser only -- a great option if you've joined Contributor Day at the last minute -- the recommended approach is to use [WordPress Playground](https://playground.wordpress.net/), which allows you to run WordPress directly in your browser without any setup.
@@ -43,6 +47,7 @@ For most common testing scenarios, WordPress Playground is sufficient and provid
 If you need features like persistent environments, sharing setups with others, or longer-running instances, you may also consider using third-party services such as [InstaWP](https://instawp.com) or [TasteWP](https://tastewp.com).
 
 ### Plugins for Testing
+
 These plugins may be helpful, or even required, during testing sessions:
 
 - [Gutenberg](https://wordpress.org/plugins/gutenberg/)
@@ -54,9 +59,11 @@ These plugins may be helpful, or even required, during testing sessions:
 Note that some tickets/PRs may include additional plugin requirements.
 
 ## Test Table at Contributor Day
+
 Contributor Day has arrived! Look for the table with the "Core: Test" or "Test" placard, find a seat, and don't be afraid to introduce yourself. And most importantly: have fun collaborating with other contributors!
 
 ### Test Table Leads
+
 Table leads are volunteers who have taken on the responsibility of helping steer and answer questions from other Contributor Day attendees. Make sure that other attendees know they can come to you for help.
 
 If you're lucky, there will be other contributors at the table when the session begins, but don't be surprised if others trickle in (or leave) during the day. Remember that not everyone signs up for a team/table before the event, so you might end up [steering them elsewhere](https://make.wordpress.org), or pitching them on why the Test Team is so cool 😎.
@@ -66,11 +73,12 @@ To kick things off, here are some suggestions:
 - Introduce the table leads to clarify who to reach out to for help.
 - Go around the table and ask everyone else to introduce themselves.
 - Good icebreaker questions:
-	- Where are you from/how far did you travel?
-	- How do you use WordPress?
-	- Have you contributed before, and what interests you most about contributing?
+  - Where are you from/how far did you travel?
+  - How do you use WordPress?
+  - Have you contributed before, and what interests you most about contributing?
 
 ### Slack/Coordination
+
 [Recommended] After doing IRL introductions, consider posting a short note in the [#core-test channel](https://wordpress.slack.com/messages/core-test/) to let the Slack community know that a Contributor Day event is underway. Here is a great example [Slack thread for WC Asia 2023 Contributor Day](https://wordpress.slack.com/archives/C03B0H5J0/p1676600490483579).
 
 Slack can be a good way to connect with remote attendees, many of whom can help answer questions and collaborate with testing. Everyone at the event and remote should be invited to keep in touch online.
@@ -80,17 +88,21 @@ Tip: While it's not required to run/mirror table collaboration in Slack, it does
 </div>
 
 ### Remote Attendance
+
 Not everyone can make it to Contributor Day, but Test table attendees are encouraged to invite remote participation. The Test table lead should make every effort to keep remote Slack attendees up to date, or assign another volunteer at the table to handle these communications.
 
 If you show up as a remote attendee on the [#core-test channel](https://wordpress.slack.com/messages/core-test/), make sure to let everyone know you're there for Contributor Day.
 
 ### Community Building
+
 And finally, perhaps the most important part of attending Contributor Day is being able to connect with each other as individuals. Take the time to get to know each other, and foremost, have fun!
 
 ## How to Contribute
+
 The [Test Team's "duty of care"](https://make.wordpress.org/test/handbook/#duty-of-care) covers all forms of testing in the WordPress project, whether manual or automated, from the core software to Gutenberg to other teams. This provides many options for involvement at Contributor Day.
 
 ### Reproduction and Patch Testing
+
 The most popular activity for Test table participants is usually...**testing!** Core's official [Bug Reports page](https://make.wordpress.org/core/reports/) is a good place to start, but here are some other themed examples of testing opportunities:
 
 - Key features from the latest major release -- check the [Calls for Testing](https://make.wordpress.org/test/category/call-for-testing/) on the Test blog for the most recent testing posts.
@@ -104,16 +116,19 @@ The most popular activity for Test table participants is usually...**testing!** 
 Finally, don't forget to post a clear [test report](https://make.wordpress.org/test/handbook/test-reports/) as a new comment on the tested issue ticket or patch PR. The Test Handbook provides templates for [issue reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/) and [patch testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/) reports.
 
 ### Documentation
+
 Handbook articles (like the one you're reading now) are the result of numerous hours of collaboration effort from Test contributors, and benefit current and new Test Team members alike.
 
 If you have at least a basic understanding of Test Team procedures (or are willing to learn about them), and you enjoy moderately-technical writing, please consider opening a PR for [one of the documentation issues in the Test Handbook repo](https://github.com/WordPress/test-handbook/issues).
 
 ## Test Contributor Profile Badge
+
 Contributors who provide a meaningful contribution to Test Team, such as a reproduction or patch test report, submit unit tests, or open a PR for a documentation update, will be awarded a shiny Test Contributor profile badge. See the [Test Team Profile Badges](https://make.wordpress.org/test/handbook/test-team-profile-badges/) page for full eligibility criteria and how to request a badge.
 
 If during your participation in Contributor Day you were unable to post a traceable contribution (i.e. something that can be shared in a URL), speak with your table lead before the day is through and share how you contributed to the team.
 
 ## Resources for Continued Contribution
+
 Here are some commonly shared links that are helpful for Test Team contributors:
 
 - [Test Handbook](https://make.wordpress.org/test/handbook/): the Test Team's reference manual.

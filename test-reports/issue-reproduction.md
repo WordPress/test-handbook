@@ -1,13 +1,14 @@
 # Issue Reproduction
+
 Issue reproduction is a critical step in communicating and confirming how to trigger the undesired behavior that was reported in the ticket.
 
 Provide as much of the environment information as possible and any special configuration considerations (using Docker, multisite with subdomains, etc). Delete any sections from the report that are not applicable.
 
 Example reproduction reports:
 
--   [Trac #52422](https://core.trac.wordpress.org/ticket/52422#comment:11)
--   [Trac #55671](https://core.trac.wordpress.org/ticket/55671#comment:1)
--   [GitHub Issue #41067](https://github.com/WordPress/gutenberg/issues/41067#issuecomment-1130569145)
+- [Trac #52422](https://core.trac.wordpress.org/ticket/52422#comment:11)
+- [Trac #55671](https://core.trac.wordpress.org/ticket/55671#comment:1)
+- [GitHub Issue #41067](https://github.com/WordPress/gutenberg/issues/41067#issuecomment-1130569145)
 
 ## When the Code Path Can't Run on Your Setup
 
@@ -64,7 +65,7 @@ Install **Test Reports** directly from [wordpress.org/plugins/test-reports](http
 
 Use this version when posting a reproduction report to a Trac ticket:
 
-```
+```text
 == Reproduction Report
 
 === Environment

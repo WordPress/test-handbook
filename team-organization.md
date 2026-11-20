@@ -38,7 +38,6 @@ The following contributors are currently active in the Test Team. This list is u
 | r1k0 | [@r1k0](https://profiles.wordpress.org/r1k0/) | Handbook Maintenance, Patch Testing, Triage |
 | Shazzad Hossain Khan | [@sajib1223](https://profiles.wordpress.org/sajib1223/) | Patch Testing, Triage |
 
-
 ## Emeritus Members
 
 Emeritus status recognizes contributors who have made sustained, significant contributions to the Test Team over an extended period. This is a permanent acknowledgment of their dedication to the team and the WordPress project.

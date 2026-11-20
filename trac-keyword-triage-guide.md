@@ -25,7 +25,6 @@ When you see a ticket tagged `needs-testing`, follow this decision tree:
 
 ![Trac keyword triage workflow diagram](https://raw.githubusercontent.com/WordPress/test-handbook/refs/heads/trunk/assets/trac-keyword-triage-workflow.png)
 
-
 **1. Does the ticket have a patch?**
 
 - **No** → This ticket may need bug reproduction rather than patch testing. Check whether the issue can be confirmed before proceeding. Bug reproduction is a separate process outside the scope of this keyword guide.
@@ -53,7 +52,7 @@ Use these templates as a starting point when leaving a comment alongside a keywo
 
 ### Patch fails to apply
 
-```
+```text
 I've tried applying the patch ([PATCH_URL]) against the latest `trunk` ([TRUNK_VERSION]), but it fails to apply with the following message:
 
 [PASTE_FAILED_HUNKS_MESSAGE_HERE]
@@ -63,7 +62,7 @@ Since the patch cannot be applied cleanly, I'm removing `needs-testing` and addi
 
 ### Missing or unclear testing instructions
 
-```
+```text
 I've tried to reproduce the issue described in this ticket, but the steps aren't clear enough to proceed. Could you please:
 
 - Describe the exact steps to reproduce the bug or test the enhancement.

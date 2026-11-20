@@ -5,10 +5,10 @@ This guide helps moderators run Patch Testing Scrub sessions. Use the structure 
 ## Pre-Session Preparation
 
 Before the session:
+
 1. Review and have Trac ticket queue open and ready ([Patch Testing Tickets](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing+has-patch&milestone=!Awaiting+Review&group=milestone&max=0&col=id&col=summary&col=status&col=milestone&col=owner&col=type&col=priority&order=priority)). Also, prepare a shortlist of tickets to assign
 2. Check for any recent WordPress releases, beta releases or release candidates to announce
 3. Note the scheduled start time and be prepared to monitor the thread throughout
-
 
 ## Session Structure & Script
 
@@ -46,11 +46,13 @@ Assign one ticket at a time per participant. Wait for them to reply or post a re
 </div>
 
 **Tips for choosing tickets**
+
 - Prioritize tickets that have a numbered milestone (e.g. Milestone: 7.1) then Future release tickets.
 - Match ticket complexity to the participant's experience level where possible.
 - Avoid assigning the same ticket to two people simultaneously unless it needs multiple test environments.
 
 ### 3. Monitoring the Session
+
 **Acknowledge test reports as they come in**
 > Great work **@[USERNAME]**, thanks for the report!
 
@@ -94,10 +96,12 @@ Assign one ticket at a time per participant. Wait for them to reply or post a re
 ### Handling Common Situations
 
 **If a participant is stuck on a ticket**
+
 - Offer to help them tackle the ticket if you have the knowledge and expertise to test the ticket.
 - If you are unable, you can offer to swap them to a different ticket.
 
 **If a ticket has already been tested by someone else**
+
 - Check whether a second test report would still be valuable.
 - If not, assign a different ticket.
 
@@ -157,7 +161,8 @@ Try it instantly via [WordPress Playground](https://playground.wordpress.net/?pl
 ## Resources & Links
 
 ### Essential Pages
-- Trac Patch Testing query: [here](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing+has-patch&milestone=!Awaiting+Review&group=milestone&max=0&col=id&col=summary&col=status&col=milestone&col=owner&col=type&col=priority&order=priority)
+
+- [Trac Patch Testing query](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-testing+has-patch&milestone=!Awaiting+Review&group=milestone&max=0&col=id&col=summary&col=status&col=milestone&col=owner&col=type&col=priority&order=priority)
 
 ## Example Full Opening Sequence
 

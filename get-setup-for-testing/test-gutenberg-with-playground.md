@@ -16,6 +16,7 @@ Use a full local environment when testing depends on:
 ## Finding tickets to test
 
 A great place to start is the [Needs Testing](https://github.com/WordPress/gutenberg/pulls?q=is%3Aopen+is%3Apr+label%3A%22Needs+Testing%22) queue on GitHub. These are Gutenberg PRs that need a fresh set of eyes.
+
 ## Prerequisites
 
 Before testing, collect the following from the ticket or PR:

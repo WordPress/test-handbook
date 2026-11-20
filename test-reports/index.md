@@ -1,6 +1,7 @@
 # Test Reports
 
 ## What Is a Test Report?
+
 A test report provides a documented record of a reported issue. It answers questions such as:
 
 - Does the issue occur for other users?
@@ -12,6 +13,7 @@ A test report provides a documented record of a reported issue. It answers quest
 Not only do test reports help substantiate the need to address an issue, but they provide important information to code maintainers so that patches address the correct feature of the software.
 
 ## Key Test Report Features
+
 The exact format of a test report may vary, but good reports always include the following pieces of information:
 
 - **Environment**: The operating system, software version, browser used, active plugins, and special configuration details (as applicable).
@@ -22,6 +24,7 @@ The exact format of a test report may vary, but good reports always include the 
 Use supplemental artifacts to help further explain the results of the test. There are no hard rules in what and how to provide this additional information, as the level of detail required can vary greatly between tickets.
 
 ## Identify Expected and Unexpected Behavior
+
 Visual cues that identify whether tests went as planned are useful for testers, code reviewers, and committers alike. Trac tickets, GitHub issues, and PRs can become very lengthy, so calling out the most important details of a test using emoji or icons can save time.
 
 “Expected” refers to behaviors, results, or observations of what is under test (see the following list) and are highlighted with a green checkmark emoji ✅:
@@ -39,6 +42,7 @@ Visual cues that identify whether tests went as planned are useful for testers, 
 > While at times it may seem counterintuitive, successful reproduction of the error as indicated in the ticket is considered _“expected”_, and should be marked accordingly (✅).
 
 ## Where to Post Test Reports
+
 The best location to post reports is to the corresponding ticket, issue, or PR (pull request) as a new comment.
 
 Most tickets related to WordPress Core can be found in [Core Trac](https://core.trac.wordpress.org/). When reporting test results in Trac, use [WikiFormatting](https://core.trac.wordpress.org/wiki/WikiFormatting).
@@ -46,6 +50,7 @@ Most tickets related to WordPress Core can be found in [Core Trac](https://co
 Issues tracked for the Gutenberg plugin are found in the [Gutenberg GitHub repository](https://github.com/WordPress/gutenberg), where it is helpful to provide reproduction test results in the reported issue. Patch test reports should be added to an individual PR’s comments. To format test report results in GitHub, use [Markdown](https://docs.github.com/articles/markdown-basics).
 
 ## Types of Test Reports
+
 There are two primary test report categories, and each comes with its own focus:
 
 - [Issue Reproduction](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/)

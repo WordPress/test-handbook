@@ -17,7 +17,9 @@ A combination of contributions that meet the above criteria is also acceptable. 
 Fixing typos or making minor edits to existing Test Handbook pages or Testing minor patches like Coding Standard updates does not qualify towards earning the Test Contributor Badge. Please focus on substantial contributions that have a meaningful impact on the Test Team and its processes, earning the badge should be a symbol of your significant involvement and dedication not a bureaucratic exercise.
   
 ## Test Team Badge
+
 If you have served as a Test Team Rep or have provided consistent substantial contributions to the Test Team, you are eligible for the Test Team badge. These contributions include:
+
 - Facilitating a significant number of test chats and patch testing scrub sessions.
 - Leading or organizing major testing initiatives.
 - Testing dozens of tickets over a sustained period.
