@@ -140,7 +140,7 @@ async function callTracTool( name, args ) {
  *
  * @returns {Promise<Array<{milestone: string, count: number}>>}
  *          Only versioned milestones (X.Y or X.Y.Z), oldest version first.
- * @throws {Error} If a request fails.
+ * @throws {Error} If a request fails or fewer tickets were read than reported.
  */
 async function fetchTracMilestones() {
 	const tickets = new Map();
@@ -164,8 +164,8 @@ async function fetchTracMilestones() {
 	}
 
 	if ( tickets.size !== totalFound ) {
-		console.error(
-			`::warning::Trac reported ${ totalFound } ticket(s) but ${ tickets.size } were read.`
+		throw new Error(
+			`Trac reported ${ totalFound } ticket(s) but ${ tickets.size } were read.`
 		);
 	}
 
